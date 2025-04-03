@@ -1,6 +1,45 @@
 {
-  "home": "Kreu",
-  "about": "Rreth nesh",
-  "contact": "Kontakti",
-  "welcome": "Mirësevini në Shkollën Fenix!"
+  "about": {
+    "title": "Shkolla Jonë",
+    "message": "Mirëseardhje / Mesazh nga Bordi",
+    "mission": "Misioni & Filozofia",
+    "history": "Historia"
+  },
+  "programmes": {
+    "title": "Programet",
+    "curriculum": "Kurrikula",
+    "assessment": "Vlerësimi & Progresi",
+    "levels": "Nivelet e Klasave / Mosha"
+  },
+  "studentLife": {
+    "title": "Jeta në Shkollë",
+    "activities": "Aktivitete & Ngjarje",
+    "gallery": "Galeria / Revista",
+    "clubs": "Klube & Ekstrakurrikulare"
+  },
+  "parents": {
+    "title": "Prindërit",
+    "communication": "Kanalet e Komunikimit",
+    "council": "Këshilli i Prindërve",
+    "discipline": "Disiplina & Këshillimi",
+    "attendance": "Pjesëmarrja",
+    "uniform": "Rregullorja e Uniformës"
+  },
+  "admissions": {
+    "title": "Regjistrimet",
+    "overview": "Përmbledhje & Hapat e Regjistrimit",
+    "fees": "Tarifat / Formularët e Aplikimit",
+    "scholarships": "Bursat"
+  },
+  "partnerships": {
+    "title": "Partneritetet",
+    "albania": "Brenda Shqipërisë",
+    "abroad": "Jashtë Shqipërisë"
+  },
+  "contact": {
+    "title": "Kontakti",
+    "form": "Formular Kontakti",
+    "location": "Adresa & Harta",
+    "info": "Telefon, Email, Orari"
+  }
 }

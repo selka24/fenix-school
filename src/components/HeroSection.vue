@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-[80vh] overflow-hidden">
+  <section class="relative h-[calc(100vh-180px)] overflow-hidden">
     <!-- Hero Carousel -->
     <div class="absolute inset-0">
       <!-- First Slide -->
@@ -64,11 +64,11 @@
       </div>
       
       <!-- Side Navigation Buttons -->
-      <div class="absolute right-4 top-1/3 flex flex-col space-y-1">
-        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">APPLY LIFE</div>
-        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">LEARNING</div>
-        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">STORIES</div>
-      </div>
+<!--      <div class="absolute right-4 top-1/3 flex flex-col space-y-1">-->
+<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">APPLY LIFE</div>-->
+<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">LEARNING</div>-->
+<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">STORIES</div>-->
+<!--      </div>-->
       
       <!-- Left/Right Navigation Arrows -->
       <button 

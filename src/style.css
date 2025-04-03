@@ -1,3 +1,9 @@
 @import "tailwindcss";
 
 /* Custom styles can be added below */
+@layer base {
+  /* Custom base styles */
+    button {
+        @apply cursor-pointer;
+    }
+}

@@ -1,6 +1,45 @@
 {
-  "home": "Home",
-  "about": "About us",
-  "contact": "Contact",
-  "welcome": "Welcome to Fenix School!"
+  "about": {
+    "title": "About Us",
+    "message": "Welcome / Message from the Board",
+    "mission": "Mission & Philosophy",
+    "history": "History"
+  },
+  "programmes": {
+    "title": "Programmes",
+    "curriculum": "Curriculum",
+    "assessment": "Assessment & Progress",
+    "levels": "Class Levels / Ages"
+  },
+  "studentLife": {
+    "title": "Student Life",
+    "activities": "Activities & Events",
+    "gallery": "Gallery / Magazine",
+    "clubs": "Clubs & Extracurriculars"
+  },
+  "parents": {
+    "title": "Parents",
+    "communication": "Communication Channels",
+    "council": "Parent Council",
+    "discipline": "Discipline & Counseling",
+    "attendance": "Attendance",
+    "uniform": "Uniform Policy"
+  },
+  "admissions": {
+    "title": "Admissions",
+    "overview": "Overview & Registration Steps",
+    "fees": "Fees / Application Forms",
+    "scholarships": "Scholarships"
+  },
+  "partnerships": {
+    "title": "Partnerships",
+    "albania": "Within Albania",
+    "abroad": "Outside Albania"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": "Contact Form",
+    "location": "Address & Map",
+    "info": "Phone, Email, Hours"
+  }
 }

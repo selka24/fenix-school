@@ -1,105 +1,88 @@
-import { reactive } from 'vue';
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 export interface MenuItem {
-  title: string;
-  link: string;
+  title: string
+  link: string
 }
 
 export interface NavigationMenu {
-  title: string;
-  link: string;
-  submenu: MenuItem[];
+  title: string
+  link: string
+  submenu: MenuItem[]
 }
 
 export function useNavigation() {
-  const navigationItems = reactive<NavigationMenu[]>([
+  const { t } = useI18n()
+
+  const navigationItems = computed<NavigationMenu[]>(() => [
     {
-      title: 'About Us',
-      link: '#about-us',
+      title: t('about.title'),
+      link: '/about',
       submenu: [
-        { title: 'Welcome', link: '#welcome' },
-        { title: 'Leadership', link: '#leadership' },
-        { title: 'Why ISP', link: '#why-isp' },
-        { title: 'Governance', link: '#governance' },
-        { title: '75th Anniversary', link: '#anniversary' },
-        { title: 'Annual Report', link: '#annual-report' },
-        { title: 'Campus', link: '#campus' },
-        { title: 'Calendar', link: '#calendar' },
-        { title: 'Inclusion & Belonging', link: '#inclusion' },
-        { title: 'University Destinations', link: '#university-destinations' }
+        { title: t('about.message'), link: '/about/message' },
+        { title: t('about.mission'), link: '/about/mission' },
+        { title: t('about.history'), link: '/about/history' }
       ]
     },
     {
-      title: 'Learning',
-      link: '#learning',
+      title: t('programmes.title'),
+      link: '/programmes',
       submenu: [
-        { title: 'Academic Excellence', link: '#academic-excellence' },
-        { title: 'Primary School', link: '#primary-school' },
-        { title: 'Middle School', link: '#middle-school' },
-        { title: 'High School', link: '#high-school' },
-        { title: 'College Counseling', link: '#college-counseling' },
-        { title: 'Athletics', link: '#athletics' }
+        { title: t('programmes.curriculum'), link: '/programmes/curriculum' },
+        { title: t('programmes.assessment'), link: '/programmes/assessment' },
+        { title: t('programmes.levels'), link: '/programmes/levels' }
       ]
     },
     {
-      title: 'Student Life',
-      link: '#student-life',
+      title: t('studentLife.title'),
+      link: '/student-life',
       submenu: [
-        { title: 'Arts', link: '#arts' },
-        { title: 'Clubs', link: '#clubs' },
-        { title: 'Field Trips', link: '#field-trips' },
-        { title: 'Community Service', link: '#community-service' },
-        { title: 'Student Support', link: '#student-support' },
-        { title: 'School Events', link: '#school-events' }
+        { title: t('studentLife.activities'), link: '/student-life/activities' },
+        { title: t('studentLife.gallery'), link: '/student-life/gallery' },
+        { title: t('studentLife.clubs'), link: '/student-life/clubs' }
       ]
     },
     {
-      title: 'Community',
-      link: '#community',
+      title: t('parents.title'),
+      link: '/parents',
       submenu: [
-        { title: 'Parents Association', link: '#parents-association' },
-        { title: 'Alumni', link: '#alumni' },
-        { title: 'News', link: '#news' },
-        { title: 'Events', link: '#events' },
-        { title: 'Get Involved', link: '#get-involved' },
-        { title: 'Support Us', link: '#support-us' }
+        { title: t('parents.communication'), link: '/parents/communication' },
+        { title: t('parents.council'), link: '/parents/council' },
+        { title: t('parents.discipline'), link: '/parents/discipline' },
+        { title: t('parents.attendance'), link: '/parents/attendance' },
+        { title: t('parents.uniform'), link: '/parents/uniform' }
       ]
     },
     {
-      title: 'Giving',
-      link: '#giving',
+      title: t('admissions.title'),
+      link: '/admissions',
       submenu: [
-        { title: 'Annual Fund', link: '#annual-fund' },
-        { title: 'Capital Campaign', link: '#capital-campaign' },
-        { title: 'Ways to Give', link: '#ways-to-give' },
-        { title: 'Donor Recognition', link: '#donor-recognition' },
-        { title: 'Impact', link: '#impact' }
+        { title: t('admissions.overview'), link: '/admissions/overview' },
+        { title: t('admissions.fees'), link: '/admissions/fees' },
+        { title: t('admissions.scholarships'), link: '/admissions/scholarships' }
       ]
     },
     {
-      title: 'Admissions',
-      link: '#admissions',
+      title: t('partnerships.title'),
+      link: '/partnerships',
       submenu: [
-        { title: 'Application Process', link: '#application-process' },
-        { title: 'Tuition & Fees', link: '#tuition-fees' },
-        { title: 'Financial Aid', link: '#financial-aid' },
-        { title: 'Visit Us', link: '#visit-us' },
-        { title: 'FAQs', link: '#faqs' }
+        { title: t('partnerships.albania'), link: '/partnerships/albania' },
+        { title: t('partnerships.abroad'), link: '/partnerships/abroad' }
       ]
     },
     {
-      title: 'Careers',
-      link: '#careers',
+      title: t('contact.title'),
+      link: '/contact',
       submenu: [
-        { title: 'Current Openings', link: '#current-openings' },
-        { title: 'Benefits', link: '#benefits' },
-        { title: 'Working at Fenix', link: '#working-at-fenix' },
-        { title: 'Apply', link: '#apply' }
+        { title: t('contact.form'), link: '/contact/form' },
+        { title: t('contact.location'), link: '/contact/location' },
+        { title: t('contact.info'), link: '/contact/info' }
       ]
     }
-  ]);
+  ])
 
   return {
     navigationItems
-  };
-} 
+  }
+}
