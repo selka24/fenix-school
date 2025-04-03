@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black/80 text-white py-3 px-6">
+  <div class="bg-black/80 text-white py-3 px-14">
     <div class="container mx-auto flex justify-between items-center">
       <!-- Social Media Icons -->
       <div class="flex space-x-8">

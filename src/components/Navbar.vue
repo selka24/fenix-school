@@ -2,7 +2,7 @@
   <nav class="bg-white pb-4 shadow-sm">
     <!-- Main Navigation -->
     <div class="flex justify-center items-center py-1 bg-gray-100">
-        <div class="hidden lg:flex justify-between container mx-auto w-full px-4">
+        <div class="hidden lg:flex justify-center space-x-14 px-4">
             <div
                 v-for="item in navigationItems"
                 :key="item.title"
@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto flex justify-between items-center pt-4">
+    <div class="container mx-auto flex justify-between items-center px-14 pt-4">
       <!-- Logo and School Name -->
       <div class="flex items-center">
         <!-- School Logo -->
