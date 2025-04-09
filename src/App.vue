@@ -1,8 +1,10 @@
 <script setup lang="ts">
-// Import components as needed
 import Navbar from './components/Navbar.vue';
 import TopBar from './components/TopBar.vue';
 import Footer from './components/Footer.vue';
+import {useLayout} from "./composables/useLayout.ts";
+
+const {layout} = useLayout();
 </script>
 
 <template>
@@ -12,9 +14,11 @@ import Footer from './components/Footer.vue';
     
     <!-- Main Navigation -->
     <Navbar />
-    
-    <router-view></router-view>
-    
+
+    <component :is="layout">
+      <router-view></router-view>
+    </component>
+
     <!-- Footer Section -->
     <Footer />
   </div>

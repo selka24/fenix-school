@@ -15,94 +15,18 @@
       <!-- School Levels Grid - First Row -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         <!-- Early Childhood -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
+        <div v-for="{title, image, description} in programmes" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
           <img 
-            src="/images/learning-program/kids-playing-with-colorful-game.jpg" 
+            :src="`/images/learning-program/${image}`"
             alt="Early Childhood Foundations" 
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
             <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Early Childhood Foundations</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">For our youngest learners aged 3-5</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Elementary School -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
-          <img 
-            src="/images/learning-program/full-shot-friends-sitting-blanket.jpg" 
-            alt="Elementary School" 
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
-            <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Elementary School</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">Grades 1-5, building strong foundations</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Middle School -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
-          <img 
-            src="/images/learning-program/male-student-reading-near-tables.jpg" 
-            alt="Middle School" 
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
-            <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Middle School</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">Grades 6-8, embracing challenges</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- School Levels Grid - Second Row -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Upper School -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
-          <img 
-            src="/images/learning-program/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking.jpg" 
-            alt="Upper School" 
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
-            <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Upper School</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">Grades 9-12, preparing for the future</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Student Life -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
-          <img 
-            src="/images/learning-program/talk-friends.jpg" 
-            alt="Student Life" 
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
-            <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Student Life</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">Extracurricular activities and community</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Learning & ISP -->
-        <div class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
-          <img 
-            src="/images/learning-program/male-student-reading-near-tables.jpg" 
-            alt="Learning & ISP" 
-            class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
-            <div>
-              <h3 class="text-white text-xl font-semibold mb-1">Learning & ISP</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">Our unique educational approach</p>
+              <h3 class="text-white text-xl font-semibold mb-1">{{title}}</h3>
+              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">
+                {{description}}
+              </p>
             </div>
           </div>
         </div>
@@ -112,7 +36,26 @@
 </template>
 
 <script setup lang="ts">
-// No additional logic needed for this component
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+
+const programmes = [
+  {
+    title: t('homePage.classes.preparation'),
+    description: t('homePage.classes.prepDescription'),
+    image: 'kids-playing-with-colorful-game.jpg'
+  },
+  {
+    title: t('homePage.classes.elementary'),
+    description: t('homePage.classes.elementaryDescription'),
+    image: 'full-shot-friends-sitting-blanket.jpg'
+  },
+  {
+    title: t('homePage.classes.middle'),
+    description: t('homePage.classes.middleDescription'),
+    image: 'male-student-reading-near-tables.jpg'
+  },
+]
 </script>
 
 <style scoped>

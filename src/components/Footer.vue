@@ -5,9 +5,7 @@
         <!-- School Information -->
         <div>
           <h3 class="text-xl font-bold mb-4">Fenix School</h3>
-          <p class="mb-2">Nebušická 700</p>
-          <p class="mb-2">Praha 6, 16400</p>
-          <p class="mb-2">Czech Republic</p>
+          <p v-html="$t('address')"></p>
           <p class="mb-4">+420 2-2755-34-22</p>
         </div>
         

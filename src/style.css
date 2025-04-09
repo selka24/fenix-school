@@ -3,7 +3,37 @@
 /* Custom styles can be added below */
 @layer base {
   /* Custom base styles */
+    @theme {
+        --color-primary: #990066;
+        --color-c-gray: #636363;
+
+
+    }
+
+    .container {
+
+        @media (width >= 80rem) {
+            max-width: 80rem !important;
+        }
+
+        @media (width >= 64rem) {
+            max-width: 64rem;
+        }
+
+        @media (width >= 48rem) {
+            max-width: 48rem;
+        }
+
+        @media (width >= 40rem) {
+            max-width: 40rem;
+        }
+    }
+
     button {
         @apply cursor-pointer;
+    }
+
+    .descr-section {
+        @apply flex flex-col gap-4;
     }
 }

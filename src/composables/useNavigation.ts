@@ -1,5 +1,6 @@
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import {computed} from 'vue'
+import {useI18n} from 'vue-i18n'
+import {useRoute} from "vue-router";
 
 export interface MenuItem {
   title: string
@@ -14,13 +15,19 @@ export interface NavigationMenu {
 
 export function useNavigation() {
   const { t } = useI18n()
+  const route = useRoute();
+
+  const activeMenu = computed(() => {
+    const path = route.path
+    return navigationItems.value.find(item => item.link === path);
+  })
 
   const navigationItems = computed<NavigationMenu[]>(() => [
     {
       title: t('about.title'),
       link: '/about',
       submenu: [
-        { title: t('about.message'), link: '/about/message' },
+        { title: t('about.message'), link: '/about' },
         { title: t('about.mission'), link: '/about/mission' },
         { title: t('about.history'), link: '/about/history' }
       ]
@@ -29,25 +36,25 @@ export function useNavigation() {
       title: t('programmes.title'),
       link: '/programmes',
       submenu: [
-        { title: t('programmes.curriculum'), link: '/programmes/curriculum' },
-        { title: t('programmes.assessment'), link: '/programmes/assessment' },
-        { title: t('programmes.levels'), link: '/programmes/levels' }
+        { title: t('programmes.curriculum'), link: '/programmes' },
+        { title: t('programmes.assessment'), link: '/programmes/assessment-progress' },
+        { title: t('programmes.levels'), link: '/programmes/classes' }
       ]
     },
     {
       title: t('studentLife.title'),
-      link: '/student-life',
+      link: '/activities',
       submenu: [
-        { title: t('studentLife.activities'), link: '/student-life/activities' },
-        { title: t('studentLife.gallery'), link: '/student-life/gallery' },
-        { title: t('studentLife.clubs'), link: '/student-life/clubs' }
+        { title: t('studentLife.activities'), link: '/activities' },
+        { title: t('studentLife.gallery'), link: '/activities/gallery' },
+        { title: t('studentLife.clubs'), link: '/activities/clubs' }
       ]
     },
     {
       title: t('parents.title'),
       link: '/parents',
       submenu: [
-        { title: t('parents.communication'), link: '/parents/communication' },
+        { title: t('parents.communication'), link: '/parents' },
         { title: t('parents.council'), link: '/parents/council' },
         { title: t('parents.discipline'), link: '/parents/discipline' },
         { title: t('parents.attendance'), link: '/parents/attendance' },
@@ -83,6 +90,7 @@ export function useNavigation() {
   ])
 
   return {
+    activeMenu,
     navigationItems
   }
 }

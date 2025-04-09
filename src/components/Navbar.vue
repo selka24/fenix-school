@@ -2,25 +2,26 @@
   <nav class="bg-white pb-4 shadow-sm">
     <!-- Main Navigation -->
     <div class="flex justify-center items-center py-1 bg-gray-100">
-        <div class="hidden lg:flex justify-center space-x-14 px-4">
+        <div class="hidden lg:flex justify-center space-x-14 px-4 container">
             <div
-                v-for="item in navigationItems"
+                v-for="(item, idx) in navigationItems"
                 :key="item.title"
                 class="relative nav-item"
+                :class="{'submenu-right': idx > 3}"
                 @mouseenter="handleMenuHover(item.title)"
                 @mouseleave="handleMenuLeave()"
             >
-                <a
-                    :href="item.link"
-                    class="text-gray-800 hover:text-[#41ad49] font-bold text-lg py-2 block nav-link"
-                    :class="{ 'active-nav': activeSubmenu === item.title }"
+                <router-link
+                    :to="item.link"
+                    class="text-gray-800 font-bold py-2 block nav-link"
+                    :class="{ 'active-nav': activeSubmenu === item.title || activeMenu?.link === item.link }"
                 >
                     {{ item.title }}
                     <span
                         class="nav-indicator"
-                        :class="{ 'nav-indicator-active': activeSubmenu === item.title }"
+                        :class="{ 'nav-indicator-active': activeSubmenu === item.title || activeMenu?.link === item.link }"
                     ></span>
-                </a>
+                </router-link>
                 <NavSubmenu
                     :is-visible="activeSubmenu === item.title"
                     :items="item.submenu"
@@ -30,23 +31,19 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto flex justify-between items-center px-14 pt-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 lg:px-14 pt-4">
       <!-- Logo and School Name -->
-      <div class="flex items-center">
+      <router-link class="flex items-center cursor-pointer" to="/">
         <!-- School Logo -->
         <div class="mr-3">
-          <svg viewBox="0 0 50 50" width="40" height="40">
-            <circle cx="25" cy="25" r="20" fill="#41ad49" />
-            <circle cx="25" cy="25" r="15" fill="#f3c414" />
-            <circle cx="25" cy="25" r="10" fill="#e84c3d" />
-          </svg>
+          <img src="/ico.jpg" alt="logo" class="rounded-lg w-22">
         </div>
         <!-- School Name -->
         <a href="/" class="flex flex-col">
-          <span class="text-xl font-bold leading-tight text-gray-800">Fenix School</span>
-          <span class="text-xs text-gray-500">International Education</span>
+          <span class="text-xl font-bold leading-tight text-gray-800">{{ $t('fenix') }}</span>
+          <span class="text-xs text-gray-500">{{ $t('sq-en') }}</span>
         </a>
-      </div>
+      </router-link>
 
 
       <!-- Secondary Navigation -->
@@ -85,7 +82,7 @@ import NavSubmenu from './NavSubmenu.vue';
 import { useNavigation } from '../composables/useNavigation';
 
 // Get navigation items from our composable
-const { navigationItems } = useNavigation();
+const { navigationItems, activeMenu } = useNavigation();
 
 // Track which submenu is currently active
 const activeSubmenu = ref<string | null>(null);
@@ -121,7 +118,7 @@ const closeSubmenu = () => {
 };
 </script>
 
-<style scoped>
+<style>
 .active-nav {
   color: #990066 !important;
   transition: color 0.2s ease;
@@ -160,5 +157,10 @@ const closeSubmenu = () => {
 
 .active-nav {
   transform: translateY(-1px);
+}
+
+.submenu-right > .submenu {
+  right: 0 !important;
+  left: unset;
 }
 </style> 

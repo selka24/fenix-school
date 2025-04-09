@@ -8,8 +8,8 @@
     leave-to-class="opacity-0 translate-y-1"
   >
     <div 
-      v-if="isVisible" 
-      class="absolute left-0 top-full bg-[#990066] text-white py-5 px-7 w-max min-w-[480px] grid grid-cols-2 gap-x-10 z-50 shadow-subtle rounded-b-md"
+      v-if="isVisible"
+      class="absolute submenu left-0 top-full bg-[#990066] text-white py-5 px-7 w-max min-w-[480px] grid grid-cols-2 gap-x-10 z-50 shadow-subtle rounded-b-md"
       @mouseenter="$emit('mouseenter')"
       @mouseleave="$emit('mouseleave')"
     >
@@ -20,12 +20,12 @@
           class="py-1.5 staggered-item"
           :style="{ animationDelay: `${itemIndex * 40}ms` }"
         >
-          <a 
-            :href="item.link" 
+          <router-link
+            :to="item.link"
             class="block hover:text-gray-200 transition-colors duration-200 submenu-item"
           >
             <h3 class="text-sm font-medium mb-0">{{ item.title }}</h3>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="absolute inset-0 shadow-glow opacity-30 pointer-events-none"></div>
@@ -34,8 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
-
 interface MenuItem {
   title: string;
   link: string;

@@ -1,4 +1,7 @@
 {
+  "fenix": "Shkolla Fenix",
+  "sq-en": "Anglo-Shqiptare",
+  "address": "Rruga “Liman Kaba”, <br> Tiranë e Re, 1001, <br> <span class=\"text-sm\">(pranë klubit sportiv “Dinamo”)</span>",
   "about": {
     "title": "Shkolla Jonë",
     "message": "Mirëseardhje / Mesazh nga Bordi",
@@ -41,5 +44,17 @@
     "form": "Formular Kontakti",
     "location": "Adresa & Harta",
     "info": "Telefon, Email, Orari"
+  },
+  "homePage": {
+    "exploreClasses": "Eksploro Programin Tonë Mësimor",
+    "exploreClassesDescription": "Eksploro Programin tonë Mësimor dhe zbulo mundësitë unike të të nxënit që ne ofrojmë.",
+    "classes": {
+      "preparation": "Klasat parashkollore",
+      "prepDescription": "Klasat parashkollore për fëmijët e moshës 5-6 vjeç.",
+      "elementary": "Shkolla fillore",
+      "elementaryDescription": "Shkolla fillore për fëmijët e moshës 6-11 vjeç.",
+      "middle": "Shkolla e mesme e ulët",
+      "middleDescription": "Shkolla e mesme e ulët për fëmijët e moshës 12-15 vjeç."
+    }
   }
 }
