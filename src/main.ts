@@ -7,7 +7,7 @@ import i18n from './i18n'
 export const createApp = ViteSSG(App,{ routes }, ({ app, router}) => {
   router.afterEach((to) => {
     const titleKey = to.meta?.titleKey
-    if (titleKey) {
+    if (titleKey && !import.meta.env.SSR) {
       document.title = i18n.global.t(titleKey as string)
     }
   })
