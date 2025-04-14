@@ -11,7 +11,7 @@ import DescriptionMessage from "../DescriptionMessage.vue";
     <DescriptionMessage type="warning" class="mt-10 mb-8">
       Programi i integruar ndërkombëtar
     </DescriptionMessage>
-    <p>Harmonizimi i kurrikulës shqiptare dhe asaj britanike i mundëson nxënësve të zhvillohen për të ndjekur shkolla kombëtare dhe ndërkombëtare me sukses.</p>
+    <p>Harmonizimi i kurrikulës shqiptare dhe asaj Angleze i mundëson nxënësve të zhvillohen për të ndjekur shkolla kombëtare dhe ndërkombëtare me sukses.</p>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
       Mësimdhënie cilësore
     </DescriptionMessage>

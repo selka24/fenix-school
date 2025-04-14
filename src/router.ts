@@ -136,9 +136,20 @@ const routes = [
                                 {title: 'parents.communication', link: '/parents'},
                             ]
                         }
+                    },
+                    {
+                        path: 'discipline',
+                        component: () => import('./pages/parents/DisciplineCounseling.vue'),
+                        meta: {
+                            titleKey: 'parents.discipline',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'parents.communication', link: '/parents'},
+                            ]
+                        }
                     }
                 ]
-            }
+            },
         ]
     },
     {

@@ -6,7 +6,7 @@ const evolutionPoints = computed(() => {
   return [
     "Fillimi me një strukturë mësimore, me fokus cilesine akademike dhe disiplinën organizative.",
     "Përfshirja e metodave bashkëkohore të mësimdhënies, për të krijuar një qasje më interaktive dhe të personalizuar ndaj mësimit.",
-    "Integrimi i kurrikulës britanike me atë shqiptare, duke e bërë shkollën tonë një ndër institucionet e pakta që ofron këtë model unik.",
+    "Integrimi i kurrikulës Angleze me atë shqiptare, duke e bërë shkollën tonë një ndër institucionet e pakta që ofron këtë model unik.",
     "Rritja e vazhdueshme e cilësisë së arsimit dhe suksesi i nxënësve tanë si në shkollat e mesme kombëtare, ashtu edhe në ato ndërkombëtare."
   ]
 })
@@ -20,7 +20,7 @@ const evolutionPoints = computed(() => {
     <p>
       Shkolla "Fenix" është themeluar në vitin 1996 me një vizion të qartë për të krijuar një qendër arsimore cilësore,
       që mishëron më të mirën e arsimit shqiptar dhe atij anglez. Për më shumë se 30 vite, kemi qenë pjesë e jetës së
-      mijëra nxënësve dhe kemi ndihmuar në formimin e tyre akademik dhe shoqëror.\
+      mijëra nxënësve dhe kemi ndihmuar në formimin e tyre akademik dhe shoqëror.
     </p>
     <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
       Si kemi evoluar gjatë viteve:

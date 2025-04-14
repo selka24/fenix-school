@@ -64,15 +64,15 @@
       </div>
       
       <!-- Side Navigation Buttons -->
-<!--      <div class="absolute right-4 top-1/3 flex flex-col space-y-1">-->
-<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">APPLY LIFE</div>-->
-<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">LEARNING</div>-->
-<!--        <div class="bg-white text-primary font-bold px-3 py-1.5 text-xs">STORIES</div>-->
-<!--      </div>-->
-      
+      <div class="absolute right-0 top-1/3 flex flex-col space-y-3">
+        <router-link to="/about" class="bg-white text-center w-48 text-primary font-bold py-5">Why Fenix</router-link>
+        <router-link to="/programmes" class="bg-white text-primary font-bold text-center w-48 py-5 ">Learning</router-link>
+        <div class="bg-white text-primary font-bold text-center w-48 py-5 ">Stories</div>
+      </div>
+
       <!-- Left/Right Navigation Arrows -->
       <button 
-        class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white opacity-70 hover:opacity-100 transition-opacity"
+        class="absolute left-4 border border-white rounded-full px-2 bottom-4 hover:bg-white hover:text-primary transform -translate-y-1/2 text-white opacity-70 hover:opacity-100 transition-opacity"
         @click="prevSlide"
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
@@ -80,7 +80,7 @@
         </svg>
       </button>
       <button 
-        class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white opacity-70 hover:opacity-100 transition-opacity"
+        class="absolute left-18 border border-white rounded-full hover:bg-white hover:text-primary px-2 bottom-4 transform -translate-y-1/2 text-white opacity-70 hover:opacity-100 transition-opacity"
         @click="nextSlide"
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
