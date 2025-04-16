@@ -147,9 +147,61 @@ const routes = [
                                 {title: 'parents.communication', link: '/parents'},
                             ]
                         }
+                    },
+                    {
+                        path: 'uniform',
+                        component: () => import('./pages/parents/Uniform.vue'),
+                        meta: {
+                            titleKey: 'parents.uniform',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'parents.communication', link: '/parents'},
+                            ]
+                        }
+                    },
+                    {
+                        path: 'attendance',
+                        component: () => import('./pages/parents/Attendance.vue'),
+                        meta: {
+                            titleKey: 'parents.attendance',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'parents.communication', link: '/parents'},
+                            ]
+                        }
                     }
                 ]
             },
+            {
+                path: 'admissions',
+                children: [
+                    {
+                        path: '',
+                        component: () => import('./pages/admissions/Overview.vue'),
+                        meta: {
+                            titleKey: 'admissions.overview',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                path: 'partnerships',
+                children: [
+                    {
+                        path: '',
+                        component: () => import('./pages/partnerships/Partners.vue'),
+                        meta: {
+                            titleKey: 'partnerships.title',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    }
+                ]
+            }
         ]
     },
     {

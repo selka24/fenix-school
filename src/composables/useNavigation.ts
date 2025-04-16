@@ -65,7 +65,7 @@ export function useNavigation() {
       title: t('admissions.title'),
       link: '/admissions',
       submenu: [
-        { title: t('admissions.overview'), link: '/admissions/overview' },
+        { title: t('admissions.overview'), link: '/admissions' },
         { title: t('admissions.fees'), link: '/admissions/fees' },
         { title: t('admissions.scholarships'), link: '/admissions/scholarships' }
       ]
@@ -74,8 +74,8 @@ export function useNavigation() {
       title: t('partnerships.title'),
       link: '/partnerships',
       submenu: [
-        { title: t('partnerships.albania'), link: '/partnerships/albania' },
-        { title: t('partnerships.abroad'), link: '/partnerships/abroad' }
+        { title: t('partnerships.albania'), link: '/partnerships#albania' },
+        { title: t('partnerships.abroad'), link: '/partnerships#abroad' }
       ]
     },
     {

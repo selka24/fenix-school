@@ -36,4 +36,12 @@
     .descr-section {
         @apply flex flex-col gap-4;
     }
+
+    .importClasses {
+        @apply w-[150px];
+    }
+
+    .partnerImg > img, .partnerImg > p {
+        @apply w-[115px] md:w-[150px]
+    }
 }
