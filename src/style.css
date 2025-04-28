@@ -6,8 +6,7 @@
     @theme {
         --color-primary: #990066;
         --color-c-gray: #636363;
-
-
+        --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
     }
 
     .container {
@@ -42,6 +41,8 @@
     }
 
     .partnerImg > img, .partnerImg > p {
-        @apply w-[115px] md:w-[150px]
+        @apply w-[115px] md:w-[150px];
     }
+
+    body { @apply !font-sans; }
 }

@@ -59,19 +59,19 @@
       <!-- Partners and Accreditations -->
       <div class="mt-12 pt-8 border-t border-white/20">
         <div class="flex flex-wrap justify-center gap-8">
-          <!-- Partner Logos as placeholder - replace with actual logos -->
-          <img src="https://placeholder.com/100x50" alt="Partner Logo" class="h-10 w-auto" />
-          <img src="https://placeholder.com/100x50" alt="Partner Logo" class="h-10 w-auto" />
-          <img src="https://placeholder.com/100x50" alt="Partner Logo" class="h-10 w-auto" />
-          <img src="https://placeholder.com/100x50" alt="Partner Logo" class="h-10 w-auto" />
-          <img src="https://placeholder.com/100x50" alt="Partner Logo" class="h-10 w-auto" />
+            <a v-for="(partner, idx) in partners" :key="`partner-${idx}`" :href="partner.href" target="_blank">
+                <img v-if="partner.alt" :src="partner.img" :alt="partner.alt" class="h-15 w-auto" />
+                <p v-else class="text-white w-15 h-15 border  font-bold text-[9px] pt-[2px] text-center">
+                    {{partner.text}}
+                </p>
+            </a>
         </div>
       </div>
       
       <!-- Copyright -->
       <div class="mt-12 pt-4 text-center text-sm text-white/70">
         <p>Website Privacy Policy | Site Map</p>
-        <p class="mt-2">© 2023 Fenix School. All rights reserved.</p>
+        <p class="mt-2">© {{new Date().getFullYear()}} Fenix School. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -79,6 +79,7 @@
 
 <script setup lang="ts">
 // No additional logic needed for this component
+import {partners} from "../core/globalData.ts";
 </script>
 
 <style scoped>

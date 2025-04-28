@@ -10,7 +10,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
   </DescriptionMessage>
   <div class="max-w-3xl">
     <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-      Rregullat e Pjesëmarrjes
+      Rregullat e Frekuentimi të shkollës.
     </h2>
     <div class="descr-section">
       <p>
@@ -35,11 +35,11 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
       </p>
     </div>
     <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-      Vonë në Mësim
+      Të Vonë në Mësim
     </h2>
     <div class="descr-section">
       <p>
-        Nxënësit që mbërrijnë pas fillimit të mësimit duhet të paraqiten në sekretari për regjistrim dhe më pas të shkojnë në klasë pa ndërprerë orën mësimore.
+          Nxënësit që vijnë me vonesë regjistrohen në sekretari dhe sistemohen në një ambient të veçantë, ku nën mbikëqyrje punojnë me materialet dhe detyrat e orës, pa ndërprerë mësimin në klasë.
       </p>
       <p>
         Vonesat e përsëritura do të trajtohen në bashkëpunim me prindërit për të siguruar një pjesëmarrje më të rregullt.

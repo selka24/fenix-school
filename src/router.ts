@@ -27,6 +27,27 @@ const routes = [
                         }
                     },
                     {
+                        path: 'curriculum',
+                        component: () => import('./pages/programmes/Curriculum.vue'),
+                        meta: {
+                            titleKey: 'programmes.title',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    },
+                    {
+                      path: 'why-fenix',
+                      component: () => import('./pages/about/WhyUs.vue'),
+                      meta: {
+                          titleKey: 'about.why.title',
+                          breadcrumb: [
+                              homeBreadcrumb,
+                              {title: 'about.why.title', link: '/about'},
+                          ]
+                      }
+                    },
+                    {
                         path: 'mission',
                         component: () => import('./pages/about/Mission.vue'),
                         meta: {
@@ -48,21 +69,22 @@ const routes = [
                             ]
                         }
                     },
+                    {
+                        path: 'team',
+                        component: () => import('./pages/about/Team.vue'),
+                        meta: {
+                            titleKey: 'about.team.title',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'about.team.title', link: '/team'},
+                            ]
+                        }
+                    }
                 ],
             },
             {
                 path: 'programmes',
                 children: [
-                    {
-                        path: '',
-                        component: () => import('./pages/programmes/Curriculum.vue'),
-                        meta: {
-                            titleKey: 'programmes.title',
-                            breadcrumb: [
-                                homeBreadcrumb
-                            ]
-                        }
-                    },
                     {
                         path: 'assessment-progress',
                         component: () => import('./pages/programmes/AssessmentProgress.vue'),
@@ -105,6 +127,17 @@ const routes = [
                         component: () => import('./pages/activities/Clubs.vue'),
                         meta: {
                             titleKey: 'studentLife.clubs',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'studentLife.activities', link: '/activities'},
+                            ]
+                        }
+                    },
+                    {
+                        path: 'magazine',
+                        component: () => import('./pages/activities/Magazine.vue'),
+                        meta: {
+                            titleKey: 'studentLife.magazine.title',
                             breadcrumb: [
                                 homeBreadcrumb,
                                 {title: 'studentLife.activities', link: '/activities'},
@@ -197,6 +230,21 @@ const routes = [
                             titleKey: 'partnerships.title',
                             breadcrumb: [
                                 homeBreadcrumb
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                path: 'contact',
+                children: [
+                    {
+                        path: '/contact',
+                        component: () => import('./pages/Contact.vue'),
+                        meta: {
+                            titleKey: 'contact.title',
+                            breadcrumb: [
+                              homeBreadcrumb
                             ]
                         }
                     }

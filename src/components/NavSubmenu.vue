@@ -8,25 +8,24 @@
     leave-to-class="opacity-0 translate-y-1"
   >
     <div 
-      v-if="isVisible"
-      class="absolute submenu left-0 top-full bg-[#990066] text-white py-5 px-7 w-max min-w-[480px] grid grid-cols-2 gap-x-10 z-50 shadow-subtle rounded-b-md"
+      v-show="isVisible"
+      class="absolute submenu left-0 top-full bg-[#990066] text-white py-5 px-7 w-max min-w-[280px] flex flex-col gap-x-10 z-50 shadow-subtle rounded-b-md"
       @mouseenter="$emit('mouseenter')"
       @mouseleave="$emit('mouseleave')"
     >
-      <div v-for="(column, index) in columns" :key="index">
-        <div 
-          v-for="(item, itemIndex) in column" 
-          :key="item.title" 
-          class="py-1.5 staggered-item"
-          :style="{ animationDelay: `${itemIndex * 40}ms` }"
+      <div
+        v-for="(item, itemIndex) in items"
+        :key="item.title"
+        class="py-1.5 staggered-item"
+        :style="{ animationDelay: `${itemIndex * 40}ms` }"
+      >
+        <component v-if="item?.component" :is="item.component"/>
+        <router-link
+          :to="item.link"
+          class="block hover:text-gray-200 transition-colors duration-200 submenu-item"
         >
-          <router-link
-            :to="item.link"
-            class="block hover:text-gray-200 transition-colors duration-200 submenu-item"
-          >
-            <h3 class="text-sm font-medium mb-0">{{ item.title }}</h3>
-          </router-link>
-        </div>
+          <h3 class="text-sm font-medium mb-0">{{ item.title }}</h3>
+        </router-link>
       </div>
       <div class="absolute inset-0 shadow-glow opacity-30 pointer-events-none"></div>
     </div>
@@ -34,12 +33,10 @@
 </template>
 
 <script setup lang="ts">
-interface MenuItem {
-  title: string;
-  link: string;
-}
+import {MenuItem} from "../composables/useNavigation.ts";
+// import FenixAnthem from "./FenixAnthem.vue";
 
-const props = defineProps<{
+defineProps<{
   isVisible: boolean;
   items: MenuItem[];
 }>();
@@ -48,22 +45,6 @@ defineEmits<{
   (e: 'mouseenter'): void;
   (e: 'mouseleave'): void;
 }>();
-
-// Organize items into columns
-const columns = (() => {
-  const leftColumn: MenuItem[] = [];
-  const rightColumn: MenuItem[] = [];
-  
-  props.items.forEach((item, index) => {
-    if (index % 2 === 0) {
-      leftColumn.push(item);
-    } else {
-      rightColumn.push(item);
-    }
-  });
-  
-  return [leftColumn, rightColumn];
-})();
 </script>
 
 <style scoped>

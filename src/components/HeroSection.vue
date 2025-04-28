@@ -64,10 +64,10 @@
       </div>
       
       <!-- Side Navigation Buttons -->
-      <div class="absolute right-0 top-1/3 flex flex-col space-y-3">
-        <router-link to="/about" class="bg-white text-center w-48 text-primary font-bold py-5">Why Fenix</router-link>
-        <router-link to="/programmes" class="bg-white text-primary font-bold text-center w-48 py-5 ">Learning</router-link>
-        <div class="bg-white text-primary font-bold text-center w-48 py-5 ">Stories</div>
+      <div class="absolute hidden right-0 top-1/3 md:flex flex-col space-y-3">
+        <router-link to="/about/why-fenix" class="bg-white text-center w-48 text-primary font-bold py-5">{{ $t('whyFenix') }}</router-link>
+        <router-link to="/programmes" class="bg-white text-primary font-bold text-center w-48 py-5 ">{{ $t('programmes.curriculum') }}</router-link>
+        <router-link to="/activities" class="bg-white text-primary font-bold text-center w-48 py-5 ">{{ $t('studentLife.activities') }}</router-link>
       </div>
 
       <!-- Left/Right Navigation Arrows -->

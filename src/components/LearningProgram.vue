@@ -2,20 +2,21 @@
   <section class="py-12 bg-white">
     <div class="container mx-auto px-4">
       <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-center text-[#c11574] mb-8">Explore our Learning Programme</h2>
+      <h2 class="text-4xl font-bold text-center text-[#c11574] mb-8">
+          Njihuni me programin tonë mësimor
+      </h2>
       
       <!-- Mission Statement -->
       <div class="max-w-4xl mx-auto text-center mb-12">
         <p class="text-lg text-gray-700">
-          At the Fenix School, our mission is to Inspire, Engage, and Empower all
-          learners to be Curious, Competent, Compassionate Changemakers.
+            Në Shkollën "Fenix", nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre.
         </p>
       </div>
       
       <!-- School Levels Grid - First Row -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <!-- Early Childhood -->
-        <div v-for="{title, image, description} in programmes" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
+        <router-link to="/programmes/classes" v-for="{title, image, description} in programmes" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
           <img 
             :src="`/images/learning-program/${image}`"
             alt="Early Childhood Foundations" 
@@ -29,7 +30,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </section>
@@ -40,11 +41,6 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const programmes = [
-  {
-    title: t('homePage.classes.preparation'),
-    description: t('homePage.classes.prepDescription'),
-    image: 'kids-playing-with-colorful-game.jpg'
-  },
   {
     title: t('homePage.classes.elementary'),
     description: t('homePage.classes.elementaryDescription'),

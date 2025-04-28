@@ -9,7 +9,37 @@
     "title": "About Us",
     "message": "Welcome / Message from the Board",
     "mission": "Mission & Philosophy",
-    "history": "History"
+    "history": "History",
+    "team": {
+      "title": "Leadership Team",
+      "beliefParagraph": "At “FENIX” School, we believe that a visionary and dedicated leadership team is essential to building an environment where every child feels safe, valued, and inspired to achieve their best.",
+      "teamEmbodiesParagraph": "Our team embodies experience, professionalism, and a daily commitment to the quality, development, and well-being of every student.",
+      "executiveDirectorTitle": "Executive Director",
+      "executiveDirectorDescription": "Responsible for the overall management of the school, long-term strategy, and administration. Ensures smooth operation, represents the school in relations with institutions, and leads its continuous development.",
+      "programDirectorTitle": "Director of Academic Programs",
+      "programDirectorDescription": "Oversees the teaching process and curriculum implementation. Works with teachers to ensure high teaching standards and provide students with a rich educational experience.",
+      "servicesDirectorTitle": "Director of Support Services",
+      "servicesDirectorDescription": "Manages all school support services: security, catering, healthcare, and the daily well-being of students. Ensures a safe, healthy, and supportive environment for all.",
+      "primaryCoordinatorTitle": "Primary Cycle Coordinator (Grades 1–4)",
+      "primaryCoordinatorDescription": "Oversees the teaching process, discipline, and daily organization for primary cycle students. Ensures a strong academic and emotional foundation for young children.",
+      "lowerSecondaryCoordinatorTitle": "Lower Secondary Education Coordinator (Grades 5–9)",
+      "lowerSecondaryCoordinatorDescription": "Responsible for the academic progress and development of students in this preparatory stage. Promotes discipline and motivation as they transition to secondary education.",
+      "administrativeCoordinatorTitle": "Administrative Coordinator",
+      "administrativeCoordinatorDescription": "Manages the secretariat and administrative processes, including enrollments, documentation, and communication with parents. Ensures all procedures are organized and comply with legal and internal standards."
+    },
+    "why": {
+      "title": "Pse FENIX?",
+      "intro": "Në një kohë kur arsimi është sfidë dhe zgjedhja e shkollës bëhet vendimtare për të ardhmen e fëmijëve, FENIX është më shumë se një institucion arsimor – është një qendër cilësie, vlerash dhe sigurie.",
+      "resultsTitle": "Rezultate që flasin vetë:",
+      "resultsDesc": "Për ne, cilësia nuk është vetëm qëllim – është standardi ynë i përditshëm. Rezultatet më të larta në Provimet Kombëtare të Arsimit Bazë dhe suksesi i nxënësve në Arsimin e Mesëm janë pasqyrë e punës së palodhur dhe përkushtimit tonë.",
+      "disciplineTitle": "Disiplinë, organizim dhe vlera të qëndrueshme:",
+      "disciplineDesc": "Besojmë se edukimi fillon me rregull, përkushtim dhe respekt. Në FENIX, çdo nxënës ndihet i vlerësuar, i barabartë dhe i përfshirë në një komunitet që nxit rritjen dhe karakterin.",
+      "safetyTitle": "Siguria në zemër të çdo veprimi:",
+      "safetyDesc": "Siguria emocionale, fizike dhe sociale e nxënësve tanë është prioritet absolut. Ata janë nën kujdes të vazhdueshëm, në një ambient të mbrojtur, të ngrohtë dhe të mirorganizuar.",
+      "teamTitle": "Një skuadër që punon me pasion:",
+      "teamDesc": "Mësues të përkushtuar, staf i aftë dhe një drejtim vizionar – kjo është forca që e mban FENIX të palëkundur në misionin e tij: të edukojë me cilësi dhe të frymëzojë brezin e ardhshëm.",
+      "closing": "Në FENIX, suksesi nuk është rastësi – është mision dhe traditë."
+    }
   },
   "programmes": {
     "title": "Programmes",
@@ -20,7 +50,10 @@
   "studentLife": {
     "title": "Student Life",
     "activities": "Activities & Events",
-    "gallery": "Gallery / Magazine",
+    "magazine": {
+      "title": "Magazine",
+      "description": "Magazines crafted by our pupils transform their curiosity into print, letting them research, create, and share newfound knowledge with pride."
+    },
     "clubs": "Clubs & Extracurriculars"
   },
   "parents": {
@@ -68,5 +101,26 @@
     "welcomeDescription": "Fenix School is a private school located in Tirana, Albania. We are committed to providing a high-quality education that prepares our students for success in the 21st century.",
     "missionDescription": "Our mission is to provide a safe and nurturing environment where students can learn, grow, and thrive. We believe in fostering a love of learning and encouraging our students to reach their full potential.",
     "historyDescription": "Fenix School was founded in 2010 by a group of dedicated educators who wanted to create a school that would provide a high-quality education for all students. Since then, we have grown into a thriving community of learners."
-  }
+  },
+  "contact": {
+    "title": "Get in touch",
+
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+
+    "email": "Email",
+
+    "message": "Message",
+    "messagePlaceholder": "Write your message…",
+
+    "send": "Send Message",
+    "sending": "Sending…",
+
+    "fillAll": "Please fill in all fields.",
+    "invalidEmail": "Please enter a valid email address.",
+    "success": "Thank you! Your message has been sent.",
+    "error": "Sorry – something went wrong while sending. Please try again later."
+  },
+  "activities": "Activities",
+  "whyFenix": "Why FENIX"
 }

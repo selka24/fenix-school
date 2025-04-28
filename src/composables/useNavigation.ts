@@ -1,10 +1,12 @@
 import {computed} from 'vue'
 import {useI18n} from 'vue-i18n'
 import {useRoute} from "vue-router";
+import { defineAsyncComponent, type AsyncComponent } from 'vue'
 
 export interface MenuItem {
   title: string
   link: string
+  component?: AsyncComponent
 }
 
 export interface NavigationMenu {
@@ -13,14 +15,9 @@ export interface NavigationMenu {
   submenu: MenuItem[]
 }
 
-export function useNavigation() {
+export const useNavigation = () => {
   const { t } = useI18n()
   const route = useRoute();
-
-  const activeMenu = computed(() => {
-    const path = route.path
-    return navigationItems.value.find(item => item.link === path);
-  })
 
   const navigationItems = computed<NavigationMenu[]>(() => [
     {
@@ -28,15 +25,18 @@ export function useNavigation() {
       link: '/about',
       submenu: [
         { title: t('about.message'), link: '/about' },
+        { title: t('whyFenix'), link: '/about/why-fenix' },
         { title: t('about.mission'), link: '/about/mission' },
-        { title: t('about.history'), link: '/about/history' }
+        { title: t('programmes.curriculum'), link: '/about/curriculum' },
+        { title: t('about.history'), link: '/about/history' },
+        { title: t('about.team.title'), link: '/about/team' },
+        { title: '', link: '', component: defineAsyncComponent(() =>  import('../components/FenixAnthem.vue'))},
       ]
     },
     {
       title: t('programmes.title'),
       link: '/programmes',
       submenu: [
-        { title: t('programmes.curriculum'), link: '/programmes' },
         { title: t('programmes.assessment'), link: '/programmes/assessment-progress' },
         { title: t('programmes.levels'), link: '/programmes/classes' }
       ]
@@ -46,7 +46,7 @@ export function useNavigation() {
       link: '/activities',
       submenu: [
         { title: t('studentLife.activities'), link: '/activities' },
-        { title: t('studentLife.gallery'), link: '/activities/gallery' },
+        { title: t('studentLife.magazine.title'), link: '/activities/magazine' },
         { title: t('studentLife.clubs'), link: '/activities/clubs' }
       ]
     },
@@ -66,8 +66,8 @@ export function useNavigation() {
       link: '/admissions',
       submenu: [
         { title: t('admissions.overview'), link: '/admissions' },
-        { title: t('admissions.fees'), link: '/admissions/fees' },
-        { title: t('admissions.scholarships'), link: '/admissions/scholarships' }
+        // { title: t('admissions.fees'), link: '/admissions/fees' },
+        // { title: t('admissions.scholarships'), link: '/admissions/scholarships' }
       ]
     },
     {
@@ -81,13 +81,13 @@ export function useNavigation() {
     {
       title: t('contact.title'),
       link: '/contact',
-      submenu: [
-        { title: t('contact.form'), link: '/contact/form' },
-        { title: t('contact.location'), link: '/contact/location' },
-        { title: t('contact.info'), link: '/contact/info' }
-      ]
     }
   ])
+
+  const activeMenu = computed(() => {
+    const path = route.path
+    return navigationItems.value.find(item => item.link === path);
+  })
 
   return {
     activeMenu,

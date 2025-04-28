@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
-import {computed} from "vue";
 
-const classesAndAges = computed(() => {
-  let x = 1;
+const classesAndAges = (maxAge: number, minAge: number = 1) => {
+  let x = minAge;
   const items = [];
-  while(x <= 9) {
+  while(x <= maxAge) {
     items.push({
       klasa: x,
       age: x + 5
@@ -14,22 +13,46 @@ const classesAndAges = computed(() => {
   }
 
   return items;
-})
+}
 </script>
 
 <template>
 <div>
   <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-    Nivelet e Klasave dhe Moshat përkatëse
+      Nivelet e Arsimit dhe Ndarja sipas Moshës në Shkollën "Fenix"
   </h2>
   <DescriptionMessage type="warning" class="mt-10 mb-8">
-    Në Shkollën "Fenix", nxënësit ndahen në grupe sipas moshave dhe niveleve të zhvillimit të tyre akademik, për t'iu përshtatur nevojave të tyre dhe për t'iu mundësuar një mësim të suksesshëm.
+      Në Shkollën "Fenix", nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre. Kjo ndarje është në përputhje me nivelet e arsimit të ofruara në shkollën tonë
   </DescriptionMessage>
-  <div class="descr-section">
-    <p v-for="({klasa, age}) in classesAndAges" :key="klasa">
-      Klasa {{ klasa }} - Mosha {{ age }} vjeç
-    </p>
-  </div>
+    <div class="max-w-3xl">
+        <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
+            Cikli Fillor (Klasa 1 - 4)
+        </h2>
+        <p>
+            Ky cikël përfshin moshat nga 6 deri në 9 vjeç dhe është i fokusuar në zhvillimin e aftësive themelore akademike dhe sociale. Nxënësit përqendrohen në lëndët kryesore, matematikë,gjuhë, shkencë si dhe lëndët e performancës e arte.
+        </p>
+        <div class="descr-section mt-6 text-primary font-bold">
+            <p v-for="({klasa, age}) in classesAndAges(4)" :key="klasa">
+                Klasa {{ klasa }} - Mosha {{ age }} vjeç
+            </p>
+        </div>
+
+        <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
+            Cikli i Mesëm i Ulët (Klasa 5 - 9)
+        </h2>
+        <p>
+            Ky cikël përfshin moshat nga 6 deri në 9 vjeç dhe është i fokusuar në zhvillimin e aftësive themelore akademike dhe sociale. Nxënësit përqendrohen në lëndët kryesore, matematikë,gjuhë, shkencë si dhe lëndët e performancës e arte.
+        </p>
+        <div class="descr-section mt-6 text-primary font-bold">
+            <p v-for="({klasa, age}) in classesAndAges(9, 5)" :key="klasa">
+                Klasa {{ klasa }} - Mosha {{ age }} vjeç
+            </p>
+        </div>
+
+        <p class="mt-10  font-bold">
+            Ky sistem mundëson zhvillimin e një baze të fortë akadmike-edukative për nxënësit, duke i përgatitur ata për një vazhdimësi dhe të ardhme të suksesshme.
+        </p>
+    </div>
 </div>
 </template>
 

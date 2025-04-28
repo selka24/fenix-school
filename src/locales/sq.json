@@ -6,18 +6,51 @@
     "title": "Shkolla Jonë",
     "message": "Mirëseardhje / Mesazh nga Bordi",
     "mission": "Misioni & Filozofia",
-    "history": "Historia"
+    "history": "Historia",
+    "team": {
+      "title": "Ekipi Drejtues",
+      "beliefParagraph": "Në Shkollën “FENIX”, besojmë se një ekip drejtues vizionar dhe i përkushtuar është thelbësor për të ndërtuar një mjedis ku çdo fëmijë ndihet i sigurt, i vlerësuar dhe i frymëzuar për të arritur më të mirën.",
+      "teamEmbodiesParagraph": "Ekipi ynë përfaqëson përvojë, profesionalizëm dhe një përkushtim të përditshëm ndaj cilësisë, zhvillimit dhe mirëqënies së çdo nxënësi.",
+      "executiveDirectorTitle": "Drejtori Ekzekutiv",
+      "executiveDirectorDescription": "Përgjegjës për drejtimin e përgjithshëm të shkollës, strategjinë afatgjatë dhe administrimin. Siguron funksionimin e rregullt, përfaqëson shkollën në marrëdhëniet me institucionet dhe udhëheq zhvillimin e vazhdueshëm të saj.",
+      "programDirectorTitle": "Drejtori i Programeve Mësimore",
+      "programDirectorDescription": "Mbikëqyr procesin mësimor dhe implementimin e kurrikulës. Punon me mësuesit për të garantuar standarde të larta në mësimdhënie dhe një përvojë të pasur edukative për nxënësit.",
+      "servicesDirectorTitle": "Drejtoresha e Shërbimeve",
+      "servicesDirectorDescription": "Menaxhon të gjitha shërbimet mbështetëse të shkollës: sigurinë, ushqimin, kujdesin shëndetësor dhe mirëqenien e përditshme të nxënësve. Siguron një ambient të sigurt, të shëndetshëm dhe mbështetës për të gjithë.",
+      "primaryCoordinatorTitle": "Koordinatorja e Ciklit Fillor (Klasa 1–4)",
+      "primaryCoordinatorDescription": "Mbikëqyr procesin mësimor, disiplinën dhe organizimin e përditshëm për nxënësit e ciklit fillor. Siguron një fillim të fortë akademik dhe emocional për fëmijët e vegjël.",
+      "lowerSecondaryCoordinatorTitle": "Koordinatorja e Arsimit të Mesëm të Ulët (Klasa 5–9)",
+      "lowerSecondaryCoordinatorDescription": "Përgjegjëse për ecurinë mësimore dhe zhvillimin e nxënësve në këtë fazë përgatitore. Promovon disiplinën dhe motivimin në moshën e tranzicionit drejt arsimit të mesëm.",
+      "administrativeCoordinatorTitle": "Koordinatori Administrativ",
+      "administrativeCoordinatorDescription": "Menaxhon sekretarinë dhe proceset administrative, përfshirë regjistrimet, dokumentacionin dhe komunikimin me prindërit. Siguron që çdo proces të jetë i organizuar dhe në përputhje me standardet ligjore dhe të brendshme."
+    },
+    "why": {
+      "title": "Pse FENIX?",
+      "intro": "Në një kohë kur arsimi është sfidë dhe zgjedhja e shkollës bëhet vendimtare për të ardhmen e fëmijëve, FENIX është më shumë se një institucion arsimor – është një qendër cilësie, vlerash dhe sigurie.",
+      "resultsTitle": "Rezultate që flasin vetë:",
+      "resultsDesc": "Për ne, cilësia nuk është vetëm qëllim – është standardi ynë i përditshëm. Rezultatet më të larta në Provimet Kombëtare të Arsimit Bazë dhe suksesi i nxënësve në Arsimin e Mesëm janë pasqyrë e punës së palodhur dhe përkushtimit tonë.",
+      "disciplineTitle": "Disiplinë, organizim dhe vlera të qëndrueshme:",
+      "disciplineDesc": "Besojmë se edukimi fillon me rregull, përkushtim dhe respekt. Në FENIX, çdo nxënës ndihet i vlerësuar, i barabartë dhe i përfshirë në një komunitet që nxit rritjen dhe karakterin.",
+      "safetyTitle": "Siguria në zemër të çdo veprimi:",
+      "safetyDesc": "Siguria emocionale, fizike dhe sociale e nxënësve tanë është prioritet absolut. Ata janë nën kujdes të vazhdueshëm, në një ambient të mbrojtur, të ngrohtë dhe të mirorganizuar.",
+      "teamTitle": "Një skuadër që punon me pasion:",
+      "teamDesc": "Mësues të përkushtuar, staf i aftë dhe një drejtim vizionar – kjo është forca që e mban FENIX të palëkundur në misionin e tij: të edukojë me cilësi dhe të frymëzojë brezin e ardhshëm.",
+      "closing": "Në FENIX, suksesi nuk është rastësi – është mision dhe traditë."
+    }
   },
   "programmes": {
     "title": "Programet",
     "curriculum": "Kurrikula",
     "assessment": "Vlerësimi & Progresi",
-    "levels": "Nivelet e Klasave / Mosha"
+    "levels": "Nivelet e Arsimit"
   },
   "studentLife": {
     "title": "Jeta në Shkollë",
     "activities": "Aktivitete & Ngjarje",
-    "gallery": "Galeria / Revista",
+    "magazine": {
+      "title": "Revista",
+      "description": "Revistat e krijuara nga nxënësit tanë e shndërrojnë kureshtjen në faqe të shtypura, duke u dhënë mundësinë të hulumtojnë, krijojnë dhe, me krenari, të ndajnë dijet e fituara."
+    },
     "clubs": "Klube & Ekstrakurrikulare"
   },
   "parents": {
@@ -25,7 +58,7 @@
     "communication": "Kanalet e Komunikimit",
     "council": "Këshilli i Prindërve",
     "discipline": "Disiplina & Këshillimi",
-    "attendance": "Pjesëmarrja",
+    "attendance": "Frekuentimi në shkollë",
     "uniform": "Rregullorja e Uniformës"
   },
   "admissions": {
@@ -56,5 +89,26 @@
       "middle": "Shkolla e mesme e ulët",
       "middleDescription": "Shkolla e mesme e ulët për fëmijët e moshës 12-15 vjeç."
     }
-  }
+  },
+  "contact": {
+    "title": "Kontakt",
+
+    "name": "Emri",
+    "namePlaceholder": "Emri juaj i plotë",
+
+    "email": "Email-i",
+
+    "message": "Mesazhi",
+    "messagePlaceholder": "Shkruani mesazhin tuaj…",
+
+    "send": "Dërgo Mesazhin",
+    "sending": "Duke dërguar…",
+
+    "fillAll": "Ju lutem plotësoni të gjitha fushat.",
+    "invalidEmail": "Ju lutem vendosni një adresë email të vlefshme.",
+    "success": "Faleminderit! Mesazhi juaj u dërgua.",
+    "error": "Na vjen keq – diçka shkoi keq gjatë dërgimit. Provoni sërish më vonë."
+  },
+  "activities": "Activities",
+  "whyFenix": "Pse FENIX"
 }
