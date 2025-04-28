@@ -40,7 +40,8 @@ const emit = defineEmits<{
 watch(
     () => props.modelValue,
     (open) => {
-        document.body.style.overflow = open ? 'hidden' : '';
+        if(!import.meta.env.SSR)
+          document.body.style.overflow = open ? 'hidden' : '';
     },
     { immediate: true }
 );
