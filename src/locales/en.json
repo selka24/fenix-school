@@ -3,7 +3,9 @@
   "sq-en": "British-Albanian",
   "address": "“Bilal Golemi” Street, near the “Dinamo” sports club, Tiranë e Re, Tiranë",
   "home": {
-    "title": "Home"
+    "title": "Home",
+    "missionAction": "Our Mission in Action",
+    "viewAll": "View All"
   },
   "about": {
     "title": "About Us",

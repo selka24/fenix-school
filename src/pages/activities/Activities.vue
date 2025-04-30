@@ -1,33 +1,8 @@
 <script setup lang="ts">
 
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
+import {activities} from "../../core/globalData.ts";
 
-const activities = [
-  {
-    title: "Ekskursione dhe Vizita Mësimore",
-    description: "Nxënësit marrin pjesë në ekskursione dhe vizita që i ndihmojnë ata të mësojnë në një mjedis jashtë klasës, duke u njohur me kultura të ndryshme dhe duke aplikuar njohuritë e fituara."
-  },
-  {
-    title: "Panaire dhe Projekte Shkencore",
-    description: "Nxënësit zhvillojnë dhe prezantojnë projekte shkencore, duke i dhënë mundësi për të eksperimentuar dhe për të nxitur kuriozitetin dhe kërkimin shkencor."
-  },
-  {
-    title: "Lojëra dhe Aktivitetet Sportive",
-    description: "Aktivitetet fizike dhe sportive janë pjesë e rëndësishme e programit tonë, duke i mësuar nxënësit për rëndësinë e punës në ekip dhe zhvillimit të shëndetit fizik."
-  },
-  {
-    title: "Festa e Fundvitit",
-    description: "Një ngjarje speciale që feston arritjet e nxënësve gjatë vitit shkollor dhe nderon ata për përpjekjet e tyre."
-  },
-  {
-    title: "Festat e Traditave dhe Festivaleve",
-    description: "Shkolla organizon ngjarje që përkujtojnë dhe nderojnë traditat dhe kulturat e ndryshme, duke i mësuar nxënësit të respektojnë dhe të vlerësojnë shumëllojshmërinë."
-  },
-  {
-    title: "Ditët e Hapura dhe Prezantimet për Prindërit",
-    description: "Aktivitetet ku nxënësit mund të tregojnë përparimin e tyre dhe arritjet e vitit, duke krijuar mundësi për prindërit të jenë pjesë aktive të procesit mësimor."
-  }
-];
 
 </script>
 

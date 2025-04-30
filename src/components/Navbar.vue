@@ -59,8 +59,6 @@
       <div class="hidden lg:flex items-center">
         <div class="flex items-center text-md space-x-8 mr-4">
           <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">Visit & Inquire</a>
-          <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">Calendar</a>
-          <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">Parent/Student Portal</a>
           <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">E-mail</a>
         </div>
         <div class="flex items-center space-x-2">

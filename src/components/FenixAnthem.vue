@@ -5,8 +5,8 @@ const {playLazy, isPlaying} = useFenixAnthem();
 </script>
 
 <template>
-  <div class="flex font-semibold gap-2 items-center cursor-pointer text-sm">
-    <div @click="playLazy">
+  <div @click="playLazy" class="flex font-semibold gap-2 items-center cursor-pointer text-sm">
+    <div>
       Himni i Shkollës
     </div>
     <div>

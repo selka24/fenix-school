@@ -1,48 +1,53 @@
 <template>
-    <form @submit.prevent="handleSubmit" class="max-w-lg space-y-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-20">
+    <div>
+      <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
+        Lini një mesazh
+      </h2>
+      <form @submit.prevent="handleSubmit" class="space-y-6">
         <!-- Name -->
         <div>
-            <label for="name" class="block text-sm font-medium text-gray-700">
-                {{ t('contact.name') }}
-            </label>
-            <input
-                id="name"
-                v-model="form.name"
-                type="text"
-                required
-                :placeholder="t('contact.namePlaceholder')"
-                class="mt-1 w-full rounded-lg border border-gray-300 p-3 focus:outline-primary"
-            />
+          <label for="name" class="block text-sm font-medium text-gray-700">
+            {{ t('contact.name') }}
+          </label>
+          <input
+            id="name"
+            v-model="form.name"
+            type="text"
+            required
+            :placeholder="t('contact.namePlaceholder')"
+            class="mt-1 w-full rounded-lg border border-gray-300 p-3 focus:outline-primary"
+          />
         </div>
 
         <!-- Email -->
         <div>
-            <label for="email" class="block text-sm font-medium text-gray-700">
-                {{ t('contact.email') }}
-            </label>
-            <input
-                id="email"
-                v-model="form.email"
-                type="email"
-                required
-                placeholder="email@example.com"
-                class="mt-1 w-full rounded-lg border border-gray-300 p-3 focus:outline-primary"
-            />
+          <label for="email" class="block text-sm font-medium text-gray-700">
+            {{ t('contact.email') }}
+          </label>
+          <input
+            id="email"
+            v-model="form.email"
+            type="email"
+            required
+            placeholder="email@example.com"
+            class="mt-1 w-full rounded-lg border border-gray-300 p-3 focus:outline-primary"
+          />
         </div>
 
         <!-- Message -->
         <div>
-            <label for="message" class="block text-sm font-medium text-gray-700">
-                {{ t('contact.message') }}
-            </label>
-            <textarea
-                id="message"
-                v-model="form.message"
-                rows="6"
-                required
-                :placeholder="t('contact.messagePlaceholder')"
-                class="mt-1 w-full resize-none rounded-lg border border-gray-300 p-3 focus:outline-primary"
-            />
+          <label for="message" class="block text-sm font-medium text-gray-700">
+            {{ t('contact.message') }}
+          </label>
+          <textarea
+            id="message"
+            v-model="form.message"
+            rows="6"
+            required
+            :placeholder="t('contact.messagePlaceholder')"
+            class="mt-1 w-full resize-none rounded-lg border border-gray-300 p-3 focus:outline-primary"
+          />
         </div>
 
         <!-- Alerts -->
@@ -51,18 +56,23 @@
 
         <!-- Submit -->
         <button
-            type="submit"
-            :disabled="submitting"
-            class="w-full rounded-lg bg-primary px-6 py-3 font-semibold text-white transition hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-50"
+          type="submit"
+          :disabled="submitting"
+          class="w-full rounded-lg bg-primary px-6 py-3 font-semibold text-white transition hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-50"
         >
-            {{ submitting ? t('contact.sending') : t('contact.send') }}
+          {{ submitting ? t('contact.sending') : t('contact.send') }}
         </button>
-    </form>
+      </form>
+    </div>
+    <ContactNow/>
+  </div>
+
 </template>
 
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
 import { useI18n }      from 'vue-i18n'
+import ContactNow from "../components/ContactNow.vue";
 
 interface ContactFormState {
     name: string

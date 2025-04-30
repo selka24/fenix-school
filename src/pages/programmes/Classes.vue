@@ -38,7 +38,7 @@ const classesAndAges = (maxAge: number, minAge: number = 1) => {
         </div>
 
         <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-            Cikli i Mesëm i Ulët (Klasa 5 - 9)
+          Cikli nëntëvjeçar (Klasa 5 - 9)
         </h2>
         <p>
             Ky cikël përfshin moshat nga 6 deri në 9 vjeç dhe është i fokusuar në zhvillimin e aftësive themelore akademike dhe sociale. Nxënësit përqendrohen në lëndët kryesore, matematikë,gjuhë, shkencë si dhe lëndët e performancës e arte.

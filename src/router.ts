@@ -30,7 +30,7 @@ const routes = [
                         path: 'curriculum',
                         component: () => import('./pages/programmes/Curriculum.vue'),
                         meta: {
-                            titleKey: 'programmes.title',
+                            titleKey: 'programmes.curriculum',
                             breadcrumb: [
                                 homeBreadcrumb
                             ]
@@ -85,6 +85,10 @@ const routes = [
             {
                 path: 'programmes',
                 children: [
+                    {
+                        path: '',
+                        redirect: {path: '/about/curriculum'}
+                    },
                     {
                         path: 'assessment-progress',
                         component: () => import('./pages/programmes/AssessmentProgress.vue'),
@@ -224,15 +228,25 @@ const routes = [
                 path: 'partnerships',
                 children: [
                     {
-                        path: '',
-                        component: () => import('./pages/partnerships/Partners.vue'),
+                        path: 'albania',
+                        component: () => import('./pages/partnerships/partnersAlb.vue'),
                         meta: {
                             titleKey: 'partnerships.title',
                             breadcrumb: [
                                 homeBreadcrumb
                             ]
                         }
-                    }
+                    },
+                    {
+                        path: 'abroad',
+                        component: () => import('./pages/partnerships/PartnersAbroad.vue'),
+                        meta: {
+                            titleKey: 'partnerships.title',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    },
                 ]
             },
             {

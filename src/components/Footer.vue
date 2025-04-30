@@ -60,7 +60,7 @@
       <div class="mt-12 pt-8 border-t border-white/20">
         <div class="flex flex-wrap justify-center gap-8">
             <a v-for="(partner, idx) in partners" :key="`partner-${idx}`" :href="partner.href" target="_blank">
-                <img v-if="partner.alt" :src="partner.img" :alt="partner.alt" class="h-15 w-auto" />
+                <img v-if="partner.alt" :class="{'white-filter': idx === 3}" :src="partner.img" :alt="partner.alt" class="h-15 w-auto" />
                 <p v-else class="text-white w-15 h-15 border  font-bold text-[9px] pt-[2px] text-center">
                     {{partner.text}}
                 </p>
@@ -84,4 +84,7 @@ import {partners} from "../core/globalData.ts";
 
 <style scoped>
 /* Any component-specific styles can go here */
+.white-filter{
+  filter: brightness(0) invert(1);
+}
 </style> 

@@ -72,10 +72,10 @@ export const useNavigation = () => {
     },
     {
       title: t('partnerships.title'),
-      link: '/partnerships',
+      link: '/partnerships/albania',
       submenu: [
-        { title: t('partnerships.albania'), link: '/partnerships#albania' },
-        { title: t('partnerships.abroad'), link: '/partnerships#abroad' }
+        { title: t('partnerships.albania'), link: '/partnerships/albania' },
+        { title: t('partnerships.abroad'), link: '/partnerships/abroad' }
       ]
     },
     {

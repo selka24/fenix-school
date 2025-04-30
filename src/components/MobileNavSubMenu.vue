@@ -2,6 +2,14 @@
 <template>
     <div class="w-full border-b border-c-gray/20">
       <Accordion :title="title" :id="title.split(' ').join('-')">
+        <template v-if="link" #title>
+          <router-link
+            @click="$emit('routeChanged')"
+            :to="link"
+          >
+            <h2>{{title}}</h2>
+          </router-link>
+        </template>
         <ul
           class="pl-4 py-4 overflow-hidden space-y-1 font-semibold"
         >

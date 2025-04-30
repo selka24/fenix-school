@@ -16,21 +16,25 @@ onMounted(() => {
 
 <template>
   <div class="py-2">
-    <h2>
+    <div class="flex items-center justify-between w-full text-left font-semibold py-2">
+      <slot name="title">
+        <h2>
+          {{ title }}
+        </h2>
+      </slot>
       <button
         :id="`accordion-title-${id}`"
-        class="flex items-center justify-between w-full text-left font-semibold py-2"
         @click.prevent="accordionOpen = !accordionOpen"
         :aria-expanded="accordionOpen"
         :aria-controls="`accordion-text-${id}`"
       >
-        <span>{{ title }}</span>
         <svg class="fill-primary shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
           <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{ '!rotate-180': accordionOpen }" />
           <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{ '!rotate-180': accordionOpen }" />
         </svg>
       </button>
-    </h2>
+
+    </div>
     <div
       :id="`accordion-text-${id}`"
       role="region"
