@@ -11,7 +11,7 @@ const borderClass = {
 </script>
 
 <template>
-  <div class="border-l-5 flex items-center rounded-xs pl-8"
+  <div class="border-l-5 flex items-center rounded-xs pl-7"
        :class="borderClass">
     <slot name="body">
       <h3 class="text-2xl font-bold">

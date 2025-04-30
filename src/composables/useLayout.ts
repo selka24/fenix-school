@@ -7,7 +7,6 @@ export const useLayout = () => {
     const route = useRoute();
 
     const layout = computed(() => {
-        console.log(route.meta, 'route.meta route.meta')
         const layoutName = route.meta.layout
         if (layoutName === 'empty') return NoLayout;
         return DefaultPage
