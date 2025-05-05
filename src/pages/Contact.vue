@@ -1,5 +1,6 @@
 <template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-20">
+  <div class="flex flex-col max-w-lg gap-10">
+    <ContactNow/>
     <div>
       <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
         Lini një mesazh
@@ -64,7 +65,6 @@
         </button>
       </form>
     </div>
-    <ContactNow/>
   </div>
 
 </template>
@@ -80,7 +80,7 @@ interface ContactFormState {
     message: string
 }
 
-const { t } = useI18n()                    // <── translation helper
+const { t } = useI18n()
 
 const form = reactive<ContactFormState>({
     name: '',
@@ -104,12 +104,14 @@ async function handleSubmit() {
         error.value = t('contact.fillAll')
         return
     }
+
     if (!validateEmail(form.email)) {
         error.value = t('contact.invalidEmail')
         return
     }
 
     submitting.value = true
+
     try {
         /* TODO: Replace this with your own e-mail/API integration */
         await new Promise(resolve => setTimeout(resolve, 1200))

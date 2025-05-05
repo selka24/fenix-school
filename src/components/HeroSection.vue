@@ -1,10 +1,10 @@
 <template>
-  <section class="relative h-[calc(100vh-180px)] overflow-hidden">
+  <section class="relative h-[300px] sm:h-[calc(100vh-180px)] overflow-hidden">
     <!-- Hero Carousel -->
     <div class="absolute inset-0">
       <!-- First Slide -->
       <div 
-        class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+        class="absolute inset-0 transition-opacity duration-1000 ease-in-out "
         :class="{ 'opacity-100 z-10': activeSlideIndex === 0, 'opacity-0': activeSlideIndex !== 0 }"
       >
         <img 
@@ -64,10 +64,10 @@
       </div>
       
       <!-- Side Navigation Buttons -->
-      <div class="absolute hidden right-0 uppercase top-1/3 md:flex flex-col space-y-3">
-        <router-link to="/about/why-fenix" class="bg-white text-center w-52 text-primary font-bold py-5">{{ $t('whyFenix') }}</router-link>
-        <router-link to="/programmes" class="bg-white text-primary font-bold text-center w-52 py-5 ">{{ $t('programmes.curriculum') }}</router-link>
-        <router-link to="/activities" class="bg-white text-primary font-bold text-center w-52 py-5 ">{{ $t('activities') }}</router-link>
+      <div class="absolute hidden right-0 uppercase w-52 top-1/3 md:flex flex-col space-y-2">
+        <router-link to="/about/why-fenix" class="btn-white">{{ $t('whyFenix') }}</router-link>
+        <router-link to="/programmes" class="btn-white">{{ $t('programmes.curriculum') }}</router-link>
+        <router-link to="/activities" class="btn-white">{{ $t('activities') }}</router-link>
       </div>
 
       <!-- Left/Right Navigation Arrows -->

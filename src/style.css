@@ -44,6 +44,15 @@
         @apply w-[115px] md:w-[150px];
     }
 
+    .btn-white {
+        @apply bg-white border-2 border-white text-center text-primary font-bold py-5
+    }
+
+    .btn-white:hover {
+        @apply bg-primary text-white;
+        transition: all 0.2s ease;
+    }
+
     body { @apply !font-sans; }
 }
 

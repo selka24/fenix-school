@@ -103,7 +103,7 @@ const routes = [
                             titleKey: 'programmes.levels',
                             breadcrumb: [
                                 homeBreadcrumb,
-                                {title: 'homePage.classes.elementary', link: '/programmes/elementary'},
+                                {title: 'homePage.classes.elementary', link: '/curriculum/elementary'},
                             ]
                         }
                     },
@@ -114,7 +114,7 @@ const routes = [
                             titleKey: 'programmes.levels',
                             breadcrumb: [
                                 homeBreadcrumb,
-                                {title: 'homePage.classes.middle', link: '/programmes/middle'},
+                                {title: 'homePage.classes.middle', link: '/curriculum/middle'},
                             ]
                         }
                     },
@@ -263,7 +263,7 @@ const routes = [
                         path: '/contact',
                         component: () => import('./pages/Contact.vue'),
                         meta: {
-                            titleKey: 'contact.title',
+                            titleKey: 'contact.contacts',
                             breadcrumb: [
                               homeBreadcrumb
                             ]

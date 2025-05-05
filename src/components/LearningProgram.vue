@@ -16,13 +16,13 @@
       <!-- School Levels Grid - First Row -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <!-- Early Childhood -->
-        <router-link  v-for="{title, image, description, link} in programmes" :to="`/programmes/${link}`" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
+        <router-link  v-for="{title, image, description, link} in programmes" :to="`/curriculum/${link}`" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
           <img 
             :src="`/images/learning-program/${image}`"
             alt="Early Childhood Foundations" 
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-[#990066]/80 group-hover:to-[#990066]/40">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-primary/80 group-hover:to-primary/40">
             <div>
               <h3 class="text-white text-xl font-semibold mb-1">{{title}}</h3>
               <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">

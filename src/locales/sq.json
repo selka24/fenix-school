@@ -95,9 +95,19 @@
       "middleDescription": "Ky cikël është më i specializuar dhe përfshin nxënës nga mosha 10 deri në 14 vjeç. "
     }
   },
+  "aboutPage": {
+    "welcome": "Mirësevini në Shkollën \"Fenix\"!",
+    "welcomeDescr": "Që nga themelimi ynë në vitin 1996, kemi qenë të përkushtuar për të ofruar arsim cilësor, duke i përgatitur nxënësit për mundësitë dhe sfidat e së ardhmes.",
+    "message": "A message from the Board",
+    "mission": "Mission & Philosophy",
+    "history": "History",
+    "welcomeDescription": "Fenix School is a private school located in Tirana, Albania. We are committed to providing a high-quality education that prepares our students for success in the 21st century.",
+    "missionDescription": "Our mission is to provide a safe and nurturing environment where students can learn, grow, and thrive. We believe in fostering a love of learning and encouraging our students to reach their full potential.",
+    "historyDescription": "Fenix School was founded in 2010 by a group of dedicated educators who wanted to create a school that would provide a high-quality education for all students. Since then, we have grown into a thriving community of learners."
+  },
   "contact": {
     "title": "Kontakt",
-
+    "contacts": "Kontaktet",
     "name": "Emri",
     "namePlaceholder": "Emri juaj i plotë",
 

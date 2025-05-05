@@ -50,7 +50,7 @@
         <!-- School Name -->
         <a href="/" class="flex flex-col">
           <span class="text-3xl font-semibold leading-tight text-gray-800">{{ $t('fenix') }}</span>
-          <span class="text-gray-500">{{ $t('sq-en') }}</span>
+          <span class="text-gray-500 italic">{{ $t('sq-en') }}</span>
         </a>
       </router-link>
 
@@ -59,15 +59,10 @@
       <div class="hidden lg:flex items-center">
         <div class="flex items-center text-md space-x-8 mr-4">
           <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">Visit & Inquire</a>
-          <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">E-mail</a>
+          <a href="mailto:shkollafenix@gmail.com" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">E-mail</a>
         </div>
         <div class="flex items-center space-x-2">
           <button class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">APPLY NOW</button>
-<!--          <button class="bg-transparent border border-gray-300 text-gray-700 p-1 rounded hover:bg-gray-100 transition-colors duration-200">-->
-<!--            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
-<!--              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />-->
-<!--            </svg>-->
-<!--          </button>-->
         </div>
       </div>
 

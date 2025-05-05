@@ -80,6 +80,9 @@ export const useNavigation = () => {
     {
       title: t('contact.title'),
       link: '/contact',
+      submenu: [
+        { title: t('contact.contacts'), link: '/contact' },
+      ]
     }
   ])
 

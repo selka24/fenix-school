@@ -79,6 +79,7 @@
   },
   "contact": {
     "title": "Contact",
+    "contacts": "Contacts",
     "form": "Contact Form",
     "location": "Address & Map",
     "info": "Phone, Email, Hours"

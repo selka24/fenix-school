@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-10 bg-primary text-white">
+  <footer class="py-10 bg-primary text-white mt-10">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- School Information -->
@@ -11,7 +11,7 @@
 
         <!-- Links & Resources -->
         <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1498.3685371509368!2d19.8070857723855!3d41.31458309027196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135030f8b76e079f%3A0xb250a407111e6806!2sShkolla%20Anglo-Shqiptare%20Fenix!5e0!3m2!1sen!2s!4v1746467704712!5m2!1sen!2s&zoom=15" width="100%" height="auto" style="border:0;" allowfullscreen="false" loading="lazy" zoom="10" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1498.3685371509368!2d19.8070857723855!3d41.31458309027196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135030f8b76e079f%3A0xb250a407111e6806!2sShkolla%20Anglo-Shqiptare%20Fenix!5e0!3m2!1sen!2s!4v1746467704712!5m2!1sen!2s&zoom=15" width="100%" height="100%" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
           <h3 class="text-xl font-bold mb-4">Links & Resources</h3>
