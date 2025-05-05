@@ -1,18 +1,18 @@
 import {computed} from 'vue'
 import {useI18n} from 'vue-i18n'
 import {useRoute} from "vue-router";
-import { defineAsyncComponent, type AsyncComponent } from 'vue'
+import { defineAsyncComponent, type Component } from 'vue'
 
 export interface MenuItem {
   title: string
   link: string
-  component?: AsyncComponent
+  component?: Component
 }
 
 export interface NavigationMenu {
   title: string
   link: string
-  submenu: MenuItem[]
+  submenu?: MenuItem[]
 }
 
 export const useNavigation = () => {
@@ -27,7 +27,6 @@ export const useNavigation = () => {
         { title: t('about.message'), link: '/about' },
         { title: t('whyFenix'), link: '/about/why-fenix' },
         { title: t('about.mission'), link: '/about/mission' },
-        { title: t('programmes.curriculum'), link: '/about/curriculum' },
         { title: t('about.history'), link: '/about/history' },
         { title: t('about.team.title'), link: '/about/team' },
         { title: '', link: '', component: defineAsyncComponent(() =>  import('../components/FenixAnthem.vue'))},
@@ -35,10 +34,12 @@ export const useNavigation = () => {
     },
     {
       title: t('programmes.title'),
-      link: '/programmes',
+      link: '/curriculum',
       submenu: [
-        { title: t('programmes.assessment'), link: '/programmes/assessment-progress' },
-        { title: t('programmes.levels'), link: '/programmes/classes' }
+        { title: t('programmes.curriculum'), link: '/curriculum' },
+        { title: t('homePage.classes.elementary'), link: '/curriculum/elementary' },
+        { title: t('homePage.classes.middle'), link: '/curriculum/middle' },
+        { title: t('programmes.assessment'), link: '/curriculum/assessment-progress' },
       ]
     },
     {
@@ -66,8 +67,6 @@ export const useNavigation = () => {
       link: '/admissions',
       submenu: [
         { title: t('admissions.overview'), link: '/admissions' },
-        // { title: t('admissions.fees'), link: '/admissions/fees' },
-        // { title: t('admissions.scholarships'), link: '/admissions/scholarships' }
       ]
     },
     {

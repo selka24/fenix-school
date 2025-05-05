@@ -27,16 +27,6 @@ const routes = [
                         }
                     },
                     {
-                        path: 'curriculum',
-                        component: () => import('./pages/programmes/Curriculum.vue'),
-                        meta: {
-                            titleKey: 'programmes.curriculum',
-                            breadcrumb: [
-                                homeBreadcrumb
-                            ]
-                        }
-                    },
-                    {
                       path: 'why-fenix',
                       component: () => import('./pages/about/WhyUs.vue'),
                       meta: {
@@ -83,11 +73,17 @@ const routes = [
                 ],
             },
             {
-                path: 'programmes',
+                path: 'curriculum',
                 children: [
                     {
                         path: '',
-                        redirect: {path: '/about/curriculum'}
+                        component: () => import('./pages/programmes/Curriculum.vue'),
+                        meta: {
+                            titleKey: 'programmes.curriculum',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
                     },
                     {
                         path: 'assessment-progress',
@@ -101,16 +97,27 @@ const routes = [
                         }
                     },
                     {
-                        path: 'classes',
-                        component: () => import('./pages/programmes/Classes.vue'),
+                        path: 'elementary',
+                        component: () => import('./pages/programmes/Elementary.vue'),
                         meta: {
                             titleKey: 'programmes.levels',
                             breadcrumb: [
                                 homeBreadcrumb,
-                                {title: 'programmes.title', link: '/programmes'},
+                                {title: 'homePage.classes.elementary', link: '/programmes/elementary'},
                             ]
                         }
-                    }
+                    },
+                    {
+                        path: 'middle',
+                        component: () => import('./pages/programmes/Middle.vue'),
+                        meta: {
+                            titleKey: 'programmes.levels',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                                {title: 'homePage.classes.middle', link: '/programmes/middle'},
+                            ]
+                        }
+                    },
                 ]
             },
             {
@@ -229,7 +236,7 @@ const routes = [
                 children: [
                     {
                         path: 'albania',
-                        component: () => import('./pages/partnerships/partnersAlb.vue'),
+                        component: () => import('./pages/partnerships/PartnersAlb.vue'),
                         meta: {
                             titleKey: 'partnerships.title',
                             breadcrumb: [

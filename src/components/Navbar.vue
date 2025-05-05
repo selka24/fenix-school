@@ -13,12 +13,12 @@
             >
                 <router-link
                     :to="item.link"
-                    class="text-gray-800 font-bold py-2 block nav-link"
-                    :class="{ 'active-nav': activeSubmenu === item.title || activeMenu?.link === item.link }"
+                    class="text-gray-800 font-bold py-2 block nav-link min-w-max"
+                    :class="{ 'active-nav text-primary': activeSubmenu === item.title || activeMenu?.link === item.link }"
                 >
                     {{ item.title }}
                     <span
-                        class="nav-indicator"
+                        class="nav-indicator bg-primary"
                         :class="{ 'nav-indicator-active': activeSubmenu === item.title || activeMenu?.link === item.link }"
                     ></span>
                 </router-link>
@@ -151,7 +151,6 @@ const closeSubmenu = () => {
 
 <style>
 .active-nav {
-  color: #990066 !important;
   transition: color 0.2s ease;
 }
 
@@ -171,7 +170,6 @@ const closeSubmenu = () => {
   right: 0;
   bottom: -2px;
   height: 2px;
-  background-color: #990066;
   transform-origin: center;
   transform: scaleX(0);
   transition: transform 0.3s ease;

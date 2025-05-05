@@ -2,7 +2,7 @@
   <section class="py-12 bg-white">
     <div class="container mx-auto px-4">
       <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-center text-[#c11574] mb-8">
+      <h2 class="text-4xl font-bold text-center text-primary mb-8">
           Njihuni me programin tonë mësimor
       </h2>
       
@@ -16,7 +16,7 @@
       <!-- School Levels Grid - First Row -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <!-- Early Childhood -->
-        <router-link to="/programmes/classes" v-for="{title, image, description} in programmes" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
+        <router-link  v-for="{title, image, description, link} in programmes" :to="`/programmes/${link}`" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
           <img 
             :src="`/images/learning-program/${image}`"
             alt="Early Childhood Foundations" 
@@ -43,11 +43,13 @@ const { t } = useI18n()
 const programmes = [
   {
     title: t('homePage.classes.elementary'),
+    link: 'elementary',
     description: t('homePage.classes.elementaryDescription'),
     image: 'full-shot-friends-sitting-blanket.jpg'
   },
   {
     title: t('homePage.classes.middle'),
+    link: 'middle',
     description: t('homePage.classes.middleDescription'),
     image: 'male-student-reading-near-tables.jpg'
   },

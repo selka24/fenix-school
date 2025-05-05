@@ -4,7 +4,7 @@
 @layer base {
   /* Custom base styles */
     @theme {
-        --color-primary: #990066;
+        --color-primary: #003563;
         --color-c-gray: #636363;
         --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
     }

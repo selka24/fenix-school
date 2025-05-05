@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {PageFlip} from 'page-flip';
-import {nextTick, ref} from "vue";
+import {nextTick, onMounted, ref, onBeforeUnmount} from "vue";
 import {Magazine, magazines, buildImageUrl} from "../../core/magazines.ts";
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
 
@@ -41,6 +41,20 @@ const openMagazine = (idx: number) => {
 
     })
 }
+
+const closeOnEscape = (e: KeyboardEvent) => {
+  if(e.key === 'Escape') {
+    closeMagazine();
+  }
+}
+
+onMounted(() => {
+  document.addEventListener('keydown', closeOnEscape)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', closeOnEscape)
+})
 </script>
 
 <template>

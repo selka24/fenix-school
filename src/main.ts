@@ -10,6 +10,9 @@ export const createApp = ViteSSG(
   {
     routes,
     base: '/',
+    scrollBehavior() {
+      return { top: 0 }
+    }
   },
   ({app, router}) => {
     router.afterEach((to) => {

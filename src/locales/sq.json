@@ -6,7 +6,7 @@
   },
   "fenix": "Shkolla Fenix",
   "sq-en": "Anglo-Shqiptare",
-  "address": "Rruga “Liman Kaba”, <br> Tiranë e Re, 1001, <br> <span class=\"text-sm\">(pranë klubit sportiv “Dinamo”)</span>",
+  "address": "Rruga “Bilal Golemi”, <br> Tiranë e Re, 1001, <br> <span class=\"text-sm\">(pranë klubit sportiv “Dinamo”)</span>",
   "about": {
     "title": "Shkolla Jonë",
     "message": "Mirëseardhje / Mesazh nga Bordi",
@@ -44,14 +44,14 @@
     }
   },
   "programmes": {
-    "title": "Programet",
+    "title": "Kurrikula",
     "curriculum": "Kurrikula",
     "assessment": "Vlerësimi & Progresi",
     "levels": "Nivelet e Arsimit"
   },
   "studentLife": {
     "title": "Jeta në Shkollë",
-    "activities": "Aktivitete & Ngjarje",
+    "activities": "Aktivitete",
     "magazine": {
       "title": "Revista",
       "description": "Revistat e krijuara nga nxënësit tanë e shndërrojnë kureshtjen në faqe të shtypura, duke u dhënë mundësinë të hulumtojnë, krijojnë dhe, me krenari, të ndajnë dijet e fituara."
