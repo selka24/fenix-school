@@ -3,7 +3,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
 import ContactNow from "../../components/ContactNow.vue";
 
 const registrationInfo = {
-  intro: "Në Shkollën “Fenix”, besojmë se edukimi fillon me një zgjedhje të vetëdijshme dhe të përbashkët ndërmjet familjes dhe institucionit. <br><br> Ne ofrojmë një mjedis të sigurt, të kujdesshëm dhe me standarde të larta akademike, ku çdo nxënës inkurajohet të zhvillojë potencialin e vet të plotë – jo vetëm në dije, por edhe në karakter, komunikim dhe bashkëpunim. <br><br> Ne duam të na zgjidhni për cilësinë.",
+  intro: "Ne besojmë se edukimi fillon me një zgjedhje të vetëdijshme dhe të përbashkët ndërmjet familjes dhe institucionit. <br><br> Ne ofrojmë një mjedis të sigurt, të kujdesshëm dhe me standarde të larta akademike, ku çdo nxënës inkurajohet të zhvillojë potencialin e vet të plotë – jo vetëm në dije, por edhe në karakter, komunikim dhe bashkëpunim. <br><br> Ne duam të na zgjidhni për cilësinë.",
   steps: [
     {
       title: "Kontakti Fillestar",

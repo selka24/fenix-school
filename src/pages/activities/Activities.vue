@@ -9,7 +9,7 @@ import {activities} from "../../core/globalData.ts";
 <template>
   <div>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Në Shkollën "Fenix", ne ofrojmë një gamë të gjerë aktivitetesh dhe ngjarjesh që ndihmojnë në zhvillimin e aftësive
+      Ofrojmë një gamë të gjerë aktivitetesh dhe ngjarjesh që ndihmojnë në zhvillimin e aftësive
       sociale, emocionale dhe akademike të nxënësve. Aktivitetet tona janë të dizajnuara për të nxitur kreativitetin,
       bashkëpunimin dhe arritjen e potencialit të plotë të secilit nxënës.
     </DescriptionMessage>

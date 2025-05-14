@@ -6,7 +6,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
 <template>
 <div>
   <DescriptionMessage type="warning">
-    Në Shkollën "Fenix", vlerësimi është një pjesë kyçe e zhvillimit akademik të çdo nxënësi. Ne besojmë se vlerësimi i vazhdueshëm dhe objektiv ndihmon në identifikimin e forcave dhe fushave që kërkojnë përmirësim, duke siguruar që nxënësit të kenë mundësi të rriten dhe të arrijnë potencialin e tyre maksimal.
+    Vlerësimi është një pjesë kyçe e zhvillimit akademik të çdo nxënësi. Ne besojmë se vlerësimi i vazhdueshëm dhe objektiv ndihmon në identifikimin e forcave dhe fushave që kërkojnë përmirësim, duke siguruar që nxënësit të kenë mundësi të rriten dhe të arrijnë potencialin e tyre maksimal.
   </DescriptionMessage>
   <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
     Qëllimet e Vlerësimit:

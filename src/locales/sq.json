@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Faqja Kryesore",
-    "missionAction": "Misioni ynë në veprim",
+    "missionAction": "Jeta Shkollore",
     "viewAll": "Shiko të gjitha"
   },
   "fenix": "Shkolla Fenix",
@@ -14,7 +14,8 @@
     "history": "Historia",
     "team": {
       "title": "Ekipi Drejtues",
-      "beliefParagraph": "Në Shkollën “FENIX”, besojmë se një ekip drejtues vizionar dhe i përkushtuar është thelbësor për të ndërtuar një mjedis ku çdo fëmijë ndihet i sigurt, i vlerësuar dhe i frymëzuar për të arritur më të mirën.",
+      "secretary": "Sekretaria",
+      "beliefParagraph": "Besojmë se një ekip drejtues vizionar dhe i përkushtuar është thelbësor për të ndërtuar një mjedis ku çdo fëmijë ndihet i sigurt, i vlerësuar dhe i frymëzuar për të arritur më të mirën.",
       "teamEmbodiesParagraph": "Ekipi ynë përfaqëson përvojë, profesionalizëm dhe një përkushtim të përditshëm ndaj cilësisë, zhvillimit dhe mirëqënies së çdo nxënësi.",
       "executiveDirectorTitle": "Drejtori Ekzekutiv",
       "executiveDirectorDescription": "Përgjegjës për drejtimin e përgjithshëm të shkollës, strategjinë afatgjatë dhe administrimin. Siguron funksionimin e rregullt, përfaqëson shkollën në marrëdhëniet me institucionet dhe udhëheq zhvillimin e vazhdueshëm të saj.",
@@ -44,6 +45,7 @@
     }
   },
   "programmes": {
+    "prog": "Programet",
     "title": "Kurrikula",
     "curriculum": "Kurrikula",
     "assessment": "Vlerësimi & Progresi",
@@ -97,7 +99,7 @@
   },
   "aboutPage": {
     "welcome": "Mirësevini në Shkollën \"Fenix\"!",
-    "welcomeDescr": "Që nga themelimi ynë në vitin 1996, kemi qenë të përkushtuar për të ofruar arsim cilësor, duke i përgatitur nxënësit për mundësitë dhe sfidat e së ardhmes.",
+    "welcomeDescr": "Që prej vitit 1996 shkolla jonë ka mishëruar te fëmijët vlerat më të larta të arsimit shqiptar dhe atij anglez.",
     "message": "A message from the Board",
     "mission": "Mission & Philosophy",
     "history": "History",
@@ -125,5 +127,11 @@
     "error": "Na vjen keq – diçka shkoi keq gjatë dërgimit. Provoni sërish më vonë."
   },
   "activities": "Aktivitete",
-  "whyFenix": "Pse FENIX"
+  "whyFenix": "Pse FENIX",
+  "footer": {
+    "message": "Shkolla “Fenix” është një shkollë nëntëvjeçare jopublike, që ofron mësim sipas një kurrikule të integruar anglo-shqiptare"
+  },
+  "calendar": {
+    "title": "Kalendari"
+  }
 }

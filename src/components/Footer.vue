@@ -6,7 +6,12 @@
         <div>
           <h3 class="text-xl font-bold mb-4">Fenix School</h3>
           <p v-html="$t('address')"></p>
-          <p class="mb-4">+420 2-2755-34-22</p>
+          <div class="flex flex-col gap-3 my-4">
+            <div v-for="c in footerContacts" :key="c.num">
+              <div class="mb-1">{{$t(c.title)}}</div>
+              <a class="underline" :href="c.link">{{c.num}}</a>
+            </div>
+          </div>
         </div>
 
         <!-- Links & Resources -->
@@ -16,10 +21,8 @@
         <div>
           <h3 class="text-xl font-bold mb-4">Links & Resources</h3>
           <ul class="space-y-2">
-            <li><a href="#" class="hover:underline">Calendar</a></li>
-            <li><a href="#" class="hover:underline">Careers</a></li>
-            <li><a href="#" class="hover:underline">Parents Portal</a></li>
-            <li><a href="#" class="hover:underline">Parent Council</a></li>
+            <li><router-link to="/calendar" class="hover:underline">{{ $t('calendar.title') }}</router-link></li>
+            <li><router-link to="/parents/council" class="hover:underline">{{ $t('parents.council') }}</router-link></li>
           </ul>
         </div>
 
@@ -44,7 +47,7 @@
             </div>
           </div>
           <p class="mb-4 text-justify">
-            The Fenix School is a non-profit, private school that offers a full comprehensive IB programme to students aged 3-18 from over 60 nationalities.
+            {{$t('footer.message')}}
           </p>
         </div>
       </div>
@@ -72,7 +75,14 @@
 
 <script setup lang="ts">
 // No additional logic needed for this component
-import {partners, socialMedia} from "../core/globalData.ts";
+import {footerNumbers, partners, socialMedia} from "../core/globalData.ts";
+
+const footerContacts = footerNumbers.map((contact) => {
+  return {
+    ...contact,
+    link: contact.num.replace('0', 'tel:+355').replace(/ /g, "")
+  }
+})
 </script>
 
 <style scoped>

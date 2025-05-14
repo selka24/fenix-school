@@ -30,8 +30,6 @@ import HeroSection from "../components/HeroSection.vue";
     <!-- Mission in Action Section -->
     <MissionAction />
 
-    <!-- By The Numbers Section -->
-    <NumbersSection />
     </div>
 </template>
 

@@ -13,7 +13,7 @@ const parentCouncilRoles = [
 <template>
 <div>
   <DescriptionMessage type="warning" class="mt-10 mb-8">
-    Në Shkollën "Fenix", vlerësojmë dhe inkurajojmë përfshirjen aktive të prindërve në jetën shkollore përmes Këshillit të Prindërve. Ky këshill funksionon si një urë lidhëse mes shkollës dhe familjeve, duke ndihmuar në përmirësimin e përvojës së nxënësve dhe në zhvillimin e iniciativave që mbështesin arsimin dhe mirëqenien e tyre.
+    Ne vlerësojmë dhe inkurajojmë përfshirjen aktive të prindërve në jetën shkollore përmes Këshillit të Prindërve. Ky këshill funksionon si një urë lidhëse mes shkollës dhe familjeve, duke ndihmuar në përmirësimin e përvojës së nxënësve dhe në zhvillimin e iniciativave që mbështesin arsimin dhe mirëqenien e tyre.
   </DescriptionMessage>
   <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
     Roli i Këshillit të Prindërve

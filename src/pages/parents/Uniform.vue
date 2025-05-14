@@ -38,7 +38,7 @@ const uniformPolicy = {
 <template>
 <div>
   <DescriptionMessage type="warning" class="mt-10 mb-8">
-    Në Shkollën "Fenix", uniforma është një pjesë e rëndësishme e identitetit dhe kulturës sonë shkollore. Ajo kontribuon në krijimin e një ambienti të disiplinuar, profesional dhe të barabartë për të gjithë nxënësit, duke i ndihmuar ata të fokusohen në mësim dhe zhvillimin personal.
+    Uniforma është një pjesë e rëndësishme e identitetit dhe kulturës sonë shkollore. Ajo kontribuon në krijimin e një ambienti të disiplinuar, profesional dhe të barabartë për të gjithë nxënësit, duke i ndihmuar ata të fokusohen në mësim dhe zhvillimin personal.
   </DescriptionMessage>
 
   <div class="max-w-3xl">

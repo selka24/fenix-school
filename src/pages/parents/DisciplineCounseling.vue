@@ -6,7 +6,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
 <template>
   <div>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Në Shkollën "Fenix", besojmë se një mjedis i disiplinuar dhe mbështetës ndihmon nxënësit të zhvillojnë përgjegjësi, vetëkontroll dhe respekt për veten dhe të tjerët. Prandaj, kemi një qasje të qartë dhe të ekuilibruar ndaj disiplinës dhe këshillimit, duke u siguruar që çdo nxënës të ndihet i mbështetur dhe i motivuar për të arritur suksesin e tij akademik dhe personal.
+      Ne besojmë se një mjedis i disiplinuar dhe mbështetës ndihmon nxënësit të zhvillojnë përgjegjësi, vetëkontroll dhe respekt për veten dhe të tjerët. Prandaj, kemi një qasje të qartë dhe të ekuilibruar ndaj disiplinës dhe këshillimit, duke u siguruar që çdo nxënës të ndihet i mbështetur dhe i motivuar për të arritur suksesin e tij akademik dhe personal.
     </DescriptionMessage>
     <div class="max-w-3xl">
       <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">

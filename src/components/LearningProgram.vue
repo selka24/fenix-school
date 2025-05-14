@@ -9,7 +9,7 @@
       <!-- Mission Statement -->
       <div class="max-w-4xl mx-auto text-center mb-12">
         <p class="text-lg text-gray-700">
-            Në Shkollën "Fenix", nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre.
+            Nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre.
         </p>
       </div>
       

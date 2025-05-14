@@ -30,7 +30,7 @@ const communicationMethods = [
 <template>
 <div>
   <DescriptionMessage type="warning" class="mt-10 mb-8">
-    Në Shkollën "Fenix", sigurojmë një komunikim të qartë dhe efikas mes shkollës, prindërve dhe nxënësve përmes kanaleve të strukturuara
+    Ne sigurojmë një komunikim të qartë dhe efikas mes shkollës, prindërve dhe nxënësve përmes kanaleve të strukturuara
   </DescriptionMessage>
   <div class="max-w-3xl">
     <template v-for="{title, description} in  communicationMethods" :key="title">

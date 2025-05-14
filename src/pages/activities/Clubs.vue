@@ -36,7 +36,7 @@ const benefits = [
 <template>
   <div>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Në Shkollën "Fenix", ne ofrojmë mundësi të shumta për nxënësit që të angazhohen në aktivitete jashtë mësimit të rregullt, duke i ndihmuar ata të zhvillojnë pasionet dhe aftësitë e tyre në fusha të ndryshme. Klubet tona promovojnë bashkëpunimin, kreativitetin dhe përvojat e reja edukative.
+      Ne ofrojmë mundësi të shumta për nxënësit që të angazhohen në aktivitete jashtë mësimit të rregullt, duke i ndihmuar ata të zhvillojnë pasionet dhe aftësitë e tyre në fusha të ndryshme. Klubet tona promovojnë bashkëpunimin, kreativitetin dhe përvojat e reja edukative.
     </DescriptionMessage>
     <div class="max-w-3xl">
       <template v-for="{title, description} in clubs" :key="title">

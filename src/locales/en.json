@@ -4,7 +4,7 @@
   "address": "“Bilal Golemi” Street, near the “Dinamo” sports club, Tiranë e Re, Tiranë",
   "home": {
     "title": "Home",
-    "missionAction": "Our Mission in Action",
+    "missionAction": "School Life",
     "viewAll": "View All"
   },
   "about": {
@@ -14,6 +14,7 @@
     "history": "History",
     "team": {
       "title": "Leadership Team",
+      "secretary": "Secretary",
       "beliefParagraph": "At “FENIX” School, we believe that a visionary and dedicated leadership team is essential to building an environment where every child feels safe, valued, and inspired to achieve their best.",
       "teamEmbodiesParagraph": "Our team embodies experience, professionalism, and a daily commitment to the quality, development, and well-being of every student.",
       "executiveDirectorTitle": "Executive Director",
@@ -44,6 +45,7 @@
     }
   },
   "programmes": {
+    "prog": "Programmes",
     "title": "Curriculum",
     "curriculum": "Curriculum",
     "assessment": "Assessment & Progress",
@@ -125,5 +127,11 @@
     "error": "Sorry – something went wrong while sending. Please try again later."
   },
   "activities": "Activities",
-  "whyFenix": "Why FENIX"
+  "whyFenix": "Why FENIX",
+  "footer": {
+    "message": "“Fenix” School is a private nine-year school offering instruction based on an integrated Anglo-Albanian curriculum"
+  },
+  "calendar": {
+    "title": "Calendar"
+  }
 }

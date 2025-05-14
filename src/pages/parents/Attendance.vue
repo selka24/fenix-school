@@ -6,7 +6,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
 <template>
 <div>
   <DescriptionMessage type="warning" class="mt-10 mb-8">
-    Në Shkollën "Fenix", prania e rregullt dhe e vazhdueshme në mësim është thelbësore për suksesin akademik dhe zhvillimin personal të nxënësve. Besojmë se ndjekja e shkollës me përgjegjësi ndihmon në krijimin e zakoneve të mira dhe përgatitjen për të ardhmen.
+    Prania e rregullt dhe e vazhdueshme në mësim është thelbësore për suksesin akademik dhe zhvillimin personal të nxënësve. Besojmë se ndjekja e shkollës me përgjegjësi ndihmon në krijimin e zakoneve të mira dhe përgatitjen për të ardhmen.
   </DescriptionMessage>
   <div class="max-w-3xl">
     <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">

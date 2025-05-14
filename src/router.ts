@@ -100,7 +100,7 @@ const routes = [
                         path: 'elementary',
                         component: () => import('./pages/programmes/Elementary.vue'),
                         meta: {
-                            titleKey: 'programmes.levels',
+                            titleKey: '',
                             breadcrumb: [
                                 homeBreadcrumb,
                                 {title: 'homePage.classes.elementary', link: '/curriculum/elementary'},
@@ -111,7 +111,7 @@ const routes = [
                         path: 'middle',
                         component: () => import('./pages/programmes/Middle.vue'),
                         meta: {
-                            titleKey: 'programmes.levels',
+                            titleKey: '',
                             breadcrumb: [
                                 homeBreadcrumb,
                                 {title: 'homePage.classes.middle', link: '/curriculum/middle'},
@@ -270,6 +270,16 @@ const routes = [
                         }
                     }
                 ]
+            },
+            {
+                path: 'calendar',
+                component: () => import('./pages/Calendar.vue'),
+                meta: {
+                    titleKey: 'calendar.title',
+                    breadcrumb: [
+                        homeBreadcrumb
+                    ]
+                }
             }
         ]
     },

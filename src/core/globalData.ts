@@ -56,3 +56,9 @@ export const activities = [
     description: "Aktivitetet ku nxënësit mund të tregojnë përparimin e tyre dhe arritjet e vitit, duke krijuar mundësi për prindërit të jenë pjesë aktive të procesit mësimor."
   }
 ];
+
+export const footerNumbers = [
+  {title: 'about.team.programDirectorTitle', num: '069 30 65760'},
+  {title: 'about.team.executiveDirectorTitle', num: '069 20 24495'},
+  {title: 'about.team.secretary', num: '069 74 60770'},
+]

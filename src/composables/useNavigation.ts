@@ -33,7 +33,7 @@ export const useNavigation = () => {
       ]
     },
     {
-      title: t('programmes.title'),
+      title: t('programmes.prog'),
       link: '/curriculum',
       submenu: [
         { title: t('programmes.curriculum'), link: '/curriculum' },
@@ -78,7 +78,7 @@ export const useNavigation = () => {
       ]
     },
     {
-      title: t('contact.title'),
+      title: t('contact.contacts'),
       link: '/contact',
       submenu: [
         { title: t('contact.contacts'), link: '/contact' },
