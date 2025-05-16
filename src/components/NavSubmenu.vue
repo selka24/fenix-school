@@ -9,7 +9,7 @@
   >
     <div 
       v-show="isVisible"
-      class="absolute submenu left-0 top-full bg-primary text-white py-5 px-7 w-max min-w-[280px] flex flex-col gap-x-10 z-50 shadow-subtle rounded-b-md"
+      class="absolute submenu left-0 top-full bg-primary text-white py-5 px-7 w-max min-w-[310px] flex flex-col gap-x-10 z-50 shadow-subtle rounded-b-md"
       @mouseenter="$emit('mouseenter')"
       @mouseleave="$emit('mouseleave')"
     >

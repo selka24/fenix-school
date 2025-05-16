@@ -51,11 +51,11 @@ const holidays = computed(() => {
 
 <template>
   <div class="flex flex-col gap-3">
-    <div v-for="h in holidays" :key="h.date" class="border-b-1 py-3 flex justify-between first:border-t-1">
+    <div v-for="h in holidays" :key="h.date" class="border-b-1 py-3 flex justify-between items-center first:border-t-1 gap-10">
       <div>
         {{h.name}}
       </div>
-      <div>
+      <div class="min-w-max">
         {{h.date}}
       </div>
     </div>

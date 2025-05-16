@@ -48,12 +48,13 @@ export const useNavigation = () => {
       submenu: [
         { title: t('studentLife.activities'), link: '/activities' },
         { title: t('studentLife.magazine.title'), link: '/activities/magazine' },
-        { title: t('studentLife.clubs'), link: '/activities/clubs' }
+        { title: t('studentLife.clubs'), link: '/activities/clubs' },
+        { title: t('calendar.title'), link: '/calendar' },
       ]
     },
     {
       title: t('parents.title'),
-      link: '/parents',
+      link: '/parents/council',
       submenu: [
         { title: t('parents.communication'), link: '/parents' },
         { title: t('parents.council'), link: '/parents/council' },
