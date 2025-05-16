@@ -55,8 +55,12 @@
     "title": "Jeta në Shkollë",
     "activities": "Aktivitete",
     "magazine": {
-      "title": "Revista",
-      "description": "Revistat e krijuara nga nxënësit tanë e shndërrojnë kureshtjen në faqe të shtypura, duke u dhënë mundësinë të hulumtojnë, krijojnë dhe, me krenari, të ndajnë dijet e fituara."
+      "title": "Revista e shkollës",
+      "description": "Botim vjetor i përgatitur nga nxënësit dhe mësuesit.",
+      "magBy": "Përgatitet nga: Klubi “Writers Club”, mësuesit udhëheqës dhe drejtoria.",
+      "magFreq": "Frekuenca: 1 herë në vit shkollor.",
+      "magContent": "Përmbajtja: Artikuj, intervista, aktivitete, krijime artistike, suksese dhe kujtime nga viti.",
+      "magProcess": "Procesi: Përgatitje → Redaktim → Formatim digjital → Miratim nga drejtoria → Botim."
     },
     "clubs": "Klube & Ekstrakurrikulare"
   },
@@ -78,12 +82,6 @@
     "title": "Partneritetet",
     "albania": "Brenda Shqipërisë",
     "abroad": "Jashtë Shqipërisë"
-  },
-  "contact": {
-    "title": "Kontakti",
-    "form": "Formular Kontakti",
-    "location": "Adresa & Harta",
-    "info": "Telefon, Email, Orari"
   },
   "homePage": {
     "exploreClasses": "Eksploro Programin Tonë Mësimor",
@@ -108,6 +106,9 @@
     "historyDescription": "Fenix School was founded in 2010 by a group of dedicated educators who wanted to create a school that would provide a high-quality education for all students. Since then, we have grown into a thriving community of learners."
   },
   "contact": {
+    "form": "Formular Kontakti",
+    "location": "Adresa & Harta",
+    "info": "Telefon, Email, Orari",
     "title": "Kontakt",
     "contacts": "Kontaktet",
     "name": "Emri",
@@ -133,5 +134,31 @@
   },
   "calendar": {
     "title": "Kalendari"
+  },
+  "jobs": {
+    "apply": "Aplikim për punë",
+    "criteria": {
+      "title": "Kriteret",
+      "message": "Bëhu pjesë e ekipit tonë të përkushtuar në edukim!",
+      "priority": "Në shkollën tonë, cilësia është prioriteti ynë kryesor.",
+      "need": "Ne kërkojmë mësues që nuk japin thjesht mësim – por frymëzojnë, formojnë dhe udhëheqin me përkushtim çdo ditë.",
+      "mission": "<b>Edukimi për ne është një mision.</b> Ndaj, ftojmë në skuadrën tonë individë që përveç përgatitjes profesionale, zotërojnë përgjegjshmëri, etikë dhe dëshirë të thellë për të dhënë më të mirën për çdo nxënës.",
+      "reqTitle": "Çfarë kërkojmë te kandidatët tanë",
+      "reqList": [
+        "Diplomë universitare dhe licencë për mësimdhënie",
+        "Njohuri shumë të mira të gjuhës angleze",
+        "Minimumi 3 vite përvojë pune në mësimdhënie",
+        "Aftësi për të punuar në grup dhe për të komunikuar në mënyrë efektive",
+        "Përdorim aktiv i metodave bashkëkohore dhe teknologjisë në mësim",
+        "Përkushtim të lartë ndaj cilësisë dhe zhvillimit të nxënësit"
+      ],
+      "docTitle": "Dokumentet që kërkohen në aplikim",
+      "docInstr": "Për të aplikuar, mjafton të na dërgoni:",
+      "docList": "📑 CV dhe letër motivimi",
+      "email": "📩 Dërgo aplikimin në: shkollafenix@gmail.com"
+    },
+    "offer": {
+      "title": "Çfarë ofrojmë ne"
+    }
   }
 }

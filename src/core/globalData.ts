@@ -62,3 +62,7 @@ export const footerNumbers = [
   {title: 'about.team.executiveDirectorTitle', num: '069 20 24495'},
   {title: 'about.team.secretary', num: '069 74 60770'},
 ]
+
+export const schoolInfo = {
+  email: 'shkollafenix@gmail.com'
+}

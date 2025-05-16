@@ -56,14 +56,19 @@
 
 
       <!-- Secondary Navigation -->
-      <div class="hidden lg:flex items-center">
-        <div class="flex items-center text-md space-x-8 mr-4">
-          <a href="#" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">Visit & Inquire</a>
-          <a href="mailto:shkollafenix@gmail.com" class="text-gray-600 hover:text-[#41ad49] transition-colors duration-200">E-mail</a>
-        </div>
-        <div class="flex items-center space-x-2">
-          <button class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">APPLY NOW</button>
-        </div>
+      <div class="hidden lg:flex items-center gap-5">
+        <VueDropdown>
+          {{$t('jobs.apply')}}
+          <template #items>
+            <router-link to="/jobs/criteria">
+              {{$t('jobs.criteria.title')}}
+            </router-link>
+            <router-link to="/jobs/what-we-offer">
+              {{$t('jobs.offer.title')}}
+            </router-link>
+          </template>
+        </VueDropdown>
+          <a :href="`mailto:${schoolInfo.email}`" class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">E-mail</a>
       </div>
 
 
@@ -72,7 +77,7 @@
     <SideBar v-model="openSidebar">
         <div class="flex flex-col lg:hidden justify-center">
             <div
-                v-for="(item, idx) in navigationItems"
+                v-for="(item, idx) in [...navigationItems, ...extraMobileMenus]"
                 :key="item.title"
                 class="relative nav-item w-full"
                 :class="{'submenu-right': idx > 3}"
@@ -94,6 +99,7 @@
                     </router-link>
                 </div>
             </div>
+          <a :href="`mailto:${schoolInfo.email}`" class="my-5 btn-white border-primary">E-mail</a>
         </div>
     </SideBar>
 </template>
@@ -104,9 +110,11 @@ import NavSubmenu from './NavSubmenu.vue';
 import { useNavigation } from '../composables/useNavigation';
 import SideBar from "./SideBar.vue";
 import MobileNavSubMenu from "./MobileNavSubMenu.vue";
+import VueDropdown from "./VueDropdown.vue";
+import {schoolInfo} from "../core/globalData.ts";
 
 // Get navigation items from our composable
-const { navigationItems, activeMenu } = useNavigation();
+const { navigationItems, activeMenu, extraMobileMenus } = useNavigation();
 
 const openSidebar = ref(false);
 

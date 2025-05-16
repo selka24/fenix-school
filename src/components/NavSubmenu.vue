@@ -24,7 +24,7 @@
           :to="item.link"
           class="block hover:text-gray-200 transition-colors duration-200 submenu-item"
         >
-          <h3 class="text-sm font-medium mb-0">{{ item.title }}</h3>
+          <h3 class="text-[15px] font-semibold mb-0">{{ item.title }}</h3>
         </router-link>
       </div>
       <div class="absolute inset-0 shadow-glow opacity-30 pointer-events-none"></div>

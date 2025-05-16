@@ -36,7 +36,7 @@ import Accordion from "./Accordion.vue";
 defineProps<{
     title: string;
     link: string;
-    submenu: MenuItem[];
+    submenu?: MenuItem[];
 }>();
 
 defineEmits(['routeChanged'])

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {PageFlip} from 'page-flip';
 import {nextTick, onMounted, ref, onBeforeUnmount} from "vue";
-import {Magazine, magazines, buildImageUrl} from "../../core/magazines.ts";
+import {Magazine, magazines, buildImageUrl, magazineInfo} from "../../core/magazines.ts";
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
 
 const magazineElement = ref<HTMLElement | null>(null);
@@ -62,6 +62,17 @@ onBeforeUnmount(() => {
         <DescriptionMessage type="warning" class="mb-14">
             {{$t('studentLife.magazine.description')}}
         </DescriptionMessage>
+      <div class="mb-14">
+        <ul class="list-disc pl-5 text-lg">
+          <li v-for="info in magazineInfo.map((i) => {
+            const [title, description] = $t(`studentLife.magazine.${i}`).split(':');
+            return {title, description};
+          })" class="mb-3">
+            <div class="font-semibold">{{info.title}}:</div>
+            <div class="mt-1">{{info.description}}</div>
+          </li>
+        </ul>
+      </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
             <div
                 v-for="({title}, idx) in magazines"

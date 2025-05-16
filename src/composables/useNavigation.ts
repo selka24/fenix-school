@@ -92,8 +92,20 @@ export const useNavigation = () => {
     return navigationItems.value.find(item => item.link === path);
   })
 
+  const extraMobileMenus = computed<NavigationMenu[]>(() => ([
+    {
+      title: t('jobs.apply'),
+      link: '/jobs',
+      submenu: [
+        { title: t('jobs.criteria.title'), link: '/jobs/criteria' },
+        { title: t('jobs.offer.title'), link: '/jobs/what-we-offer' },
+      ]
+    }
+  ]))
+
   return {
     activeMenu,
+    extraMobileMenus,
     navigationItems
   }
 }

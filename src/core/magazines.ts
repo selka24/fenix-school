@@ -9,6 +9,13 @@ export const buildImageUrl = (title: string, idx: number) => {
   return `${storageUrl}/r${title}/pages/${idx}.jpg`
 }
 
+export const magazineInfo = [
+  'magBy',
+  'magFreq',
+  'magContent',
+  'magProcess'
+]
+
 export const magazines = [
   {
     title: '1',

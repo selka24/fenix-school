@@ -280,6 +280,41 @@ const routes = [
                         homeBreadcrumb
                     ]
                 }
+            },
+            {
+                path: 'jobs',
+                children: [
+                    {
+                        path: '',
+                        component: () => import('./pages/jobs/Criteria.vue'),
+                        meta: {
+                            titleKey: 'jobs.criteria.title',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    },
+                    {
+                        path: 'criteria',
+                        component: () => import('./pages/jobs/Criteria.vue'),
+                        meta: {
+                            titleKey: 'jobs.criteria.title',
+                            breadcrumb: [
+                                homeBreadcrumb
+                            ]
+                        }
+                    },
+                    {
+                        path: 'what-we-offer',
+                        component: () => import('./pages/jobs/WhatWeOffer.vue'),
+                        meta: {
+                            titleKey: 'jobs.offer.title',
+                            breadcrumb: [
+                                homeBreadcrumb,
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     },

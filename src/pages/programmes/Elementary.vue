@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import DescriptionMessage from "../../components/DescriptionMessage.vue";
-
 const classesAndAges = (maxAge: number, minAge: number = 1) => {
   let x = minAge;
   const items = [];

@@ -55,8 +55,12 @@
     "title": "Student Life",
     "activities": "Activities & Events",
     "magazine": {
-      "title": "Magazine",
-      "description": "Magazines crafted by our pupils transform their curiosity into print, letting them research, create, and share newfound knowledge with pride."
+      "title": "School Magazine",
+      "description": "An annual publication prepared by the students and teachers.",
+      "magBy": "Prepared by: Writers Club, lead teachers, and administration.",
+      "magFreq": "Frequency: Once per school year.",
+      "magContent": "Content: Articles, interviews, activities, artistic creations, achievements and memories from the year.",
+      "magProcess": "Process: Preparation → Editing → Digital formatting → Director approval → Publishing."
     },
     "clubs": "Clubs & Extracurriculars"
   },
@@ -78,13 +82,6 @@
     "title": "Partnerships",
     "albania": "Within Albania",
     "abroad": "Outside Albania"
-  },
-  "contact": {
-    "title": "Contact",
-    "contacts": "Contacts",
-    "form": "Contact Form",
-    "location": "Address & Map",
-    "info": "Phone, Email, Hours"
   },
   "homePage": {
     "exploreClasses": "Explore our Learning Programme",
@@ -109,6 +106,10 @@
   },
   "contact": {
     "title": "Get in touch",
+    "contacts": "Contacts",
+    "form": "Contact Form",
+    "location": "Address & Map",
+    "info": "Phone, Email, Hours",
 
     "name": "Name",
     "namePlaceholder": "Your full name",
@@ -133,5 +134,31 @@
   },
   "calendar": {
     "title": "Calendar"
+  },
+  "jobs": {
+    "apply": "Apply for a job",
+    "criteria": {
+      "title": "Criteria",
+      "message": "Be part of our dedicated education team!",
+      "priority": "At our school, quality is our top priority.",
+      "need": "We seek teachers who not only teach but also inspire, shape, and lead with dedication every day.",
+      "mission": "<b>Education is a mission for us.</b> Therefore, we invite to our team individuals who, in addition to professional training, possess responsibility, ethics, and a deep desire to give their best for every student.",
+      "reqTitle": "What We Look for in Our Candidates",
+      "reqList": [
+        "University degree and teaching license",
+        "Excellent command of the English language",
+        "At least 3 years of teaching experience",
+        "Ability to work in a team and communicate effectively",
+        "Active use of modern teaching methods and technology",
+        "High dedication to quality and student development"
+      ],
+      "docTitle": "Documents Required for Application",
+      "docInstr": "To apply, simply send us:",
+      "docList": "📑 CV and cover letter",
+      "email": "📩 Send your application to: shkollafenix@gmail.com"
+    },
+    "offer": {
+      "title": "What We Offer"
+    }
   }
 }

@@ -10,7 +10,7 @@
     >
         <aside
             v-if="modelValue"
-            class="fixed inset-y-0 right-0 inset-x-0 z-50 bg-white overflow-y-auto shadow-xl p-7"
+            class="fixed w-[100vw] sm:w-[450px] inset-y-0 right-0 z-50 bg-white overflow-y-auto shadow-xl p-7"
         >
             <button @click="emit('update:modelValue', false)" class="flex ml-auto">
                 <icon name="plus-solid" class="w-6 text-primary rotate-45"/>

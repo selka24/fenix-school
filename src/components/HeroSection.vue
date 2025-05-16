@@ -1,5 +1,6 @@
 <template>
-  <section class="relative h-[300px] sm:h-[calc(100vh-180px)] overflow-hidden">
+  <section class="relative h-[300px] sm:h-[calc(100vh-218px)] overflow-hidden">
+    <div class="absolute h-[50%] bottom-0 bg-gradient-to-t from-black/60 to-transparent z-[20]"></div>
     <!-- Hero Carousel -->
     <div class="absolute inset-0">
       <!-- First Slide -->
