@@ -42,7 +42,7 @@ const { tm, rt } = useI18n();
         {{$t('jobs.criteria.docList')}}
       </p>
       <a :href="`mailto:${schoolInfo.email}?subject=Aplikim pune`" class="font-semibold underline">
-        {{$t('jobs.criteria.email')}}
+        {{$t('jobs.criteria.email')}} shkollafenix@gmail.com
       </a>
     </div>
   </div>
