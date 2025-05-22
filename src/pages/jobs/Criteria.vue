@@ -2,8 +2,14 @@
 import { useI18n } from "vue-i18n";
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
 import {schoolInfo} from "../../core/globalData.ts";
+import {computed} from "vue";
 
-const { tm, rt } = useI18n();
+const { tm, rt, locale } = useI18n();
+
+const docUrl = computed(() => {
+    return locale.value === 'sq' ? 'Fenix-Kriteret-AL.docx' : 'Fenix-Criteria-EN.docx'
+})
+
 </script>
 
 <template>
@@ -41,10 +47,11 @@ const { tm, rt } = useI18n();
       <p class="font-semibold">
         {{$t('jobs.criteria.docList')}}
       </p>
-      <a :href="`mailto:${schoolInfo.email}?subject=Aplikim pune`" class="font-semibold underline">
+      <a :href="`mailto:${schoolInfo.email}?subject=Aplikim pune`" class="font-semibold underline underline-offset-2">
         {{$t('jobs.criteria.email')}} shkollafenix@gmail.com
       </a>
     </div>
+    <a :href="`/docs/${docUrl}`" download class="btn-white text-lg px-8 py-2 max-w-max border-primary mt-10 flex gap-2">Download <icon name="download-solid" class="w-3.5"/></a>
   </div>
 </template>
 

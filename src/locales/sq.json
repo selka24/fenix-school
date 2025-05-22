@@ -12,6 +12,9 @@
     "message": "Mirëseardhje / Mesazh nga Bordi",
     "mission": "Misioni & Filozofia",
     "history": "Historia",
+    "teachers": {
+      "title": "Stafi Mësimdhënës"
+    },
     "team": {
       "title": "Ekipi Drejtues",
       "secretary": "Sekretaria",
@@ -55,7 +58,7 @@
     "title": "Jeta në Shkollë",
     "activities": "Aktivitete",
     "magazine": {
-      "title": "Revista e shkollës",
+      "title": "Revista e Shkollës",
       "description": "Botim vjetor i përgatitur nga nxënësit dhe mësuesit.",
       "magBy": "Përgatitet nga: Klubi “Writers Club”, mësuesit udhëheqës dhe drejtoria.",
       "magFreq": "Frekuenca: 1 herë në vit shkollor.",
@@ -69,7 +72,7 @@
     "communication": "Kanalet e Komunikimit",
     "council": "Këshilli i Prindërve",
     "discipline": "Disiplina & Këshillimi",
-    "attendance": "Frekuentimi në shkollë",
+    "attendance": "Frekuentimi në Shkollë",
     "uniform": "Rregullorja e Uniformës"
   },
   "admissions": {
@@ -158,7 +161,23 @@
       "email": "📩 Dërgo aplikimin në:"
     },
     "offer": {
-      "title": "Çfarë ofrojmë ne"
+      "title": "Çfarë ofrojmë ne",
+      "teacherOffersTitle": "Çfarë ofron shkolla jonë për mësuesit",
+      "teacherOffersIntro": "Në shkollën tonë, mësuesit janë zemra e suksesit tonë. Ne vlerësojmë punën dhe përkushtimin e tyre në mënyrë të drejtë dhe të ndershme – si në aspektin profesional, ashtu edhe në atë njerëzor.",
+      "evaluationTitle": "🟦 Vlerësim i ndershëm dhe motivues",
+      "evaluationDesc": "Ne sigurojmë një shpërblim financiar dinjitoz, që pasqyron kontributin dhe cilësinë e punës. Rritja e vazhdueshme profesionale dhe përkushtimi shpërblehen realisht.",
+      "climateTitle": "🟦 Klimë pune pozitive dhe njerëzore",
+      "climateDesc": "Shkolla jonë ofron një mjedis të qetë, mbështetës dhe bashkëpunues. Komunikimi është gjithmonë i hapur, me energji pozitive, respekt dhe kujdes emocional për çdo anëtar të stafit.",
+      "wellbeingTitle": "🟦 Mirëqenie dhe kushte komode pune",
+      "wellbeingDesc": "Mësuesit tanë përfitojnë:",
+      "wellbeingBenefits": [
+        "Mëngjesin, drekën, kafen dhe ujin gjatë ditës së punës",
+        "Pushime të rregullta sipas Kodit të Punës dhe dinamikës mësimore",
+        "Pa ngarkesë me burokraci apo stres administrativ"
+      ],
+      "teamSpiritTitle": "🟦 Frymë ekipi dhe ndjesi përkatësie",
+      "teamSpiritDesc": "Ne jemi një skuadër e bashkuar, që punon me një qëllim të përbashkët: cilësinë më të mirë në edukim. Çdo mësues është i respektuar, i dëgjuar dhe i përfshirë.",
+      "contactCta": "💬 Nëse ndan të njëjtat vlera dhe dëshiron të japësh më të mirën në një mjedis që të mbështet, na kontakto për të nisur rrugëtimin tënd me ne."
     }
   }
 }

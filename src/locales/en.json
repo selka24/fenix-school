@@ -158,7 +158,24 @@
       "email": "📩 Send your application to:"
     },
     "offer": {
-      "title": "What We Offer"
+      "title": "What We Offer",
+      "teacherOffersTitle": "What our school offers to teachers",
+      "teacherOffersIntro": "At our school, teachers are the heart of our success. We value their work and dedication fairly and honestly — both professionally and personally.",
+      "evaluationTitle": "🟦 Honest and motivating evaluation",
+      "evaluationDesc": "We provide a dignified financial reward that reflects their contribution and quality of work. Ongoing professional growth and commitment are truly rewarded.",
+      "climateTitle": "🟦 Positive and human work environment",
+      "climateDesc": "Our school offers a calm, supportive, and collaborative setting. Communication is always open, with positive energy, respect, and emotional care for every staff member.",
+      "wellbeingTitle": "🟦 Well-being and comfortable working conditions",
+      "wellbeingDesc": "Our teachers enjoy:",
+      "wellbeingBenefits": [
+        "Breakfast, lunch, coffee, and water during the workday",
+        "Regular vacations according to the Labor Code and teaching schedule",
+        "No bureaucratic workload or administrative stress"
+      ],
+      "teamSpiritTitle": "🟦 Team spirit and sense of belonging",
+      "teamSpiritDesc": "We are a united team working toward a common goal: the highest quality in education. Every teacher is respected, heard, and involved.",
+      "contactCta": "💬 If you share these values and want to give your best in an environment that supports you, contact us to start your journey with us."
+
     }
   }
 }

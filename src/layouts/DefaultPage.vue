@@ -20,7 +20,9 @@ const breadCrumb = computed(() => {
 
 <template>
   <div>
-    <img class="bg-img" :src="bgImageSrc" alt="imageBg" />
+    <div class="bg-wrapper">
+      <img class="bg-img" :src="bgImageSrc" alt="imageBg" />
+    </div>
     <div class="mx-auto container px-4 lg:px-14 py-9 text-c-gray">
       <div class="flex gap-1 text-xs uppercase" >
         <div v-for="crumb in breadCrumb" :key="crumb.title">
@@ -46,5 +48,10 @@ const breadCrumb = computed(() => {
   width: 100%;
   max-height: 50vh;
   object-fit: cover;
+}
+.bg-wrapper {
+  height: 50vh;
+  width: 100%;
+  display: flex;
 }
 </style>

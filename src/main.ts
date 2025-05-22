@@ -1,7 +1,7 @@
-import {ViteSSG} from 'vite-ssg'
 import './style.css'
+import {ViteSSG} from 'vite-ssg'
 import App from './App.vue'
-import routes from './router'
+import routes from './router/router.ts'
 import i18n from './i18n'
 import Icon from "./components/Icon.vue";
 

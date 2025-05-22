@@ -29,6 +29,7 @@ export const useNavigation = () => {
         { title: t('about.mission'), link: '/about/mission' },
         { title: t('about.history'), link: '/about/history' },
         { title: t('about.team.title'), link: '/about/team' },
+        { title: t('about.teachers.title'), link: '/about/teachers' },
         { title: '', link: '', component: defineAsyncComponent(() =>  import('../components/FenixAnthem.vue'))},
       ]
     },
@@ -58,7 +59,7 @@ export const useNavigation = () => {
       submenu: [
         { title: t('parents.communication'), link: '/parents' },
         { title: t('parents.council'), link: '/parents/council' },
-        { title: t('parents.discipline'), link: '/parents/discipline' },
+        { title: t('parents.discipline'), link: '/parents/discipline-counseling' },
         { title: t('parents.attendance'), link: '/parents/attendance' },
         { title: t('parents.uniform'), link: '/parents/uniform' }
       ]

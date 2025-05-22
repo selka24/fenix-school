@@ -19,7 +19,7 @@ import HeroSection from "../components/HeroSection.vue";
       </p>
       <div class="flex flex-col gap-2">
         <router-link to="/about/why-fenix" class="btn-white">{{ $t('whyFenix') }}</router-link>
-        <router-link to="/programmes" class="btn-white">{{ $t('programmes.curriculum') }}</router-link>
+        <router-link to="/curriculum" class="btn-white">{{ $t('programmes.curriculum') }}</router-link>
         <router-link to="/activities" class="btn-white">{{ $t('activities') }}</router-link>
       </div>
     </div>
