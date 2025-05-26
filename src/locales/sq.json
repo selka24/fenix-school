@@ -136,7 +136,8 @@
     "message": "Shkolla “Fenix” është një shkollë nëntëvjeçare jopublike, që ofron mësim sipas një kurrikule të integruar anglo-shqiptare"
   },
   "calendar": {
-    "title": "Kalendari"
+    "title": "Kalendari",
+    "subTitle": "Festat zyrtare për vitin"
   },
   "jobs": {
     "apply": "Aplikim për punë",

@@ -27,7 +27,7 @@ export const partners = [...partnersAlb, ...partnersAbroad];
 
 export const socialMedia = {
   facebook: 'https://www.facebook.com/shkollafenix',
-  instagram: 'https://www.facebook.com/shkollafenix',
+  instagram: 'https://www.instagram.com/fenix_shkolla_anglo_shqiptare',
 }
 
 export const activities = [

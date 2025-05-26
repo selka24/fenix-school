@@ -133,7 +133,8 @@
     "message": "“Fenix” School is a private nine-year school offering instruction based on an integrated Anglo-Albanian curriculum"
   },
   "calendar": {
-    "title": "Calendar"
+    "title": "Calendar",
+    "subTitle": "Official holidays for the year"
   },
   "jobs": {
     "apply": "Apply for a job",

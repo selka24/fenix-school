@@ -26,10 +26,12 @@
 </template>
 
 <script setup lang="ts">
+import { defineAsyncComponent } from 'vue'
 import { useLocaleSwitcher } from '../composables/useLocaleSwitch.ts'
 import {socialMedia} from "../core/globalData.ts";
-import FenixAnthem from "./FenixAnthem.vue";
 import {useFenixAnthem} from "../composables/useFenixAnthem.ts";
+
+const FenixAnthem = defineAsyncComponent(() => import('./FenixAnthem.vue'))
 
 const {isPlaying} = useFenixAnthem();
 
@@ -37,5 +39,4 @@ const { switchLanguage } = useLocaleSwitcher();
 </script>
 
 <style scoped>
-/* Any component-specific styles can go here */
-</style> 
+</style>
