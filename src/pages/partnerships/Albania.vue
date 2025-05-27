@@ -10,7 +10,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
       {{$t("partnerships.albania")}}
     </h2>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Shkolla "Fenix" bashkëpunon me institucione dhe organizata të ndryshme si pjesë e angazhimit të saj për ndihmën humanitare dhe projekte kurrikulare. Në Shqipëri, shkolla ka partneritet me Kryqin e Kuq, shkollën për fëmijët me nevoja të veçanta “Luigj Gurakuqi” dhe Qendrën e Fëmijëve me Sindromën Down “Jonathan”.
+      {{ $t("partnerships.albaniaDesc") }}
     </DescriptionMessage>
     <PartnersCarousel type="partnersAlb" class="my-20"/>
   </div>

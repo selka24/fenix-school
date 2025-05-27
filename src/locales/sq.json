@@ -12,8 +12,45 @@
     "message": "Mirëseardhje / Mesazh nga Bordi",
     "mission": "Misioni & Filozofia",
     "history": "Historia",
+    "missionVisionPhilosophy": {
+      "title": "Misioni, Vizioni dhe Filozofia jonë",
+      "missionLabel": "Misioni",
+      "missionDesc": "Qëllimi themelor dhe i pandryshueshëm i themelimit të shkollës \"Fenix\" është edukimi i fëmijëve shqiptarë përmes krijimit të një qendre arsimore të vogël, por cilësore dhe të veçantë.",
+      "visionLabel": "Vizioni",
+      "visionDesc": "Vizioni i Shkollës \"Fenix\" është të jetë një institucion i shquar arsimor që shërben si model i cilësisë në edukimin e fëmijëve shqiptarë.",
+      "philosophyLabel": "Filozofia",
+      "philosophyDesc": "Fokus te zhvillimi akademik, etik dhe social i nxënësve duke kombinuar traditën me metodat bashkëkohore të mësimdhënie."
+    },
+    "features": {
+      "title": "Çfarë na bën të veçantë?",
+      "integratedProgramTitle": "Programi i integruar ndërkombëtar",
+      "integratedProgramDesc": "Harmonizimi i kurrikulës shqiptare dhe asaj angleze i mundëson nxënësve të zhvillohen për të ndjekur shkolla kombëtare dhe ndërkombëtare me sukses.",
+      "qualityTeachingTitle": "Mësimdhënie cilësore",
+      "qualityTeachingDesc": "Mësuesit tanë janë profesionistë të përkushtuar që ofrojnë mbështetje akademike dhe zhvillim personal për çdo nxënës.",
+      "supportCareTitle": "Mbështetje dhe kujdes",
+      "supportCareDesc": "Çdo nxënës është i veçantë, dhe ne sigurohemi që të mbështesim nevojat e tij akademike dhe emocionale.",
+      "disciplineTitle": "Disiplinë dhe organizim",
+      "disciplineDesc": "Një mjedis i strukturuar dhe i mirëorganizuar që nxit përkushtimin dhe zhvillimin e aftësive të nxënësve.",
+      "highResultsTitle": "Rezultate të larta",
+      "highResultsDesc": "Shkolla “Fenix” shquhet për cilësinë dhe arritjet e shkëlqyera akademike të nxënësve të saj."
+    },
+    "welcome": {
+      "welcomeSubtitle": "Është kënaqësi t'ju mirëpresim në faqen tonë zyrtare!",
+      "introParagraph1": "Që nga themelimi ynë në vitin 1996, kemi qenë të përkushtuar për të ofruar arsim cilësor, duke i përgatitur nxënësit për mundësitë dhe sfidat e së ardhmes.",
+      "introParagraph2": "Ne besojmë se arsimi është më shumë se një proces mësimor – është një udhëtim që zhvillon njohuritë, vlerat dhe aftësitë që i nevojiten nxënësve për të qenë mendimtarë, krijues dhe qytetarë të përgjegjshëm.",
+      "introParagraph3": "Ne ofrojmë një mjedis të sigurt dhe mbështetës, ku çdo nxënës ndihet i stimuluar për të arritur potencialin e tij maksimal."
+    },
     "teachers": {
-      "title": "Stafi Mësimdhënës"
+      "title": "Stafi Mësimdhënës",
+      "intro": "Mësuesit tanë janë vërtet duart e arta të shkollës “Fenix”.",
+      "experience": "Të gjithë kanë një eksperiencë të gjatë dhe të vyer, jo vetëm në mësimdhënie, por edhe në mënyrën e veçantë të të punuarit <b>me kurrikulën e integruar anglo-shqiptare</b>.",
+      "approach": "Janë <b>njohës dhe zbatues të shkëlqyer</b> të kësaj qasjeje unike, duke reflektuar çdo ditë <b>filozofinë e shkollës sonë në klasë</b>.",
+      "values": "Stafi ynë <b>kultivon vlera të forta organizative</b>, zhvillon <b>përgjegjësi të lartë profesionale</b> dhe përçon <b>cilësi të vërtetë</b> në çdo aspekt të mësimdhënies.",
+      "teamwork": "Mësuesit tanë punojnë në mënyrë të koordinuar si një <b>skuadër e bashkuar</b>, duke ndarë eksperienca, ide dhe praktika të suksesshme për të <b>përmirësuar vazhdimisht procesin mësimor</b>.",
+      "training": "<b>Trajnimi i brendshëm</b> është një shtyllë e fortë e zhvillimit profesional, i mbështetur nga drejtoria, koordinatorët dhe udhëheqësit e departamenteve. Njëkohësisht, ndjekin edhe <b>trajnime të jashtme kombëtare dhe ndërkombëtare</b>, duke e mbajtur veten gjithmonë të përditësuar me zhvillimet më të fundit në arsim.",
+      "student_focus": "Ata ndjekin me përkushtim <b>nevojat e çdo nxënësi</b>, në çdo lëndë, dhe punojnë në bashkëpunim të ngushtë me koordinatorët e niveleve dhe drejtuesit për të <b>analizuar të dhënat</b> dhe për t’i <b>kthyer ato në plane konkrete për përmirësim dhe arritje</b>.",
+      "appreciation": "Shkolla jonë <b>i vlerëson mësuesit si pasurinë më të çmuar</b> – si në aspektin profesional, ashtu edhe në atë njerëzor – duke u krijuar një ambient pune të sigurt, të respektuar dhe motivues.",
+      "stability": "Shkolla ndjek një <b>politikë të fortë stabiliteti</b>, duke <b>ruajtur dhe zhvilluar më tej ekipin tonë të jashtëzakonshëm</b>."
     },
     "team": {
       "title": "Ekipi Drejtues",
@@ -49,10 +86,39 @@
   },
   "programmes": {
     "prog": "Programet",
+    "integratedProgramIntro": "Shkolla “Fenix” ofron një kurrikulum të integruar, ku bashkohen dy sisteme të ndryshme arsimore – ai shqiptar dhe ai anglez.",
+    "integratedProgramDetails": [
+      "Ky harmonizim është një proces unik që është zhvilluar dhe përmirësuar gjatë viteve, duke i mundësuar nxënësve tanë të përmbushin standardet e të dyja kurrikulave.",
+      "Përmes këtij integrimi, nxënësit tanë marrin një arsim të plotë dhe të balancuar, që i përgatit për të vazhduar me sukses në shkolla kombëtare dhe ndërkombëtare, si dhe për të zhvilluar aftësi që janë të kërkuara në një mjedis global.",
+      "Kurrikula jonë është një dëshmi e cilësisë së arsimit që nxënësit tanë marrin, duke i përgatitur ata për sukses në çdo mjedis edukativ dhe profesional.",
+      "Mënyra jonë e punës është një ekskluzivitet i Shkollës “Fenix”, një qasje që është zhvilluar përmes një përvoje të gjatë dhe të suksesshme, dhe që vazhdon të mbështetet nga trajnimet e vazhdueshme për mësuesit tanë."
+    ],
+    "assessmentPage": {
+      "intro": "Vlerësimi është një pjesë kyçe e zhvillimit akademik të çdo nxënësi. Ne besojmë se vlerësimi i vazhdueshëm dhe objektiv ndihmon në identifikimin e forcave dhe fushave që kërkojnë përmirësim, duke siguruar që nxënësit të kenë mundësi të rriten dhe të arrijnë potencialin e tyre maksimal.",
+      "objectivesTitle": "Qëllimet e Vlerësimit:",
+      "objectives": [
+        "Të monitorojmë zhvillimin akademik dhe të ofrojmë feedback të vazhdueshëm.",
+        "Të ofrojmë mundësi për nxënësit të përmirësojnë aftësitë e tyre dhe të zhvillojnë njohuri të thella në lëndët e studiuara.",
+        "Të angazhojmë nxënësit dhe prindërit në procesin e mësimit, duke siguruar transparencë dhe komunikim të hapur.",
+        "Të krijojmë një mjedis që nxit motivimin dhe përpjekjet për arritje të larta."
+      ],
+      "typesTitle": "Llojet e Vlerësimit:",
+      "formativeTitle": "Vlerësimi Formativ",
+      "formativeDesc": "Ky lloj vlerësimi përdoret gjatë gjithë procesit mësimor për të monitoruar përparimin e nxënësve dhe për të ofruar mundësi për përmirësim të vazhdueshëm. Ai përfshin detyra të rregullta, diskutime klasore, dhe aktivitete të ndryshme që ndihmojnë nxënësit të kuptojnë konceptet dhe t’i zhvillojnë aftësitë.",
+      "summativeTitle": "Vlerësimi Sumativ",
+      "summativeDesc": "Ky lloj vlerësimi përdoret për të matur përfundimisht njohuritë dhe aftësitë e nxënësve në fund të një periudhe të caktuar. Ai përfshin provime dhe teste që ndihmojnë në vlerësimin e përgatitjes së nxënësve për nivelet e ardhshme të edukatës.",
+      "performanceTitle": "Vlerësimi për Performancën",
+      "performanceDesc": "Përveç testeve dhe provimeve, ne përdorim projekte, punë praktike dhe prezantime që ndihmojnë nxënësit të zhvillojnë aftësi të aplikueshme dhe të maten përparimin e tyre në fusha të ndryshme.",
+      "progressTitle": "Përparimi i Nxënësve",
+      "progressDesc": "Ne monitorojmë rregullisht përparimin e nxënësve përmes raporteve të vazhdueshme dhe komunikimit të hapur me prindërit. Kjo na mundëson të ndërhyjmë në kohë dhe të sigurojmë mbështetje të nevojshme për ata që mund të kenë vështirësi, duke i ndihmuar të arrijnë nivelin e kërkuar të suksesit.",
+      "conclusion": "Nëpërmjet këtyre metodave të vlerësimit, ne sigurojmë një zhvillim të qëndrueshëm dhe të balancuar të nxënësve, duke i përgatitur ata për suksesin në jetën akademike dhe personale."
+    },
     "title": "Kurrikula",
     "curriculum": "Kurrikula",
     "assessment": "Vlerësimi & Progresi",
-    "levels": "Nivelet e Arsimit"
+    "levels": "Nivelet e Arsimit",
+    "intro": "Njihuni me programin tonë mësimor",
+    "introDescription": "Nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre."
   },
   "studentLife": {
     "title": "Jeta në Shkollë",
@@ -73,18 +139,148 @@
     "council": "Këshilli i Prindërve",
     "discipline": "Disiplina & Këshillimi",
     "attendance": "Frekuentimi në Shkollë",
-    "uniform": "Rregullorja e Uniformës"
+    "uniform": "Rregullorja e Uniformës",
+    "uniformPage": {
+      "intro": "Uniforma është një pjesë e rëndësishme e identitetit dhe kulturës sonë shkollore. Ajo kontribuon në krijimin e një ambienti të disiplinuar, profesional dhe të barabartë për të gjithë nxënësit, duke i ndihmuar ata të fokusohen në mësim dhe zhvillimin personal.",
+      "colors": "Ngjyrat e Uniformës: Uniforma jonë ka ngjyrat e bardha dhe të zeza, dhe duhet të jetë e pastër, e rregullt dhe e kompletuar në përputhje me rregullat e shkollës.",
+      "rulesTitle": "Rregullat e Uniformës",
+      "rules": [
+        "Nxënësit duhet të veshin uniformën çdo ditë mësimi dhe gjatë aktiviteteve të organizuara nga shkolla.",
+        "Uniforma duhet të jetë e pastër dhe e rregullt. Aksesorët dhe veshjet nuk duhet të bien në kundërshtim me rregulloren dhe etikën e shkollës.",
+        "Nuk lejohet mbajtja e kapelave, syzeve të diellit, kapuçit, dorezave ose shallit në mjediset shkollore."
+      ],
+      "componentsTitle": "Përbërja e Uniformës",
+      "components": [
+        "Bluzë/Këmisha: E bardhë me jakë rrethore dhe mëngë të shkurtra ose të gjata.",
+        "Pantallonat/Fundi: Pantallona të zeza, të gjata ose deri tek gjuri. Fustani/fundi i zi deri tek gjuri.",
+        "Pulovra/Triko: E bardhë ose e zezë me mëngë të gjata dhe gjatësi poshtë shtratit të pantallonave.",
+        "Atlete/Këpucë: Të bardha ose të zeza, të sheshta dhe të përshtatshme për shkollë.",
+        "Xhupat/Xhaketat: Mundësisht njëngjyrëshe, me ngjyrë të errët ose të bardhë."
+      ],
+      "peTitle": "Uniforma për Edukimin Fizik",
+      "peUniform": [
+        "Bluzë: E bardhë, me jakë rrethore dhe mëngë të shkurtra ose të gjata.",
+        "Tuta: Tuta të zeza, të gjata ose të shkurtra deri në gjunjë.",
+        "Atlete: Të bardha ose të zeza, të përshtatshme për palestër."
+      ],
+      "closingNote": "Uniforma është një pjesë e rëndësishme e jetës shkollore, duke ndihmuar në krijimin e një mjedisi të disiplinuar dhe të fokusuar në arritjet akademike. Ne e inkurajojmë çdo nxënës që të respektojë politikën e uniformës dhe të kontribuojë në një ambient shkollor të organizuar dhe të barabartë."
+    },
+    "attendancePage": {
+      "intro": "Prania e rregullt dhe e vazhdueshme në mësim është thelbësore për suksesin akademik dhe zhvillimin personal të nxënësve. Besojmë se ndjekja e shkollës me përgjegjësi ndihmon në krijimin e zakoneve të mira dhe përgatitjen për të ardhmen.",
+      "rulesTitle": "Rregullat e Frekuentimit të Shkollës",
+      "rulesParagraphs": [
+        "Nxënësit pritet të jenë të pranishëm çdo ditë mësimi dhe të arrijnë në shkollë në kohë.",
+        "Përdorimi i orës së parë të mësimit për regjistrimin e pjesëmarrjes është i detyrueshëm."
+      ],
+      "absencesTitle": "Mungesat",
+      "absencesParagraphs": [
+        "Çdo mungesë duhet të justifikohet nga prindërit ose kujdestarët ligjorë përmes një njoftimi zyrtar.",
+        "Në rastet e mungesave për arsye mjekësore, kërkohet një raport mjekësor.",
+        "Mungesat e pajustifikuara mund të ndikojnë në performancën akademike dhe pjesëmarrjen e nxënësit në aktivitete të ndryshme shkollore."
+      ],
+      "lateTitle": "Të Vonë në Mësim",
+      "lateParagraphs": [
+        "Nxënësit që vijnë me vonesë regjistrohen në sekretari dhe sistemohen në një ambient të veçantë, ku nën mbikëqyrje punojnë me materialet dhe detyrat e orës, pa ndërprerë mësimin në klasë.",
+        "Vonesat e përsëritura do të trajtohen në bashkëpunim me prindërit për të siguruar një pjesëmarrje më të rregullt.",
+        "Prania dhe përfshirja aktive e nxënësve në procesin mësimor ndihmojnë në zhvillimin e tyre akademik dhe social, ndaj e konsiderojmë një nga përparësitë tona kryesore."
+      ]
+    },
+
+    "disciplinePage": {
+      "intro": "Ne besojmë se një mjedis i disiplinuar dhe mbështetës ndihmon nxënësit të zhvillojnë përgjegjësi, vetëkontroll dhe respekt për veten dhe të tjerët. Prandaj, kemi një qasje të qartë dhe të ekuilibruar ndaj disiplinës dhe këshillimit, duke u siguruar që çdo nxënës të ndihet i mbështetur dhe i motivuar për të arritur suksesin e tij akademik dhe personal.",
+      "disciplineTitle": "Disiplina",
+      "disciplineParagraphs": [
+        "Respekti, përgjegjësia dhe sjellja e mirë janë vlera bazë që promovojmë në shkollë.",
+        "Rregullat e sjelljes janë të qarta dhe të zbatuara në mënyrë të drejtë për të krijuar një mjedis të sigurt dhe të organizuar.",
+        "Çdo situatë e disiplinës trajtohet me profesionalizëm dhe me një qasje edukative, duke ndihmuar nxënësit të kuptojnë rëndësinë e veprimeve të tyre."
+      ],
+      "counselingTitle": "Këshillimi dhe Mbështetja",
+      "counselingParagraphs": [
+        "Shkolla ofron mbështetje për mirëqenien emocionale dhe psikologjike të nxënësve përmes këshillimit.",
+        "Mësuesit dhe drejtuesit punojnë ngushtë me nxënësit për t’i ndihmuar në zhvillimin e vetëbesimit, menaxhimin e stresit dhe përmirësimin e marrëdhënieve sociale.",
+        "Bashkëpunojmë me prindërit për të siguruar që çdo nxënës të ketë mbështetjen e nevojshme brenda dhe jashtë shkollës.",
+        "Disiplina dhe këshillimi nuk kanë për qëllim ndëshkimin, por edukimin dhe ndihmën për të krijuar një kulturë pozitive ku çdo nxënës ndihet i motivuar dhe i mbështetur për të arritur potencialin e tij të plotë."
+      ]
+    },
+
+    "councilPage": {
+      "intro": "Ne vlerësojmë dhe inkurajojmë përfshirjen aktive të prindërve në jetën shkollore përmes Këshillit të Prindërve. Ky këshill funksionon si një urë lidhëse mes shkollës dhe familjeve, duke ndihmuar në përmirësimin e përvojës së nxënësve dhe në zhvillimin e iniciativave që mbështesin arsimin dhe mirëqenien e tyre.",
+      "rolesTitle": "Roli i Këshillit të Prindërve",
+      "roles": [
+        "Ofron sugjerime dhe ide për përmirësimin e jetës shkollore.",
+        "Mbështet organizimin e aktiviteteve dhe eventeve të ndryshme.",
+        "Ndihmon në forcimin e bashkëpunimit mes prindërve dhe stafit akademik.",
+        "Shërben si një kanal komunikimi për shqetësimet dhe propozimet e prindërve."
+      ],
+      "closing": "Të gjithë prindërit ftohen të jenë pjesë e këtij komuniteti aktiv, duke kontribuar me ide dhe mbështetje për të ndërtuar një mjedis shkollor sa më të pasur dhe të suksesshëm për fëmijët e tyre."
+    },
+
+    "communicationPage": {
+      "intro": "Ne sigurojmë një komunikim të qartë dhe efikas mes shkollës, prindërve dhe nxënësve përmes kanaleve të strukturuara.",
+      "methods": [
+        {
+          "title": "E-mail Zyrtar",
+          "description": "Çdo njoftim zyrtar dhe komunikim i rëndësishëm dërgohet përmes email-it."
+        },
+        {
+          "title": "Platforma e Shkollës",
+          "description": "Prindërit dhe nxënësit mund të ndjekin progresin akademik, orarin dhe njoftimet përmes platformës sonë digjitale <a class='text-primary underline' href='https://smip.al/login' target='_blank'>SMIP</a>."
+        },
+        {
+          "title": "Takime me Prindër",
+          "description": "Organizojmë takime të rregullta për të diskutuar mbi ecurinë dhe nevojat e nxënësve."
+        },
+        {
+          "title": "Sekretaria & Administrata",
+          "description": "Për çdo pyetje apo shqetësim, prindërit mund të kontaktojnë sekretarinë ose administratën sipas çështjes përkatëse."
+        },
+        {
+          "title": "Takime të Hapura & Evente Shkollore",
+          "description": "Prindërit inkurajohen të marrin pjesë në aktivitete dhe evente për të qenë më afër zhvillimit të fëmijëve të tyre."
+        }
+      ],
+      "closing": "Ne besojmë se një komunikim i hapur dhe i rregullt ndihmon në krijimin e një mjedisi mbështetës për nxënësit tanë!"
+    }
+
   },
   "admissions": {
     "title": "Regjistrimet",
     "overview": "Përmbledhje & Hapat e Regjistrimit",
     "fees": "Tarifat / Formularët e Aplikimit",
-    "scholarships": "Bursat"
+    "scholarships": "Bursat",
+    "registrationPage": {
+      "intro": "Ne besojmë se edukimi fillon me një zgjedhje të vetëdijshme dhe të përbashkët ndërmjet familjes dhe institucionit. <br><br> Ne ofrojmë një mjedis të sigurt, të kujdesshëm dhe me standarde të larta akademike, ku çdo nxënës inkurajohet të zhvillojë potencialin e vet të plotë – jo vetëm në dije, por edhe në karakter, komunikim dhe bashkëpunim. <br><br> Ne duam të na zgjidhni për cilësinë.",
+      "stepsTitle": "Hapat e Regjistrimit",
+      "steps": [
+        {
+          "title": "Kontakti Fillestar",
+          "description": "Prindi ose kujdestari ligjor kontakton shkollën përmes sekretarisë ose drejtuesve për të shprehur interesin. Gjatë këtij takimi të parë, jepet informacion i plotë rreth filozofisë, programit mësimor, rregullave, etikës dhe përkujdesjes në Shkollën “Fenix”."
+        },
+        {
+          "title": "Periudha e Hapur për Regjistrime",
+          "description": "Regjistrimet janë të mundshme në periudha të caktuara të vitit shkollor – zakonisht në përfundim të vitit, gjatë pushimeve verore ose në fund të semestrave kur mundësohen lëvizje ose transferime të nxënësve."
+        },
+        {
+          "title": "Koha e Njohjes / Prova",
+          "description": "Në përputhje me kërkesën dhe disponueshmërinë, caktohet një periudhë njohjeje ose prove që zgjat zakonisht 3 ditë deri në një javë. Kjo periudhë shërben si një kohë vlerësimi dypalësh – për familjen që të njihet me mjedisin dhe programin, dhe për stafin pedagogjik që të vlerësojë organizimin, sjelljen, qasjen dhe potencialin akademik të nxënësit për zhvillim në ambientin e shkollës sonë."
+        },
+        {
+          "title": "Vendimi i Përbashkët",
+          "description": "Nëse koha e njohjes kalon me sukses dhe të dyja palët ndihen të sigurt për vazhdimësinë, atëherë fillojnë procedurat për regjistrimin zyrtar."
+        },
+        {
+          "title": "Nënshkrimi i Kontratës & Pagesa e Tarifës së Regjistrimit",
+          "description": "Pasi prindi nënshkruan kontratën për regjistrim dhe kryhet pagesa e tarifës përkatëse, nxënësi konsiderohet zyrtarisht pjesë e komunitetit tonë shkollor."
+        }
+      ]
+    }
   },
   "partnerships": {
     "title": "Partneritetet",
     "albania": "Brenda Shqipërisë",
-    "abroad": "Jashtë Shqipërisë"
+    "albaniaDesc": "Shkolla \"Fenix\" bashkëpunon me institucione dhe organizata të ndryshme si pjesë e angazhimit të saj për ndihmën humanitare dhe projekte kurrikulare. Në Shqipëri, shkolla ka partneritet me Kryqin e Kuq, shkollën për fëmijët me nevoja të veçanta “Luigj Gurakuqi” dhe Qendrën e Fëmijëve me Sindromën Down “Jonathan”.",
+    "abroad": "Jashtë Shqipërisë",
+    "abroadDesc": "Për zhvillimin e kurrikulës dhe shkëmbimin e përvojave të mësimdhënies, “Fenix” ka partneritet me shkollën Wood Farm në Oxford, Angli."
   },
   "homePage": {
     "exploreClasses": "Eksploro Programin Tonë Mësimor",
@@ -109,9 +305,19 @@
     "historyDescription": "Fenix School was founded in 2010 by a group of dedicated educators who wanted to create a school that would provide a high-quality education for all students. Since then, we have grown into a thriving community of learners."
   },
   "contact": {
+    "contactPage": {
+      "title": "Kontakto tani!",
+      "intro": [
+        "Ne jemi të gatshëm për t’ju ardhur në ndihmë për çdo pyetje që mund të keni.",
+        "Mund të na kontaktoni dhe vizitoni në adresat e mëposhtme."
+      ]
+    },
+    "leaveMsg": "Lini një mesazh",
+    "address": "Adresa",
+    "hours": "E Hënë – E Premte",
     "form": "Formular Kontakti",
     "location": "Adresa & Harta",
-    "info": "Telefon, Email, Orari",
+    "info": "Telefon, E-mail, Orari",
     "title": "Kontakt",
     "contacts": "Kontaktet",
     "name": "Emri",
@@ -180,5 +386,95 @@
       "teamSpiritDesc": "Ne jemi një skuadër e bashkuar, që punon me një qëllim të përbashkët: cilësinë më të mirë në edukim. Çdo mësues është i respektuar, i dëgjuar dhe i përfshirë.",
       "contactCta": "💬 Nëse ndan të njëjtat vlera dhe dëshiron të japësh më të mirën në një mjedis që të mbështet, na kontakto për të nisur rrugëtimin tënd me ne."
     }
+  },
+  "curriculum": {
+    "elementary": {
+      "title": "Cikli Fillor (Klasa 1 - 4)",
+      "description": "Ky cikël përfshin nxënësit e moshës 6 deri në 9 vjeç dhe fokusohet në zhvillimin e aftësive themelore akademike, sociale dhe emocionale. Mësimi është i përqendruar në lëndët bazë si <b>gjuhë, matematikë dhe shkencë</b>, si dhe në <b>zhvillimin e aftësive krijuese dhe shprehëse përmes artit, muzikës dhe edukimit fizik.</b>",
+      "gradeAge": "Klasa {klasa} - Mosha {age} vjeç"
+    },
+    "middle": {
+      "title": "Cikli nëntëvjeçar (Klasa 5 – 9)",
+      "description1": "Në këtë cikël (mosha 10–14 vjeç), nxënësit thellojnë njohuritë dhe kompetencat e tyre në lëndët <b>gjuhe, matematikë dhe shkencë</b>, duke zhvilluar gjithashtu <b>aftësitë krijuese dhe shprehëse në art, muzikë dhe edukim fizik</b>. Ky është një moment i rëndësishëm për përgatitjen e nxënësve për <b>provimet kombëtare</b> dhe ato të <b>kurrikulës angleze</b>, që do të zhvillohen në fund të ciklit të 9-të.",
+      "description2": "Në këtë periudhë, nxënësit rrisin përgjegjësinë për mësimin dhe përgatiten për sfidat akademike që lidhen me arsimin e nivelit të mesëm dhe zhvillimin personal.",
+      "gradeAge": "Klasa {klasa} – Mosha {age} vjeç"
+    }
+  },
+  "history": {
+    "title": "Historia e Shkollës “Fenix”",
+    "description": "Shkolla “Fenix” u themelua në vitin 1996 me një vizion të qartë për të krijuar një qendër arsimore cilësore që mishëron më të mirën e arsimit shqiptar dhe atij anglez. Për më shumë se 30 vjet, kemi qenë pjesë e jetës së mijëra nxënësve, duke mbështetur zhvillimin e tyre akademik dhe social.",
+    "evolutionTitle": "Si kemi evoluar gjatë viteve:",
+    "evolutionPoints": [
+      "Fillimi me një strukturë të fokusuar në cilësinë akademike dhe disiplinë organizative.",
+      "Përfshirja e metodave moderne të mësimdhënies për të krijuar një qasje më interaktive dhe të personalizuar ndaj të nxënit.",
+      "Integrimi i kurrikulës angleze me atë shqiptare, duke na bërë një nga pak shkollat që ofrojnë këtë model unik.",
+      "Përmirësim i vazhdueshëm i cilësisë së arsimit dhe suksesi i nxënësve tanë, si në shkollat e mesme kombëtare, ashtu edhe në ato ndërkombëtare."
+    ],
+    "futureTitle": "E ardhmja e Shkollës “Fenix”",
+    "futureDescription": "Ne vazhdojmë të përmirësohemi dhe të zhvillohemi për t’u siguruar që çdo brez i ri të marrë edukimin më të mirë të mundshëm, duke i përgatitur ata për sfidat e një bote që po ndryshon."
+  },
+  "activitiesPage": {
+    "intro": "Ofrojmë një gamë të gjerë aktivitetesh dhe ngjarjesh që ndihmojnë në zhvillimin e aftësive sociale, emocionale dhe akademike të nxënësve. Aktivitetet tona janë të dizajnuara për të nxitur kreativitetin, bashkëpunimin dhe arritjen e potencialit të plotë të secilit nxënës.",
+    "items": [
+      {
+        "title": "Ekskursione dhe Vizita Mësimore",
+        "description": "Nxënësit marrin pjesë në ekskursione dhe vizita që i ndihmojnë ata të mësojnë në një mjedis jashtë klasës, duke u njohur me kultura të ndryshme dhe duke aplikuar njohuritë e fituara."
+      },
+      {
+        "title": "Panaire dhe Projekte Shkencore",
+        "description": "Nxënësit zhvillojnë dhe prezantojnë projekte shkencore, duke i dhënë mundësi për të eksperimentuar dhe për të nxitur kuriozitetin dhe kërkimin shkencor."
+      },
+      {
+        "title": "Lojëra dhe Aktivitetet Sportive",
+        "description": "Aktivitetet fizike dhe sportive janë pjesë e rëndësishme e programit tonë, duke i mësuar nxënësit për rëndësinë e punës në ekip dhe zhvillimit të shëndetit fizik."
+      },
+      {
+        "title": "Festa e Fundvitit",
+        "description": "Një ngjarje speciale që feston arritjet e nxënësve gjatë vitit shkollor dhe nderon ata për përpjekjet e tyre."
+      },
+      {
+        "title": "Festat e Traditave dhe Festivaleve",
+        "description": "Shkolla organizon ngjarje që përkujtojnë dhe nderojnë traditat dhe kulturat e ndryshme, duke i mësuar nxënësit të respektojnë dhe të vlerësojnë shumëllojshmërinë."
+      },
+      {
+        "title": "Ditët e Hapura dhe Prezantimet për Prindërit",
+        "description": "Aktivitetet ku nxënësit mund të tregojnë përparimin e tyre dhe arritjet e vitit, duke krijuar mundësi për prindërit të jenë pjesë aktive të procesit mësimor."
+      }
+    ],
+    "closing": "Këto aktivitete dhe ngjarje janë krijuar për të siguruar një mjedis mësimor të pasur dhe të larmishëm që i ndihmon nxënësit të rriten si individë të plotë, duke zhvilluar aftësitë e tyre akademike, sociale dhe emocionale."
+  },
+  "clubsPage": {
+    "intro": "Ne ofrojmë mundësi të shumta për nxënësit që të angazhohen në aktivitete jashtë mësimit të rregullt, duke i ndihmuar ata të zhvillojnë pasionet dhe aftësitë e tyre në fusha të ndryshme. Klubet tona promovojnë bashkëpunimin, kreativitetin dhe përvojat e reja edukative.",
+    "items": [
+      {
+        "title": "🎓 Klubi i Shkencës",
+        "description": "Një hapësirë për eksplorim dhe eksperimentim, ku nxënësit angazhohen në projekte shkencore, sfida teknologjike dhe konkurse inovative."
+      },
+      {
+        "title": "⚽ Klubi i Sportit",
+        "description": "Ofron aktivitete të ndryshme sportive si futboll, basketboll, volejboll dhe atletikë, duke inkurajuar shëndetin fizik dhe punën në ekip."
+      },
+      {
+        "title": "🎵 Klubi i Muzikës",
+        "description": "Për të apasionuarit pas muzikës dhe interpretimit, ky klub i ndihmon nxënësit të zhvillojnë aftësitë e tyre muzikore përmes këndimit, instrumenteve dhe performancave të ndryshme."
+      },
+      {
+        "title": "🎭 Klubi i Dramës",
+        "description": "Përfshin të gjithë ata që duan të eksperimentojnë me aktrimin, shfaqjet teatrale dhe improvizimin, duke ndihmuar në zhvillimin e vetëbesimit dhe shprehjes artistike."
+      },
+      {
+        "title": "🎨 Klubi i Artit",
+        "description": "Një hapësirë ku nxënësit mund të eksplorojnë talentin e tyre në pikturë, vizatim, skulpturë dhe krijime të tjera artistike."
+      }
+    ],
+    "benefitsTitle": "Pse janë të rëndësishme klubet shkollore:",
+    "benefits": [
+      "✔ Ndihmojnë nxënësit të zbulojnë dhe zhvillojnë talentet e tyre",
+      "✔ Forcojnë aftësitë sociale dhe bashkëpunimin",
+      "✔ Rrisin vetëbesimin dhe ndihmojnë në zhvillimin personal",
+      "✔ Krijojnë një përvojë më të pasur shkollore për nxënësit"
+    ],
+    "closing": "Nxënësit janë të inkurajuar të bëhen pjesë e klubeve dhe të përfitojnë nga mundësitë e shumta që ofron shkolla jonë për zhvillim personal dhe akademik!"
   }
+
 }

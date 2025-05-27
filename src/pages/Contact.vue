@@ -3,7 +3,7 @@
     <ContactNow/>
     <div>
       <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-        Lini një mesazh
+        {{ t('contact.leaveMsg') }}
       </h2>
       <form @submit.prevent="handleSubmit" class="space-y-6">
         <!-- Name -->

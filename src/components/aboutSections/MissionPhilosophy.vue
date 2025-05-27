@@ -6,28 +6,32 @@ import DescriptionMessage from "../DescriptionMessage.vue";
 <template>
   <div class="max-w-xl">
     <h2 class="text-3xl font-bold text-primary">
-      Misioni, Vizioni dhe Filozofia jonë
+      {{ $t('about.missionVisionPhilosophy.title') }}
     </h2>
+
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Misioni
+      {{ $t('about.missionVisionPhilosophy.missionLabel') }}
     </DescriptionMessage>
     <p>
-      Qëllimi themelor dhe i pandryshueshëm i themelimit të shkollës "Fenix" është edukimi i fëmijëve shqiptarë përmes krijimit të një qendre arsimore të vogël, por cilësore dhe të veçantë.
+      {{ $t('about.missionVisionPhilosophy.missionDesc') }}
     </p>
+
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Vizioni
+      {{ $t('about.missionVisionPhilosophy.visionLabel') }}
     </DescriptionMessage>
     <p>
-      Vizioni i Shkollës "Fenix" është të jetë një institucion i shquar arsimor që shërben si model i cilësisë në edukimin e fëmijëve shqiptarë.
+      {{ $t('about.missionVisionPhilosophy.visionDesc') }}
     </p>
+
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Filozofia
+      {{ $t('about.missionVisionPhilosophy.philosophyLabel') }}
     </DescriptionMessage>
     <p>
-      Fokus te zhvillimi akademik, etik dhe social i nxënësve duke kombinuar traditën me metodat bashkëkohore të mësimdhënie.
+      {{ $t('about.missionVisionPhilosophy.philosophyDesc') }}
     </p>
   </div>
 </template>
+
 
 <style scoped>
 

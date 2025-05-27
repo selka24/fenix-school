@@ -10,7 +10,7 @@ import DescriptionMessage from "../../components/DescriptionMessage.vue";
       {{$t("partnerships.abroad")}}
     </h2>
     <DescriptionMessage type="warning" class="mt-10 mb-8">
-      Për zhvillimin e kurrikulës dhe shkëmbimin e përvojave të mësimdhënies, "Fenix" ka partneritet me shkollën "Wood Farm School" në Oxford, Angli.
+      {{ $t("partnerships.abroadDesc") }}
     </DescriptionMessage>
     <PartnersCarousel type="partnersAbroad" class="my-20"/>
   </div>

@@ -12,6 +12,46 @@
     "message": "Welcome / Message from the Board",
     "mission": "Mission & Philosophy",
     "history": "History",
+    "missionVisionPhilosophy": {
+      "title": "Our Mission, Vision, and Philosophy",
+      "missionLabel": "Mission",
+      "missionDesc": "The fundamental and unchanging purpose of founding Fenix School is to educate Albanian children by creating a small yet high-quality and distinctive educational center.",
+      "visionLabel": "Vision",
+      "visionDesc": "Fenix School’s vision is to be a distinguished educational institution that serves as a benchmark of excellence in educating Albanian children.",
+      "philosophyLabel": "Philosophy",
+      "philosophyDesc": "Focus on students’ academic, ethical, and social development by combining tradition with contemporary teaching methods."
+    },
+    "features": {
+      "title": "What Makes Us Special?",
+      "integratedProgramTitle": "International Integrated Program",
+      "integratedProgramDesc": "Harmonizing the Albanian and English curricula enables students to successfully attend both national and international schools.",
+      "qualityTeachingTitle": "Quality Teaching",
+      "qualityTeachingDesc": "Our teachers are dedicated professionals who provide academic support and personal development for every student.",
+      "supportCareTitle": "Support & Care",
+      "supportCareDesc": "Every student is unique, and we ensure we support their academic and emotional needs.",
+      "disciplineTitle": "Discipline & Organization",
+      "disciplineDesc": "A structured and well-organized environment that fosters student commitment and skill development.",
+      "highResultsTitle": "High Achievement",
+      "highResultsDesc": "Fenix School is renowned for the quality and outstanding academic achievements of its students."
+    },
+    "welcome": {
+      "welcomeSubtitle": "It’s our pleasure to welcome you to our official website!",
+      "introParagraph1": "Since our founding in 1996, we have been committed to providing quality education, preparing students for the opportunities and challenges of the future.",
+      "introParagraph2": "We believe education is more than a learning process – it’s a journey that develops the knowledge, values, and skills students need to become thoughtful, creative, and responsible citizens.",
+      "introParagraph3": "We offer a safe and supportive environment where every student feels encouraged to reach their fullest potential."
+    },
+    "teachers": {
+      "title": "Academic Staff",
+      "intro": "Our teachers are truly the golden hands of Fenix School.",
+      "experience": "They all have extensive and valuable experience, not only in teaching but also in the unique approach to working <b>with the Anglo-Albanian integrated curriculum</b>.",
+      "approach": "They are <b>outstanding experts and practitioners</b> of this unique approach, reflecting every day <b>our school’s philosophy in the classroom</b>.",
+      "values": "Our staff <b>cultivate strong organizational values</b>, <b>develop a high level of professional responsibility</b>, and <b>convey genuine quality</b> in every aspect of teaching.",
+      "teamwork": "Our teachers work in a coordinated way as a <b>united team</b>, sharing experiences, ideas, and successful practices to <b>continuously improve the learning process</b>.",
+      "training": "<b>Internal training</b> is a strong pillar of professional development, supported by the administration, coordinators, and department heads. At the same time, they also attend <b>national and international external trainings</b>, always keeping themselves updated with the latest developments in education.",
+      "student_focus": "They diligently attend to <b>each student’s needs</b> in every subject, working closely with level coordinators and leaders to <b>analyze data</b> and <b>turn it into concrete improvement and achievement plans</b>.",
+      "appreciation": "Our school <b>values teachers as its most precious asset</b>—both professionally and personally—creating a safe, respected, and motivating work environment.",
+      "stability": "The school follows a <b>strong stability policy</b>, <b>preserving and further developing our extraordinary team</b>."
+    },
     "team": {
       "title": "Leadership Team",
       "secretary": "Secretary",
@@ -31,25 +71,54 @@
       "administrativeCoordinatorDescription": "Manages the secretariat and administrative processes, including enrollments, documentation, and communication with parents. Ensures all procedures are organized and comply with legal and internal standards."
     },
     "why": {
-      "title": "Pse FENIX?",
-      "intro": "Në një kohë kur arsimi është sfidë dhe zgjedhja e shkollës bëhet vendimtare për të ardhmen e fëmijëve, FENIX është më shumë se një institucion arsimor – është një qendër cilësie, vlerash dhe sigurie.",
-      "resultsTitle": "Rezultate që flasin vetë:",
-      "resultsDesc": "Për ne, cilësia nuk është vetëm qëllim – është standardi ynë i përditshëm. Rezultatet më të larta në Provimet Kombëtare të Arsimit Bazë dhe suksesi i nxënësve në Arsimin e Mesëm janë pasqyrë e punës së palodhur dhe përkushtimit tonë.",
-      "disciplineTitle": "Disiplinë, organizim dhe vlera të qëndrueshme:",
-      "disciplineDesc": "Besojmë se edukimi fillon me rregull, përkushtim dhe respekt. Në FENIX, çdo nxënës ndihet i vlerësuar, i barabartë dhe i përfshirë në një komunitet që nxit rritjen dhe karakterin.",
-      "safetyTitle": "Siguria në zemër të çdo veprimi:",
-      "safetyDesc": "Siguria emocionale, fizike dhe sociale e nxënësve tanë është prioritet absolut. Ata janë nën kujdes të vazhdueshëm, në një ambient të mbrojtur, të ngrohtë dhe të mirorganizuar.",
-      "teamTitle": "Një skuadër që punon me pasion:",
-      "teamDesc": "Mësues të përkushtuar, staf i aftë dhe një drejtim vizionar – kjo është forca që e mban FENIX të palëkundur në misionin e tij: të edukojë me cilësi dhe të frymëzojë brezin e ardhshëm.",
-      "closing": "Në FENIX, suksesi nuk është rastësi – është mision dhe traditë."
+      "title": "Why FENIX?",
+      "intro": "At a time when education is a challenge and choosing the right school is decisive for children’s futures, FENIX is more than an educational institution – it is a center of quality, values, and security.",
+      "resultsTitle": "Results That Speak for Themselves:",
+      "resultsDesc": "For us, quality is not just a goal – it is our daily standard. The highest scores on the National Basic Education Exams and our students’ success in Secondary Education reflect our tireless work and dedication.",
+      "disciplineTitle": "Discipline, Organization, and Lasting Values:",
+      "disciplineDesc": "We believe education begins with order, commitment, and respect. At FENIX, every student feels valued, equal, and part of a community that fosters growth and character.",
+      "safetyTitle": "Safety at the Heart of Every Action:",
+      "safetyDesc": "The emotional, physical, and social safety of our students is an absolute priority. They are under constant care in a protected, warm, and well-organized environment.",
+      "teamTitle": "A Team Driven by Passion:",
+      "teamDesc": "Dedicated teachers, capable staff, and visionary leadership – this is the force that keeps FENIX steadfast in its mission: to educate with excellence and inspire the next generation.",
+      "closing": "At FENIX, success is no coincidence – it is our mission and tradition."
     }
   },
   "programmes": {
     "prog": "Programmes",
+    "integratedProgramIntro": "Fenix School offers an integrated curriculum that combines two distinct educational systems – the Albanian and the English.",
+    "integratedProgramDetails": [
+      "This harmonization is a unique process that has evolved and improved over the years, enabling our students to meet the standards of both curricula.",
+      "Through this integration, our students receive a comprehensive and balanced education that prepares them to succeed in both national and international schools, and to develop skills demanded in a global environment.",
+      "Our curriculum is a testament to the quality of education our students receive, preparing them for success in any educational or professional setting.",
+      "Our way of working is an exclusive feature of Fenix School—an approach built on long and successful experience, continuously supported by ongoing training for our teachers."
+    ],
+    "assessmentPage": {
+      "intro": "Assessment is a key part of every student’s academic development. We believe that ongoing, objective evaluation helps identify strengths and areas for improvement, ensuring students have the opportunity to grow and reach their fullest potential.",
+      "objectivesTitle": "Assessment Objectives:",
+      "objectives": [
+        "Monitor academic progress and provide continuous feedback.",
+        "Offer opportunities for students to improve their skills and develop deep understanding in studied subjects.",
+        "Engage students and parents in the learning process, ensuring transparency and open communication.",
+        "Create an environment that fosters motivation and efforts toward high achievement."
+      ],
+      "typesTitle": "Types of Assessment:",
+      "formativeTitle": "Formative Assessment",
+      "formativeDesc": "This type of assessment is used throughout the learning process to monitor student progress and offer chances for ongoing improvement. It includes regular assignments, class discussions, and varied activities that help students grasp concepts and build skills.",
+      "summativeTitle": "Summative Assessment",
+      "summativeDesc": "This type of assessment measures students’ knowledge and skills at the end of a set period. It includes exams and tests that help evaluate readiness for the next level of education.",
+      "performanceTitle": "Performance Assessment",
+      "performanceDesc": "Beyond tests and exams, we use projects, practical work, and presentations that help students develop applicable skills and measure their progress across different areas.",
+      "progressTitle": "Student Progress",
+      "progressDesc": "We regularly monitor student progress through ongoing reports and open communication with parents. This allows us to intervene in time and provide necessary support to those who may face challenges, helping them reach the required level of success.",
+      "conclusion": "Through these assessment methods, we ensure balanced and sustainable student development, preparing them for success in academic and personal life."
+    },
     "title": "Curriculum",
     "curriculum": "Curriculum",
     "assessment": "Assessment & Progress",
-    "levels": "Class Levels / Ages"
+    "levels": "Class Levels / Ages",
+    "intro": "Discover our learning program",
+    "introDescription": "Students are grouped by age and academic development level to provide tailored instruction that meets their needs."
   },
   "studentLife": {
     "title": "Student Life",
@@ -70,18 +139,149 @@
     "council": "Parent Council",
     "discipline": "Discipline & Counseling",
     "attendance": "Attendance",
-    "uniform": "Uniform Policy"
+    "uniform": "Uniform Policy",
+    "uniformPage": {
+      "intro": "The uniform is an important part of our school identity and culture. It contributes to creating a disciplined, professional, and equal environment for all students, helping them focus on learning and personal development.",
+      "colors": "Uniform Colors: Our uniform is white and black, and must be clean, neat, and complete in accordance with school regulations.",
+      "rulesTitle": "Uniform Rules",
+      "rules": [
+        "Students must wear the uniform every school day and during school-organized activities.",
+        "The uniform must be clean and neat. Accessories and garments must not conflict with school policy and ethics.",
+        "Wearing hats, sunglasses, hoods, gloves, or scarves is not permitted on school premises."
+      ],
+      "componentsTitle": "Uniform Components",
+      "components": [
+        "Shirt/Blouse: White with a crew neck and short or long sleeves.",
+        "Pants/Skirt: Black trousers (full-length or knee-length) or a black skirt (knee-length).",
+        "Sweater: White or black, long-sleeved, extending below the waistband of the trousers.",
+        "Shoes: White or black, flat, and appropriate for school.",
+        "Jackets: Preferably solid-colored, dark or white."
+      ],
+      "peTitle": "Pyhiscal Education Uniform",
+      "peUniform": [
+        "Shirt: White, crew neck, short or long sleeves.",
+        "Tracksuit: Black, full-length or knee-length.",
+        "Sneakers: White or black, suitable for gym."
+      ],
+      "closingNote": "The uniform is an important part of school life, helping create a disciplined environment focused on academic achievements. We encourage every student to respect the uniform policy and contribute to an organized and equitable school atmosphere."
+    },
+    "attendancePage": {
+      "intro": "Regular and consistent attendance is essential for students’ academic success and personal development. We believe attending school responsibly helps build good habits and prepare for the future.",
+      "rulesTitle": "School Attendance Rules",
+      "rulesParagraphs": [
+        "Students are expected to attend every school day and arrive on time.",
+        "Using the first class period for attendance registration is mandatory."
+      ],
+      "absencesTitle": "Absences",
+      "absencesParagraphs": [
+        "Every absence must be justified by parents or legal guardians through an official notification.",
+        "In cases of medical absences, a medical report is required.",
+        "Unexcused absences may impact academic performance and participation in various school activities."
+      ],
+      "lateTitle": "Tardiness",
+      "lateParagraphs": [
+        "Students who arrive late are registered in the secretary’s office and placed in a supervised area where they work on class materials and assignments without disrupting the ongoing lesson.",
+        "Repeated tardiness will be addressed in collaboration with parents to ensure more regular attendance.",
+        "Active presence and participation in the learning process support students’ academic and social development, so we consider it one of our top priorities."
+      ]
+    },
+
+    "disciplinePage": {
+      "intro": "We believe that a disciplined and supportive environment helps students develop responsibility, self-control, and respect for themselves and others. Therefore, we take a clear and balanced approach to discipline and counseling, ensuring every student feels supported and motivated to achieve their academic and personal success.",
+      "disciplineTitle": "Discipline",
+      "disciplineParagraphs": [
+        "Respect, responsibility, and good behavior are core values we promote at school.",
+        "Behavior rules are clear and fairly enforced to create a safe and organized environment.",
+        "Every disciplinary situation is handled professionally and with an educational approach, helping students understand the impact of their actions."
+      ],
+      "counselingTitle": "Counseling & Support",
+      "counselingParagraphs": [
+        "The school provides support for students’ emotional and psychological well-being through counseling.",
+        "Teachers and administrators work closely with students to help build confidence, manage stress, and improve social relationships.",
+        "We collaborate with parents to ensure every student has the necessary support both inside and outside school.",
+        "Discipline and counseling are not meant as punishment, but as education and assistance to foster a positive culture where every student feels motivated and supported to reach their full potential."
+      ]
+    },
+
+    "councilPage": {
+      "intro": "We value and encourage active parent involvement in school life through the Parent Council. This council serves as a bridge between the school and families, helping to enhance the student experience and develop initiatives that support their education and well-being.",
+      "rolesTitle": "Role of the Parent Council",
+      "roles": [
+        "Provides suggestions and ideas for improving school life.",
+        "Supports the organization of various activities and events.",
+        "Helps strengthen cooperation between parents and academic staff.",
+        "Serves as a communication channel for parents’ concerns and proposals."
+      ],
+      "closing": "All parents are invited to join this active community, contributing ideas and support to build a richer and more successful school environment for their children."
+    },
+
+    "communicationPage": {
+      "intro": "We ensure clear and effective communication between the school, parents, and students through structured channels.",
+      "methods": [
+        {
+          "title": "Official E-mail",
+          "description": "All official notices and important communications are sent via e-mail."
+        },
+        {
+          "title": "School Platform",
+          "description": "Parents and students can track academic progress, schedules, and announcements through our digital platform <a class='text-primary underline' href='https://smip.al/login' target='_blank'>SMIP</a>."
+        },
+        {
+          "title": "Parent Meetings",
+          "description": "We organize regular meetings to discuss student progress and needs."
+        },
+        {
+          "title": "Secretary’s Office & Administration",
+          "description": "For any questions or concerns, parents can contact the secretary’s office or administration as appropriate."
+        },
+        {
+          "title": "Open Meetings & School Events",
+          "description": "Parents are encouraged to attend activities and events to stay closely involved in their child’s development."
+        }
+      ],
+      "closing": "We believe that open and regular communication helps create a supportive environment for our students!"
+    }
+
   },
   "admissions": {
     "title": "Admissions",
     "overview": "Overview & Registration Steps",
     "fees": "Fees / Application Forms",
-    "scholarships": "Scholarships"
+    "scholarships": "Scholarships",
+    "registrationPage": {
+      "intro": "We believe education begins with a conscious, shared decision between the family and the institution. <br><br> We offer a safe, caring environment with high academic standards, where every student is encouraged to develop their full potential—not only in knowledge but also in character, communication, and collaboration. <br><br> We want you to choose us for quality.",
+      "stepsTitle": "Registration Steps",
+      "steps": [
+        {
+          "title": "Initial Contact",
+          "description": "The parent or legal guardian contacts the school via the secretary’s office or administrators to express interest. During this first meeting, full information is provided about Fenix School’s philosophy, curriculum, rules, ethics, and care."
+        },
+        {
+          "title": "Open Enrollment Period",
+          "description": "Enrollments are possible during specific times of the academic year—usually at year-end, during summer break, or at the end of semesters when student transfers are accommodated."
+        },
+        {
+          "title": "Orientation / Trial Period",
+          "description": "Depending on demand and availability, an orientation or trial period—typically 3 days to 1 week—is arranged. This period serves as a two-way evaluation: for the family to get acquainted with the environment and program, and for the teaching staff to assess the student’s organization, behavior, approach, and academic potential within our school environment."
+        },
+        {
+          "title": "Joint Decision",
+          "description": "If the orientation period is successful and both parties feel confident about continuing, the official enrollment procedures begin."
+        },
+        {
+          "title": "Contract Signing & Enrollment Fee Payment",
+          "description": "Once the parent signs the enrollment contract and pays the corresponding fee, the student is officially part of our school community."
+        }
+      ]
+    }
+
   },
   "partnerships": {
     "title": "Partnerships",
     "albania": "Within Albania",
-    "abroad": "Outside Albania"
+    "albaniaDesc": "Fenix School collaborates with various institutions and organizations as part of its commitment to humanitarian aid and curricular projects. In Albania, the school partners with the Red Cross, the “Luigj Gurakuqi” school for children with special needs, and the “Jonathan” Down Syndrome Children’s Center.",
+    "abroad": "Outside Albania",
+    "abroadDesc": "To develop our curriculum and exchange teaching experiences, Fenix has partnered with Wood Farm School in Oxford, England."
   },
   "homePage": {
     "exploreClasses": "Explore our Learning Programme",
@@ -89,10 +289,10 @@
     "classes": {
       "preparation": "Preschool classes",
       "prepDescription": "Preschool classes are designed for children aged 5-6 years.",
-      "elementary": "Elementary school",
-      "elementaryDescription": "Elementary school is designed for children aged 6-11 years.",
-      "middle": "Middle-low school",
-      "middleDescription": "Middle-low school is designed for children aged 12-15 years."
+      "elementary": "Primary",
+      "elementaryDescription": "Primary school is designed for children aged 6-11 years.",
+      "middle": "Secondary",
+      "middleDescription": "Secondary school is designed for children aged 12-15 years."
     }
   },
   "aboutPage": {
@@ -105,16 +305,26 @@
     "historyDescription": "Fenix School was founded in 2010 by a group of dedicated educators who wanted to create a school that would provide a high-quality education for all students. Since then, we have grown into a thriving community of learners."
   },
   "contact": {
+    "contactPage": {
+      "title": "Contact Us Now!",
+      "intro": [
+        "We are ready to assist you with any questions you may have.",
+        "You can contact us or visit us at the following addresses."
+      ]
+    },
+    "leaveMsg": "Leave a message",
+    "address": "Address",
+    "hours": "Monday – Friday",
     "title": "Get in touch",
     "contacts": "Contacts",
     "form": "Contact Form",
     "location": "Address & Map",
-    "info": "Phone, Email, Hours",
+    "info": "Phone, E-mail, Hours",
 
     "name": "Name",
     "namePlaceholder": "Your full name",
 
-    "email": "Email",
+    "email": "E-mail",
 
     "message": "Message",
     "messagePlaceholder": "Write your message…",
@@ -178,5 +388,95 @@
       "contactCta": "💬 If you share these values and want to give your best in an environment that supports you, contact us to start your journey with us."
 
     }
+  },
+  "curriculum": {
+    "elementary": {
+      "title": "Primary (Grades 1 - 4)",
+      "description": "This cycle includes students aged 6 to 9 and focuses on the development of core academic, social, and emotional skills. Instruction is centered on core subjects such as <b>language, mathematics, and science</b>, as well as on <b>the development of creative and expressive skills through art, music, and physical education.</b>",
+      "gradeAge": "Grade {klasa} - Age {age}"
+    },
+    "middle": {
+      "title": "Secondary (Grades 5 – 9)",
+      "description1": "In this cycle (ages 10–14), students deepen their knowledge and competencies in <b>language, mathematics, and science</b>, while also developing <b>creative and expressive skills in art, music, and physical education</b>. This is a crucial stage to prepare students for the <b>national exams</b> and the <b>English curriculum exams</b> that take place at the end of the ninth grade.",
+      "description2": "During this period, students increase their responsibility for learning and prepare for the academic challenges associated with secondary education and personal development.",
+      "gradeAge": "Grade {klasa} – Age {age}"
+    }
+  },
+  "history": {
+    "title": "History of Fenix School",
+    "description": "Fenix School was founded in 1996 with a clear vision to create a high-quality educational center that embodies the best of Albanian and English education. For over 30 years, we have been part of thousands of students’ lives, supporting their academic and social development.",
+    "evolutionTitle": "How We’ve Evolved Over the Years:",
+    "evolutionPoints": [
+      "Started with an academic-quality-focused structure and organizational discipline.",
+      "Incorporated modern teaching methods to create a more interactive and personalized learning approach.",
+      "Integrated the English curriculum with the Albanian one, making us one of the few schools offering this unique model.",
+      "Continual improvement of educational quality and student success both in national and international secondary schools."
+    ],
+    "futureTitle": "The Future of Fenix School",
+    "futureDescription": "We continue to refine and grow to ensure each new generation receives the best possible education, preparing them for the challenges of our changing world."
+  },
+  "activitiesPage": {
+    "intro": "We offer a wide range of activities and events that support the development of our students’ social, emotional, and academic skills. Our activities are designed to foster creativity, collaboration, and the full potential of each student.",
+    "items": [
+      {
+        "title": "Excursions and Educational Visits",
+        "description": "Students participate in excursions and visits that help them learn in an out-of-class setting, experience different cultures, and apply the knowledge they’ve gained."
+      },
+      {
+        "title": "Science Fairs and Projects",
+        "description": "Students develop and present scientific projects, giving them opportunities to experiment and inspire curiosity and scientific inquiry."
+      },
+      {
+        "title": "Games and Sports Activities",
+        "description": "Physical and sports activities are an essential part of our program, teaching students the importance of teamwork and fostering physical health."
+      },
+      {
+        "title": "End-of-Year Celebration",
+        "description": "A special event that celebrates students’ achievements during the school year and honors their efforts."
+      },
+      {
+        "title": "Traditional and Cultural Festivals",
+        "description": "The school organizes events that commemorate and honor various traditions and cultures, teaching students to respect and appreciate diversity."
+      },
+      {
+        "title": "Open Days and Parent Presentations",
+        "description": "Activities where students showcase their progress and achievements for the year, creating opportunities for parents to be active participants in the learning process."
+      }
+    ],
+    "closing": "These activities and events are created to ensure a rich and diverse learning environment that helps students grow as whole individuals, developing their academic, social, and emotional skills."
+  },
+  "clubsPage": {
+    "intro": "We provide numerous opportunities for students to engage in extracurricular activities, helping them develop their passions and skills across different fields. Our clubs foster collaboration, creativity, and new educational experiences.",
+    "items": [
+      {
+        "title": "🎓 Science Club",
+        "description": "A space for exploration and experimentation where students engage in science projects, tech challenges, and innovation contests."
+      },
+      {
+        "title": "⚽ Sports Club",
+        "description": "Offers various sports activities such as soccer, basketball, volleyball, and athletics, encouraging physical health and teamwork."
+      },
+      {
+        "title": "🎵 Music Club",
+        "description": "For music and performance enthusiasts, this club helps students develop their musical skills through singing, instruments, and performances."
+      },
+      {
+        "title": "🎭 Drama Club",
+        "description": "Includes everyone who wants to experiment with acting, theatrical productions, and improvisation, helping build confidence and artistic expression."
+      },
+      {
+        "title": "🎨 Art Club",
+        "description": "A space where students can explore their talent in painting, drawing, sculpture, and other artistic creations."
+      }
+    ],
+    "benefitsTitle": "Why School Clubs Matter:",
+    "benefits": [
+      "✔ They help students discover and develop their talents",
+      "✔ They strengthen social skills and collaboration",
+      "✔ They boost self-confidence and aid personal development",
+      "✔ They create a richer school experience for students"
+    ],
+    "closing": "Students are encouraged to join clubs and take advantage of the many opportunities our school offers for personal and academic growth!"
   }
+
 }

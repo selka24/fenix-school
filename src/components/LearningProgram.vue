@@ -3,13 +3,13 @@
     <div class="container mx-auto px-4">
       <!-- Section Title -->
       <h2 class="text-4xl font-bold text-center text-primary mb-8">
-          Njihuni me programin tonë mësimor
+        {{ $t('programmes.intro') }}
       </h2>
       
       <!-- Mission Statement -->
       <div class="max-w-4xl mx-auto text-center mb-12">
         <p class="text-lg text-gray-700">
-            Nxënësit ndahen në grupe sipas moshës dhe niveleve të zhvillimit të tyre akademik, për t'iu ofruar një mësim të përshtatur që përmbush nevojat e tyre.
+          {{ $t('programmes.introDescription') }}
         </p>
       </div>
       

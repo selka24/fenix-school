@@ -26,13 +26,15 @@ const breadCrumb = computed(() => {
     <div class="mx-auto container px-4 lg:px-14 py-9 text-c-gray">
       <div class="flex gap-1 text-xs uppercase" >
         <div v-for="crumb in breadCrumb" :key="crumb.title">
-          <router-link :to="crumb.link" class="hover:text-primary hover:underline">
+          <router-link v-if="crumb.link" :to="crumb.link" class="hover:text-primary hover:underline">
             {{ $t(crumb.title) }}
           </router-link>
-          <span class="ml-1">></span>
+          <span class="ml-1" v-if="crumb.link">
+            >
+          </span>
         </div>
         <div>
-          {{$t(meta?.titleKey || '')}}
+          {{$t(meta?.titleKey || $t(breadCrumb[breadCrumb.length - 1]?.title || ''))}}
         </div>
       </div>
       <h1 v-if="meta?.titleKey" class="mt-10 mb-18 text-5xl text-primary font-bold">

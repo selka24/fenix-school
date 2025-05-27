@@ -6,9 +6,9 @@
         <div>
           <h3 class="text-xl font-bold mb-4">Fenix School</h3>
           <p v-html="$t('address')"></p>
-          <div class="flex flex-col gap-3 my-4">
+          <div class="flex flex-col gap-4 my-5">
             <div v-for="c in footerContacts" :key="c.num">
-              <div class="mb-1">{{$t(c.title)}}</div>
+              <div class="mb-1 font-semibold">{{$t(c.title)}}</div>
               <a class="underline" :href="c.link">{{c.num}}</a>
             </div>
           </div>
@@ -75,14 +75,28 @@
 
 <script setup lang="ts">
 // No additional logic needed for this component
-import {footerNumbers, partners, socialMedia} from "../core/globalData.ts";
+import {footerNumbers, partners, schoolInfo, socialMedia} from "../core/globalData.ts";
 
-const footerContacts = footerNumbers.map((contact) => {
-  return {
-    ...contact,
-    link: contact.num.replace('0', 'tel:+355').replace(/ /g, "")
-  }
+type FooterContact = {
+  num: string,
+  title: string,
+  link: string,
+}
+
+const mapNumbers: FooterContact[] = footerNumbers.map((contact) => {
+    return {
+      ...contact,
+      link: contact.num.replace('0', 'tel:+355').replace(/ /g, "")
+    }
+  })
+
+mapNumbers.push({
+  title: 'E-mail',
+  num: schoolInfo.email,
+  link: `mailto:${schoolInfo.email}`
 })
+
+const footerContacts: FooterContact[] = mapNumbers
 </script>
 
 <style scoped>

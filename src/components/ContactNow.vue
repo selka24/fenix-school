@@ -1,62 +1,43 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
 const contactInfo = [
-  {
-    title: "Drejtori i shkollës",
-    value: "+355 69 306 5760",
-    link: "tel:+355693065760"
-  },
-  {
-    title: "Drejtori ekzekutiv",
-    value: "+355 69 202 4495",
-    link: "tel:+355692024495"
-  },
-  {
-    title: "Sekretaria",
-    value: "+355 68 423 3800",
-    link: "tel:+355684233800"
-  },
-  {
-    title: "Email",
-    value: "shkollafenix@gmail.com",
-    link: "mailto:shkollafenix@gmail.com"
-  },
-  {
-    title: "Adresa",
-    value: "Rruga Bilal Golemi",
-    link: "https://maps.app.goo.gl/ng9Ld2dqVMxp4Yu37",
-    target: "_blank"
-  },
-  {
-    title: 'E Hëne - E Premte',
-    value: "08:00 - 15:00",
-  }
+  { titleKey: 'about.team.executiveDirectorTitle', value: '+355 69 306 5760',    href: 'tel:+355693065760' },
+  { titleKey: 'about.team.executiveDirectorTitle', value: '+355 69 202 4495',    href: 'tel:+355692024495' },
+  { titleKey: 'about.team.secretary',            value: '+355 68 423 3800',    href: 'tel:+355684233800' },
+  { titleKey: 'contact.email',                   value: 'shkollafenix@gmail.com', href: 'mailto:shkollafenix@gmail.com' },
+  { titleKey: 'contact.address',                 value: 'Rruga Bilal Golemi',  href: 'https://maps.app.goo.gl/ng9Ld2dqVMxp4Yu37', target: '_blank' },
+  { titleKey: 'contact.hours',                   value: '08:00 – 15:00' }
 ]
+
+const { tm, t } = useI18n()
+const introTexts = computed(() => tm('contact.contactPage.intro'))
 </script>
 
 <template>
-<div>
-  <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-    Kontakto tani!
-  </h2>
-  <div class="descr-section mb-6">
-    <p>
-      Ne jemi  të  gatshëm për t’ju ardhur në ndihmë për çdo pyetje që mund të keni.
-    </p>
-    <p>
-      Mund të na kontaktoni dhe vizitoni në adresat e mëposhtme.
-    </p>
-  </div>
-  <div class="flex gap-2 mb-4" v-for="({title, value, link: href, target}, idx) in contactInfo" :key="idx + '-link'">
-    <div>
-      {{title}}:
+  <div>
+    <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
+      {{ t('contact.contactPage.title') }}
+    </h2>
+
+    <div class="descr-section mb-6 space-y-2">
+      <p v-for="(line, i) in introTexts" :key="i">{{ line }}</p>
     </div>
-    <a class="text-primary" :class="{'underline cursor-pointer': !!href}" v-bind="{target, href}">
-      {{value}}
-    </a>
+
+    <div class="flex flex-col gap-2 mb-4">
+      <div v-for="(item, idx) in contactInfo" :key="idx" class="flex gap-2">
+        <div>{{ t(item.titleKey) }}:</div>
+        <a
+          v-if="item.href"
+          :href="item.href"
+          :target="item.target || null"
+          class="text-primary underline cursor-pointer"
+        >
+          {{ item.value }}
+        </a>
+        <span v-else>{{ item.value }}</span>
+      </div>
+    </div>
   </div>
-</div>
 </template>
-
-<style scoped>
-
-</style>

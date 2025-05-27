@@ -69,7 +69,8 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> 
     titleKey: '',
     breadcrumb: [
       { title: 'home.title',                    link: '/' },
-      { title: 'homePage.classes.elementary',  link: '/curriculum/elementary' }
+      { title: 'programmes.title',  link: '/curriculum' },
+      { title: 'homePage.classes.elementary',  link: '' }
     ]
   },
   '/curriculum/middle': {
