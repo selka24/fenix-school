@@ -178,7 +178,7 @@
         "In cases of medical absences, a medical report is required.",
         "Unexcused absences may impact academic performance and participation in various school activities."
       ],
-      "lateTitle": "Tardiness",
+      "lateTitle": "Late in Class",
       "lateParagraphs": [
         "Students who arrive late are registered in the secretary’s office and placed in a supervised area where they work on class materials and assignments without disrupting the ongoing lesson.",
         "Repeated tardiness will be addressed in collaboration with parents to ensure more regular attendance.",
@@ -297,6 +297,7 @@
   },
   "aboutPage": {
     "welcome": "Welcome to Fenix School",
+    "welcomeDescr": "Since 1996, our school has instilled in children the highest values of both Albanian and Anglo education.",
     "message": "A message from the Board",
     "mission": "Mission & Philosophy",
     "history": "History",
@@ -477,6 +478,6 @@
       "✔ They create a richer school experience for students"
     ],
     "closing": "Students are encouraged to join clubs and take advantage of the many opportunities our school offers for personal and academic growth!"
-  }
-
+  },
+  "schoolAnthem": "School Anthem"
 }

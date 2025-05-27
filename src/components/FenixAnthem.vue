@@ -7,7 +7,7 @@ const {playLazy, isPlaying} = useFenixAnthem();
 <template>
   <div @click="playLazy" class="flex font-semibold gap-2 items-center cursor-pointer text-sm">
     <div>
-      Himni i Shkollës
+      {{ $t('schoolAnthem') }}
     </div>
     <div>
       <icon v-if="isPlaying" name="pause-solid" class="w-2"/>

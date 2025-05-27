@@ -38,9 +38,10 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import {computed} from "vue";
 const { t } = useI18n()
 
-const programmes = [
+const programmes = computed(() => ([
   {
     title: t('homePage.classes.elementary'),
     link: 'elementary',
@@ -53,7 +54,7 @@ const programmes = [
     description: t('homePage.classes.middleDescription'),
     image: 'male-student-reading-near-tables.jpg'
   },
-]
+]))
 </script>
 
 <style scoped>
