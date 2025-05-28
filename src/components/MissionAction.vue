@@ -19,7 +19,7 @@
         <div v-for="(actv, idx) in splicedAcitvities" :key="`actv-${idx}`" class="flex flex-col">
           <a href="#" class="block mb-4 overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" 
+              :src="`/images/${actv.image}`"
               alt="The Fusion of Grade 8 Engineering" 
               class="w-full h-52 object-cover hover:scale-110 transition-transform duration-500"
             />

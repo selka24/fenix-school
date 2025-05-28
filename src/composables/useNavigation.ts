@@ -96,7 +96,7 @@ export const useNavigation = () => {
   const extraMobileMenus = computed<NavigationMenu[]>(() => ([
     {
       title: t('jobs.apply'),
-      link: '/jobs',
+      link: '/jobs/criteria',
       submenu: [
         { title: t('jobs.criteria.title'), link: '/jobs/criteria' },
         { title: t('jobs.offer.title'), link: '/jobs/what-we-offer' },
