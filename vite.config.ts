@@ -41,7 +41,9 @@ export default defineConfig({
         '/jobs/criteria',
         '/jobs/what-we-offer'
       ],
-      lastmod: new Date(),
+      lastmod: {
+        '*': new Date()
+      },
       changefreq: {
         '*': 'weekly',
         '/': 'daily'
@@ -56,7 +58,12 @@ export default defineConfig({
           allow: '/',
           disallow: ['/404']
         }
-      ]
+      ],
+      outDir: 'dist'
     })
   ],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
 })
