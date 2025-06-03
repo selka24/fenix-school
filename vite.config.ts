@@ -3,6 +3,23 @@ import vue from '@vitejs/plugin-vue'
 import svgLoader from 'vite-svg-loader'
 import { imagetools } from 'vite-imagetools'
 import sitemap from 'vite-plugin-sitemap'
+import type { Plugin } from 'vite'
+
+// Custom plugin to ensure robots.txt exists
+const ensureRobotsTxt: Plugin = {
+  name: 'ensure-robots-txt',
+  apply: 'build',
+  enforce: 'pre',
+  generateBundle() {
+    this.emitFile({
+      type: 'asset',
+      fileName: 'robots.txt',
+      source: `User-agent: *
+Allow: /
+Sitemap: https://fenix-school.vercel.app/sitemap.xml`
+    })
+  }
+}
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,8 +27,9 @@ export default defineConfig({
     vue(),
     svgLoader(),
     imagetools(),
+    ensureRobotsTxt,
     sitemap({
-      hostname: 'https://fenixschool.al',
+      hostname: 'https://fenix-school.vercel.app',
       dynamicRoutes: [
         '/',
         '/about',
