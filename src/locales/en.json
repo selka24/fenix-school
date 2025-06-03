@@ -2,6 +2,7 @@
   "fenix": "Fenix School",
   "sq-en": "British-Albanian",
   "address": "“Bilal Golemi” Street, near the “Dinamo” sports club, Tiranë e Re, Tiranë",
+  "sitemap": "Site Map",
   "home": {
     "title": "Home",
     "missionAction": "School Life",
@@ -17,9 +18,9 @@
       "missionLabel": "Mission",
       "missionDesc": "The fundamental and unchanging purpose of founding Fenix School is to educate Albanian children by creating a small yet high-quality and distinctive educational center.",
       "visionLabel": "Vision",
-      "visionDesc": "Fenix School’s vision is to be a distinguished educational institution that serves as a benchmark of excellence in educating Albanian children.",
+      "visionDesc": "Fenix School's vision is to be a distinguished educational institution that serves as a benchmark of excellence in educating Albanian children.",
       "philosophyLabel": "Philosophy",
-      "philosophyDesc": "Focus on students’ academic, ethical, and social development by combining tradition with contemporary teaching methods."
+      "philosophyDesc": "Focus on students' academic, ethical, and social development by combining tradition with contemporary teaching methods."
     },
     "features": {
       "title": "What Makes Us Special?",
@@ -35,27 +36,27 @@
       "highResultsDesc": "Fenix School is renowned for the quality and outstanding academic achievements of its students."
     },
     "welcome": {
-      "welcomeSubtitle": "It’s our pleasure to welcome you to our official website!",
+      "welcomeSubtitle": "It's our pleasure to welcome you to our official website!",
       "introParagraph1": "Since our founding in 1996, we have been committed to providing quality education, preparing students for the opportunities and challenges of the future.",
-      "introParagraph2": "We believe education is more than a learning process – it’s a journey that develops the knowledge, values, and skills students need to become thoughtful, creative, and responsible citizens.",
+      "introParagraph2": "We believe education is more than a learning process – it's a journey that develops the knowledge, values, and skills students need to become thoughtful, creative, and responsible citizens.",
       "introParagraph3": "We offer a safe and supportive environment where every student feels encouraged to reach their fullest potential."
     },
     "teachers": {
       "title": "Academic Staff",
       "intro": "Our teachers are truly the golden hands of Fenix School.",
       "experience": "They all have extensive and valuable experience, not only in teaching but also in the unique approach to working <b>with the Anglo-Albanian integrated curriculum</b>.",
-      "approach": "They are <b>outstanding experts and practitioners</b> of this unique approach, reflecting every day <b>our school’s philosophy in the classroom</b>.",
+      "approach": "They are <b>outstanding experts and practitioners</b> of this unique approach, reflecting every day <b>our school's philosophy in the classroom</b>.",
       "values": "Our staff <b>cultivate strong organizational values</b>, <b>develop a high level of professional responsibility</b>, and <b>convey genuine quality</b> in every aspect of teaching.",
       "teamwork": "Our teachers work in a coordinated way as a <b>united team</b>, sharing experiences, ideas, and successful practices to <b>continuously improve the learning process</b>.",
       "training": "<b>Internal training</b> is a strong pillar of professional development, supported by the administration, coordinators, and department heads. At the same time, they also attend <b>national and international external trainings</b>, always keeping themselves updated with the latest developments in education.",
-      "student_focus": "They diligently attend to <b>each student’s needs</b> in every subject, working closely with level coordinators and leaders to <b>analyze data</b> and <b>turn it into concrete improvement and achievement plans</b>.",
+      "student_focus": "They diligently attend to <b>each student's needs</b> in every subject, working closely with level coordinators and leaders to <b>analyze data</b> and <b>turn it into concrete improvement and achievement plans</b>.",
       "appreciation": "Our school <b>values teachers as its most precious asset</b>—both professionally and personally—creating a safe, respected, and motivating work environment.",
       "stability": "The school follows a <b>strong stability policy</b>, <b>preserving and further developing our extraordinary team</b>."
     },
     "team": {
       "title": "Leadership Team",
       "secretary": "Secretary",
-      "beliefParagraph": "At “FENIX” School, we believe that a visionary and dedicated leadership team is essential to building an environment where every child feels safe, valued, and inspired to achieve their best.",
+      "beliefParagraph": "At \"FENIX\" School, we believe that a visionary and dedicated leadership team is essential to building an environment where every child feels safe, valued, and inspired to achieve their best.",
       "teamEmbodiesParagraph": "Our team embodies experience, professionalism, and a daily commitment to the quality, development, and well-being of every student.",
       "executiveDirectorTitle": "Executive Director",
       "executiveDirectorDescription": "Responsible for the overall management of the school, long-term strategy, and administration. Ensures smooth operation, represents the school in relations with institutions, and leads its continuous development.",
@@ -72,9 +73,9 @@
     },
     "why": {
       "title": "Why FENIX?",
-      "intro": "At a time when education is a challenge and choosing the right school is decisive for children’s futures, FENIX is more than an educational institution – it is a center of quality, values, and security.",
+      "intro": "At a time when education is a challenge and choosing the right school is decisive for children's futures, FENIX is more than an educational institution – it is a center of quality, values, and security.",
       "resultsTitle": "Results That Speak for Themselves:",
-      "resultsDesc": "For us, quality is not just a goal – it is our daily standard. The highest scores on the National Basic Education Exams and our students’ success in Secondary Education reflect our tireless work and dedication.",
+      "resultsDesc": "For us, quality is not just a goal – it is our daily standard. The highest scores on the National Basic Education Exams and our students' success in Secondary Education reflect our tireless work and dedication.",
       "disciplineTitle": "Discipline, Organization, and Lasting Values:",
       "disciplineDesc": "We believe education begins with order, commitment, and respect. At FENIX, every student feels valued, equal, and part of a community that fosters growth and character.",
       "safetyTitle": "Safety at the Heart of Every Action:",
@@ -94,7 +95,7 @@
       "Our way of working is an exclusive feature of Fenix School—an approach built on long and successful experience, continuously supported by ongoing training for our teachers."
     ],
     "assessmentPage": {
-      "intro": "Assessment is a key part of every student’s academic development. We believe that ongoing, objective evaluation helps identify strengths and areas for improvement, ensuring students have the opportunity to grow and reach their fullest potential.",
+      "intro": "Assessment is a key part of every student's academic development. We believe that ongoing, objective evaluation helps identify strengths and areas for improvement, ensuring students have the opportunity to grow and reach their fullest potential.",
       "objectivesTitle": "Assessment Objectives:",
       "objectives": [
         "Monitor academic progress and provide continuous feedback.",
@@ -106,7 +107,7 @@
       "formativeTitle": "Formative Assessment",
       "formativeDesc": "This type of assessment is used throughout the learning process to monitor student progress and offer chances for ongoing improvement. It includes regular assignments, class discussions, and varied activities that help students grasp concepts and build skills.",
       "summativeTitle": "Summative Assessment",
-      "summativeDesc": "This type of assessment measures students’ knowledge and skills at the end of a set period. It includes exams and tests that help evaluate readiness for the next level of education.",
+      "summativeDesc": "This type of assessment measures students' knowledge and skills at the end of a set period. It includes exams and tests that help evaluate readiness for the next level of education.",
       "performanceTitle": "Performance Assessment",
       "performanceDesc": "Beyond tests and exams, we use projects, practical work, and presentations that help students develop applicable skills and measure their progress across different areas.",
       "progressTitle": "Student Progress",
@@ -166,7 +167,7 @@
       "closingNote": "The uniform is an important part of school life, helping create a disciplined environment focused on academic achievements. We encourage every student to respect the uniform policy and contribute to an organized and equitable school atmosphere."
     },
     "attendancePage": {
-      "intro": "Regular and consistent attendance is essential for students’ academic success and personal development. We believe attending school responsibly helps build good habits and prepare for the future.",
+      "intro": "Regular and consistent attendance is essential for students' academic success and personal development. We believe attending school responsibly helps build good habits and prepare for the future.",
       "rulesTitle": "School Attendance Rules",
       "rulesParagraphs": [
         "Students are expected to attend every school day and arrive on time.",
@@ -180,9 +181,9 @@
       ],
       "lateTitle": "Late in Class",
       "lateParagraphs": [
-        "Students who arrive late are registered in the secretary’s office and placed in a supervised area where they work on class materials and assignments without disrupting the ongoing lesson.",
+        "Students who arrive late are registered in the secretary's office and placed in a supervised area where they work on class materials and assignments without disrupting the ongoing lesson.",
         "Repeated tardiness will be addressed in collaboration with parents to ensure more regular attendance.",
-        "Active presence and participation in the learning process support students’ academic and social development, so we consider it one of our top priorities."
+        "Active presence and participation in the learning process support students' academic and social development, so we consider it one of our top priorities."
       ]
     },
 
@@ -196,7 +197,7 @@
       ],
       "counselingTitle": "Counseling & Support",
       "counselingParagraphs": [
-        "The school provides support for students’ emotional and psychological well-being through counseling.",
+        "The school provides support for students' emotional and psychological well-being through counseling.",
         "Teachers and administrators work closely with students to help build confidence, manage stress, and improve social relationships.",
         "We collaborate with parents to ensure every student has the necessary support both inside and outside school.",
         "Discipline and counseling are not meant as punishment, but as education and assistance to foster a positive culture where every student feels motivated and supported to reach their full potential."
@@ -210,7 +211,7 @@
         "Provides suggestions and ideas for improving school life.",
         "Supports the organization of various activities and events.",
         "Helps strengthen cooperation between parents and academic staff.",
-        "Serves as a communication channel for parents’ concerns and proposals."
+        "Serves as a communication channel for parents' concerns and proposals."
       ],
       "closing": "All parents are invited to join this active community, contributing ideas and support to build a richer and more successful school environment for their children."
     },
@@ -231,17 +232,16 @@
           "description": "We organize regular meetings to discuss student progress and needs."
         },
         {
-          "title": "Secretary’s Office & Administration",
-          "description": "For any questions or concerns, parents can contact the secretary’s office or administration as appropriate."
+          "title": "Secretary's Office & Administration",
+          "description": "For any questions or concerns, parents can contact the secretary's office or administration as appropriate."
         },
         {
           "title": "Open Meetings & School Events",
-          "description": "Parents are encouraged to attend activities and events to stay closely involved in their child’s development."
+          "description": "Parents are encouraged to attend activities and events to stay closely involved in their child's development."
         }
       ],
       "closing": "We believe that open and regular communication helps create a supportive environment for our students!"
     }
-
   },
   "admissions": {
     "title": "Admissions",
@@ -254,7 +254,7 @@
       "steps": [
         {
           "title": "Initial Contact",
-          "description": "The parent or legal guardian contacts the school via the secretary’s office or administrators to express interest. During this first meeting, full information is provided about Fenix School’s philosophy, curriculum, rules, ethics, and care."
+          "description": "The parent or legal guardian contacts the school via the secretary's office or administrators to express interest. During this first meeting, full information is provided about Fenix School's philosophy, curriculum, rules, ethics, and care."
         },
         {
           "title": "Open Enrollment Period",
@@ -262,7 +262,7 @@
         },
         {
           "title": "Orientation / Trial Period",
-          "description": "Depending on demand and availability, an orientation or trial period—typically 3 days to 1 week—is arranged. This period serves as a two-way evaluation: for the family to get acquainted with the environment and program, and for the teaching staff to assess the student’s organization, behavior, approach, and academic potential within our school environment."
+          "description": "Depending on demand and availability, an orientation or trial period—typically 3 days to 1 week—is arranged. This period serves as a two-way evaluation: for the family to get acquainted with the environment and program, and for the teaching staff to assess the student's organization, behavior, approach, and academic potential within our school environment."
         },
         {
           "title": "Joint Decision",
@@ -274,12 +274,11 @@
         }
       ]
     }
-
   },
   "partnerships": {
     "title": "Partnerships",
     "albania": "Within Albania",
-    "albaniaDesc": "Fenix School collaborates with various institutions and organizations as part of its commitment to humanitarian aid and curricular projects. In Albania, the school partners with the Red Cross, the “Luigj Gurakuqi” school for children with special needs, and the “Jonathan” Down Syndrome Children’s Center.",
+    "albaniaDesc": "Fenix School collaborates with various institutions and organizations as part of its commitment to humanitarian aid and curricular projects. In Albania, the school partners with the Red Cross, the \"Luigj Gurakuqi\" school for children with special needs, and the \"Jonathan\" Down Syndrome Children's Center.",
     "abroad": "Outside Albania",
     "abroadDesc": "To develop our curriculum and exchange teaching experiences, Fenix has partnered with Wood Farm School in Oxford, England."
   },
@@ -341,7 +340,7 @@
   "activities": "Activities",
   "whyFenix": "Why FENIX",
   "footer": {
-    "message": "“Fenix” School is a private nine-year school offering instruction based on an integrated Anglo-Albanian curriculum"
+    "message": "\"Fenix\" School is a private nine-year school offering instruction based on an integrated Anglo-Albanian curriculum"
   },
   "calendar": {
     "title": "Calendar",
@@ -387,7 +386,6 @@
       "teamSpiritTitle": "🟦 Team spirit and sense of belonging",
       "teamSpiritDesc": "We are a united team working toward a common goal: the highest quality in education. Every teacher is respected, heard, and involved.",
       "contactCta": "💬 If you share these values and want to give your best in an environment that supports you, contact us to start your journey with us."
-
     }
   },
   "curriculum": {
@@ -405,8 +403,8 @@
   },
   "history": {
     "title": "History of Fenix School",
-    "description": "Fenix School was founded in 1996 with a clear vision to create a high-quality educational center that embodies the best of Albanian and English education. For over 30 years, we have been part of thousands of students’ lives, supporting their academic and social development.",
-    "evolutionTitle": "How We’ve Evolved Over the Years:",
+    "description": "Fenix School was founded in 1996 with a clear vision to create a high-quality educational center that embodies the best of Albanian and English education. For over 30 years, we have been part of thousands of students' lives, supporting their academic and social development.",
+    "evolutionTitle": "How We've Evolved Over the Years:",
     "evolutionPoints": [
       "Started with an academic-quality-focused structure and organizational discipline.",
       "Incorporated modern teaching methods to create a more interactive and personalized learning approach.",
@@ -417,11 +415,11 @@
     "futureDescription": "We continue to refine and grow to ensure each new generation receives the best possible education, preparing them for the challenges of our changing world."
   },
   "activitiesPage": {
-    "intro": "We offer a wide range of activities and events that support the development of our students’ social, emotional, and academic skills. Our activities are designed to foster creativity, collaboration, and the full potential of each student.",
+    "intro": "We offer a wide range of activities and events that support the development of our students' social, emotional, and academic skills. Our activities are designed to foster creativity, collaboration, and the full potential of each student.",
     "items": [
       {
         "title": "Excursions and Educational Visits",
-        "description": "Students participate in excursions and visits that help them learn in an out-of-class setting, experience different cultures, and apply the knowledge they’ve gained."
+        "description": "Students participate in excursions and visits that help them learn in an out-of-class setting, experience different cultures, and apply the knowledge they've gained."
       },
       {
         "title": "Science Fairs and Projects",
@@ -433,7 +431,7 @@
       },
       {
         "title": "End-of-Year Celebration",
-        "description": "A special event that celebrates students’ achievements during the school year and honors their efforts."
+        "description": "A special event that celebrates students' achievements during the school year and honors their efforts."
       },
       {
         "title": "Traditional and Cultural Festivals",

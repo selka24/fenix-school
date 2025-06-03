@@ -1,6 +1,7 @@
 <script setup>
 import {useRoute} from "vue-router";
 import {computed} from "vue";
+import { pageBanners } from "../core/pageBanners";
 
 const route = useRoute();
 
@@ -21,7 +22,14 @@ const breadCrumb = computed(() => {
 <template>
   <div>
     <div class="bg-wrapper">
-      <img class="bg-img" :src="bgImageSrc" alt="imageBg" />
+      <img
+          :srcset="pageBanners[meta.bannerKey] || pageBanners.default" 
+          class="bg-img"
+          sizes="(max-width: 480px) 400px,
+           (max-width: 768px) 800px,
+           (max-width: 1024px) 1200px,
+           1920px"
+        />
     </div>
     <div class="mx-auto container px-4 lg:px-14 py-9 text-c-gray">
       <div class="flex gap-1 text-xs uppercase" >

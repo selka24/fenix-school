@@ -3,43 +3,22 @@
     <div class="absolute h-[50%] bottom-0 bg-gradient-to-t from-black/60 to-transparent z-[20]"></div>
     <!-- Hero Carousel -->
     <div class="absolute inset-0">
-      <!-- First Slide -->
+      <!-- Slides -->
       <div 
-        class="absolute inset-0 transition-opacity duration-1000 ease-in-out "
-        :class="{ 'opacity-100 z-10': activeSlideIndex === 0, 'opacity-0': activeSlideIndex !== 0 }"
-      >
-        <img 
-          src="/images/happy-kids-playing-city-s-street-sunny-summer-s-day-front-modern-building.jpg" 
-          alt="Happy kids playing" 
-          class="w-full h-full object-cover"
-          @error="handleImageError"
-        />
-        <div class="absolute inset-0 bg-black" style="opacity: 0.15;"></div>
-      </div>
-      
-      <!-- Second Slide -->
-      <div 
+        v-for="(slide, index) in slides" 
+        :key="index"
         class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-        :class="{ 'opacity-100 z-10': activeSlideIndex === 1, 'opacity-0': activeSlideIndex !== 1 }"
+        :class="{ 'opacity-100 z-10': activeSlideIndex === index, 'opacity-0': activeSlideIndex !== index }"
       >
-        <img 
-          src="/images/medium-shot-girls-wearing-goggles.jpg" 
-          alt="Girls wearing goggles" 
+        <img
+          :srcset="slide.image" 
+          :alt="slide.alt"
           class="w-full h-full object-cover"
-          @error="handleImageError"
-        />
-        <div class="absolute inset-0 bg-black" style="opacity: 0.15;"></div>
-      </div>
-      
-      <!-- Third Slide -->
-      <div 
-        class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-        :class="{ 'opacity-100 z-10': activeSlideIndex === 2, 'opacity-0': activeSlideIndex !== 2 }"
-      >
-        <img 
-          src="/images/happy-kids-playing-city-s-street-sunny-summer-s-day-front-modern-building-group-happy-childrens-teenagers-having-fun-together-concept-friendship-childhood-summer-holidays.jpg" 
-          alt="Kids having fun together" 
-          class="w-full h-full object-cover"
+          sizes="(max-width: 480px) 400px,
+           (max-width: 768px) 800px,
+           (max-width: 1024px) 1200px,
+           1920px"
+          loading="lazy"
           @error="handleImageError"
         />
         <div class="absolute inset-0 bg-black" style="opacity: 0.15;"></div>
@@ -56,11 +35,11 @@
       <!-- Navigation Dots -->
       <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-3">
         <button 
-          v-for="index in 3" 
+          v-for="(slide, index) in slides" 
           :key="index"
           class="w-2.5 h-2.5 rounded-full bg-white transition-opacity duration-300"
-          :class="{ 'opacity-70': activeSlideIndex !== index - 1 }"
-          @click="setActiveSlide(index - 1)"
+          :class="{ 'opacity-70': activeSlideIndex !== index }"
+          @click="setActiveSlide(index)"
         ></button>
       </div>
       
@@ -95,6 +74,26 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
+import FirstSlideImage from '/src/assets/images/hero/Shkolla Fenix 1.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
+import SecondSlideImage from '/src/assets/images/hero/Shkolla Fenix 2.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
+import ThirdSlideImage from '/src/assets/images/hero/Shkolla Fenix 3.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
+
+// Import images with responsive sizes and WebP format
+const slides = [
+  {
+    image: FirstSlideImage,
+    alt: 'Shkolla Fenix Slide 1'
+  },
+  {
+    image: SecondSlideImage,
+    alt: 'Shkolla Fenix Slide 2'
+  },
+  {
+    image: ThirdSlideImage,
+    alt: 'Shkolla Fenix Slide 3'
+  }
+];
+
 const activeSlideIndex = ref(0);
 let carouselInterval: number | null = null;
 
@@ -106,13 +105,13 @@ const setActiveSlide = (index: number) => {
 
 // Navigate to next slide
 const nextSlide = () => {
-  activeSlideIndex.value = (activeSlideIndex.value + 1) % 3;
+  activeSlideIndex.value = (activeSlideIndex.value + 1) % slides.length;
   resetCarouselTimer();
 };
 
 // Navigate to previous slide
 const prevSlide = () => {
-  activeSlideIndex.value = (activeSlideIndex.value - 1 + 3) % 3;
+  activeSlideIndex.value = (activeSlideIndex.value - 1 + slides.length) % slides.length;
   resetCarouselTimer();
 };
 
@@ -182,19 +181,6 @@ onBeforeUnmount(() => {
 <style scoped>
 /* Match the exact font style as in the screenshot */
 h1 {
-  font-family: 'Arial', sans-serif;
-  letter-spacing: 0.05em;
-  position: relative;
-  text-align: center;
-}
-
-/* Add a bottom border under the ENGAGE heading */
-h1::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background-color: white;
-  margin: 10px auto 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 </style>

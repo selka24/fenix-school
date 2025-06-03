@@ -6,7 +6,8 @@
   },
   "fenix": "Shkolla Fenix",
   "sq-en": "Anglo-Shqiptare",
-  "address": "Rruga “Bilal Golemi”, <br> Tiranë e Re, 1001, <br> <span class=\"text-sm\">(pranë klubit sportiv “Dinamo”)</span>",
+  "address": "Rruga \"Bilal Golemi\", pranë klubit sportiv \"Dinamo\", Tiranë e Re, Tiranë",
+  "sitemap": "Harta e Faqes",
   "about": {
     "title": "Shkolla Jonë",
     "message": "Mirëseardhje / Mesazh nga Bordi",
@@ -32,7 +33,7 @@
       "disciplineTitle": "Disiplinë dhe organizim",
       "disciplineDesc": "Një mjedis i strukturuar dhe i mirëorganizuar që nxit përkushtimin dhe zhvillimin e aftësive të nxënësve.",
       "highResultsTitle": "Rezultate të larta",
-      "highResultsDesc": "Shkolla “Fenix” shquhet për cilësinë dhe arritjet e shkëlqyera akademike të nxënësve të saj."
+      "highResultsDesc": "Shkolla \"Fenix\" shquhet për cilësinë dhe arritjet e shkëlqyera akademike të nxënësve të saj."
     },
     "welcome": {
       "welcomeSubtitle": "Është kënaqësi t'ju mirëpresim në faqen tonë zyrtare!",
@@ -42,13 +43,13 @@
     },
     "teachers": {
       "title": "Stafi Mësimdhënës",
-      "intro": "Mësuesit tanë janë vërtet duart e arta të shkollës “Fenix”.",
+      "intro": "Mësuesit tanë janë vërtet duart e arta të shkollës \"Fenix\".",
       "experience": "Të gjithë kanë një eksperiencë të gjatë dhe të vyer, jo vetëm në mësimdhënie, por edhe në mënyrën e veçantë të të punuarit <b>me kurrikulën e integruar anglo-shqiptare</b>.",
       "approach": "Janë <b>njohës dhe zbatues të shkëlqyer</b> të kësaj qasjeje unike, duke reflektuar çdo ditë <b>filozofinë e shkollës sonë në klasë</b>.",
       "values": "Stafi ynë <b>kultivon vlera të forta organizative</b>, zhvillon <b>përgjegjësi të lartë profesionale</b> dhe përçon <b>cilësi të vërtetë</b> në çdo aspekt të mësimdhënies.",
       "teamwork": "Mësuesit tanë punojnë në mënyrë të koordinuar si një <b>skuadër e bashkuar</b>, duke ndarë eksperienca, ide dhe praktika të suksesshme për të <b>përmirësuar vazhdimisht procesin mësimor</b>.",
       "training": "<b>Trajnimi i brendshëm</b> është një shtyllë e fortë e zhvillimit profesional, i mbështetur nga drejtoria, koordinatorët dhe udhëheqësit e departamenteve. Njëkohësisht, ndjekin edhe <b>trajnime të jashtme kombëtare dhe ndërkombëtare</b>, duke e mbajtur veten gjithmonë të përditësuar me zhvillimet më të fundit në arsim.",
-      "student_focus": "Ata ndjekin me përkushtim <b>nevojat e çdo nxënësi</b>, në çdo lëndë, dhe punojnë në bashkëpunim të ngushtë me koordinatorët e niveleve dhe drejtuesit për të <b>analizuar të dhënat</b> dhe për t’i <b>kthyer ato në plane konkrete për përmirësim dhe arritje</b>.",
+      "student_focus": "Ata ndjekin me përkushtim <b>nevojat e çdo nxënësi</b>, në çdo lëndë, dhe punojnë në bashkëpunim të ngushtë me koordinatorët e niveleve dhe drejtuesit për të <b>analizuar të dhënat</b> dhe për t'i <b>kthyer ato në plane konkrete për përmirësim dhe arritje</b>.",
       "appreciation": "Shkolla jonë <b>i vlerëson mësuesit si pasurinë më të çmuar</b> – si në aspektin profesional, ashtu edhe në atë njerëzor – duke u krijuar një ambient pune të sigurt, të respektuar dhe motivues.",
       "stability": "Shkolla ndjek një <b>politikë të fortë stabiliteti</b>, duke <b>ruajtur dhe zhvilluar më tej ekipin tonë të jashtëzakonshëm</b>."
     },
@@ -86,12 +87,12 @@
   },
   "programmes": {
     "prog": "Programet",
-    "integratedProgramIntro": "Shkolla “Fenix” ofron një kurrikulum të integruar, ku bashkohen dy sisteme të ndryshme arsimore – ai shqiptar dhe ai anglez.",
+    "integratedProgramIntro": "Shkolla \"Fenix\" ofron një kurrikulum të integruar, ku bashkohen dy sisteme të ndryshme arsimore – ai shqiptar dhe ai anglez.",
     "integratedProgramDetails": [
       "Ky harmonizim është një proces unik që është zhvilluar dhe përmirësuar gjatë viteve, duke i mundësuar nxënësve tanë të përmbushin standardet e të dyja kurrikulave.",
       "Përmes këtij integrimi, nxënësit tanë marrin një arsim të plotë dhe të balancuar, që i përgatit për të vazhduar me sukses në shkolla kombëtare dhe ndërkombëtare, si dhe për të zhvilluar aftësi që janë të kërkuara në një mjedis global.",
       "Kurrikula jonë është një dëshmi e cilësisë së arsimit që nxënësit tanë marrin, duke i përgatitur ata për sukses në çdo mjedis edukativ dhe profesional.",
-      "Mënyra jonë e punës është një ekskluzivitet i Shkollës “Fenix”, një qasje që është zhvilluar përmes një përvoje të gjatë dhe të suksesshme, dhe që vazhdon të mbështetet nga trajnimet e vazhdueshme për mësuesit tanë."
+      "Mënyra jonë e punës është një ekskluzivitet i Shkollës \"Fenix\", një qasje që është zhvilluar përmes një përvoje të gjatë dhe të suksesshme, dhe që vazhdon të mbështetet nga trajnimet e vazhdueshme për mësuesit tanë."
     ],
     "assessmentPage": {
       "intro": "Vlerësimi është një pjesë kyçe e zhvillimit akademik të çdo nxënësi. Ne besojmë se vlerësimi i vazhdueshëm dhe objektiv ndihmon në identifikimin e forcave dhe fushave që kërkojnë përmirësim, duke siguruar që nxënësit të kenë mundësi të rriten dhe të arrijnë potencialin e tyre maksimal.",
@@ -104,7 +105,7 @@
       ],
       "typesTitle": "Llojet e Vlerësimit:",
       "formativeTitle": "Vlerësimi Formativ",
-      "formativeDesc": "Ky lloj vlerësimi përdoret gjatë gjithë procesit mësimor për të monitoruar përparimin e nxënësve dhe për të ofruar mundësi për përmirësim të vazhdueshëm. Ai përfshin detyra të rregullta, diskutime klasore, dhe aktivitete të ndryshme që ndihmojnë nxënësit të kuptojnë konceptet dhe t’i zhvillojnë aftësitë.",
+      "formativeDesc": "Ky lloj vlerësimi përdoret gjatë gjithë procesit mësimor për të monitoruar përparimin e nxënësve dhe për të ofruar mundësi për përmirësim të vazhdueshëm. Ai përfshin detyra të rregullta, diskutime klasore, dhe aktivitete të ndryshme që ndihmojnë nxënësit të kuptojnë konceptet dhe t'i zhvillojnë aftësitë.",
       "summativeTitle": "Vlerësimi Sumativ",
       "summativeDesc": "Ky lloj vlerësimi përdoret për të matur përfundimisht njohuritë dhe aftësitë e nxënësve në fund të një periudhe të caktuar. Ai përfshin provime dhe teste që ndihmojnë në vlerësimin e përgatitjes së nxënësve për nivelet e ardhshme të edukatës.",
       "performanceTitle": "Vlerësimi për Performancën",
@@ -126,7 +127,7 @@
     "magazine": {
       "title": "Revista e Shkollës",
       "description": "Botim vjetor i përgatitur nga nxënësit dhe mësuesit.",
-      "magBy": "Përgatitet nga: Klubi “Writers Club”, mësuesit udhëheqës dhe drejtoria.",
+      "magBy": "Përgatitet nga: Klubi \"Writers Club\", mësuesit udhëheqës dhe drejtoria.",
       "magFreq": "Frekuenca: 1 herë në vit shkollor.",
       "magContent": "Përmbajtja: Artikuj, intervista, aktivitete, krijime artistike, suksese dhe kujtime nga viti.",
       "magProcess": "Procesi: Përgatitje → Redaktim → Formatim digjital → Miratim nga drejtoria → Botim."
@@ -197,7 +198,7 @@
       "counselingTitle": "Këshillimi dhe Mbështetja",
       "counselingParagraphs": [
         "Shkolla ofron mbështetje për mirëqenien emocionale dhe psikologjike të nxënësve përmes këshillimit.",
-        "Mësuesit dhe drejtuesit punojnë ngushtë me nxënësit për t’i ndihmuar në zhvillimin e vetëbesimit, menaxhimin e stresit dhe përmirësimin e marrëdhënieve sociale.",
+        "Mësuesit dhe drejtuesit punojnë ngushtë me nxënësit për t'i ndihmuar në zhvillimin e vetëbesimit, menaxhimin e stresit dhe përmirësimin e marrëdhënieve sociale.",
         "Bashkëpunojmë me prindërit për të siguruar që çdo nxënës të ketë mbështetjen e nevojshme brenda dhe jashtë shkollës.",
         "Disiplina dhe këshillimi nuk kanë për qëllim ndëshkimin, por edukimin dhe ndihmën për të krijuar një kulturë pozitive ku çdo nxënës ndihet i motivuar dhe i mbështetur për të arritur potencialin e tij të plotë."
       ]
@@ -241,7 +242,6 @@
       ],
       "closing": "Ne besojmë se një komunikim i hapur dhe i rregullt ndihmon në krijimin e një mjedisi mbështetës për nxënësit tanë!"
     }
-
   },
   "admissions": {
     "title": "Regjistrimet",
@@ -254,7 +254,7 @@
       "steps": [
         {
           "title": "Kontakti Fillestar",
-          "description": "Prindi ose kujdestari ligjor kontakton shkollën përmes sekretarisë ose drejtuesve për të shprehur interesin. Gjatë këtij takimi të parë, jepet informacion i plotë rreth filozofisë, programit mësimor, rregullave, etikës dhe përkujdesjes në Shkollën “Fenix”."
+          "description": "Prindi ose kujdestari ligjor kontakton shkollën përmes sekretarisë ose drejtuesve për të shprehur interesin. Gjatë këtij takimi të parë, jepet informacion i plotë rreth filozofisë, programit mësimor, rregullave, etikës dhe përkujdesjes në Shkollën \"Fenix\"."
         },
         {
           "title": "Periudha e Hapur për Regjistrime",
@@ -278,9 +278,9 @@
   "partnerships": {
     "title": "Partneritetet",
     "albania": "Brenda Shqipërisë",
-    "albaniaDesc": "Shkolla \"Fenix\" bashkëpunon me institucione dhe organizata të ndryshme si pjesë e angazhimit të saj për ndihmën humanitare dhe projekte kurrikulare. Në Shqipëri, shkolla ka partneritet me Kryqin e Kuq, shkollën për fëmijët me nevoja të veçanta “Luigj Gurakuqi” dhe Qendrën e Fëmijëve me Sindromën Down “Jonathan”.",
+    "albaniaDesc": "Shkolla \"Fenix\" bashkëpunon me institucione dhe organizata të ndryshme si pjesë e angazhimit të saj për ndihmën humanitare dhe projekte kurrikulare. Në Shqipëri, shkolla ka partneritet me Kryqin e Kuq, shkollën për fëmijët me nevoja të veçanta \"Luigj Gurakuqi\" dhe Qendrën e Fëmijëve me Sindromën Down \"Jonathan\".",
     "abroad": "Jashtë Shqipërisë",
-    "abroadDesc": "Për zhvillimin e kurrikulës dhe shkëmbimin e përvojave të mësimdhënies, “Fenix” ka partneritet me shkollën Wood Farm në Oxford, Angli."
+    "abroadDesc": "Për zhvillimin e kurrikulës dhe shkëmbimin e përvojave të mësimdhënies, \"Fenix\" ka partneritet me shkollën Wood Farm në Oxford, Angli."
   },
   "homePage": {
     "exploreClasses": "Eksploro Programin Tonë Mësimor",
@@ -308,7 +308,7 @@
     "contactPage": {
       "title": "Kontakto tani!",
       "intro": [
-        "Ne jemi të gatshëm për t’ju ardhur në ndihmë për çdo pyetje që mund të keni.",
+        "Ne jemi të gatshëm për t'ju ardhur në ndihmë për çdo pyetje që mund të keni.",
         "Mund të na kontaktoni dhe vizitoni në adresat e mëposhtme."
       ]
     },
@@ -339,7 +339,7 @@
   "activities": "Aktivitete",
   "whyFenix": "Pse FENIX",
   "footer": {
-    "message": "Shkolla “Fenix” është një shkollë nëntëvjeçare jopublike, që ofron mësim sipas një kurrikule të integruar anglo-shqiptare"
+    "message": "Shkolla \"Fenix\" është një shkollë nëntëvjeçare jopublike, që ofron mësim sipas një kurrikule të integruar anglo-shqiptare"
   },
   "calendar": {
     "title": "Kalendari",
@@ -401,8 +401,8 @@
     }
   },
   "history": {
-    "title": "Historia e Shkollës “Fenix”",
-    "description": "Shkolla “Fenix” u themelua në vitin 1996 me një vizion të qartë për të krijuar një qendër arsimore cilësore që mishëron më të mirën e arsimit shqiptar dhe atij anglez. Për më shumë se 30 vjet, kemi qenë pjesë e jetës së mijëra nxënësve, duke mbështetur zhvillimin e tyre akademik dhe social.",
+    "title": "Historia e Shkollës \"Fenix\"",
+    "description": "Shkolla \"Fenix\" u themelua në vitin 1996 me një vizion të qartë për të krijuar një qendër arsimore cilësore që mishëron më të mirën e arsimit shqiptar dhe atij anglez. Për më shumë se 30 vjet, kemi qenë pjesë e jetës së mijëra nxënësve, duke mbështetur zhvillimin e tyre akademik dhe social.",
     "evolutionTitle": "Si kemi evoluar gjatë viteve:",
     "evolutionPoints": [
       "Fillimi me një strukturë të fokusuar në cilësinë akademike dhe disiplinë organizative.",
@@ -410,8 +410,8 @@
       "Integrimi i kurrikulës angleze me atë shqiptare, duke na bërë një nga pak shkollat që ofrojnë këtë model unik.",
       "Përmirësim i vazhdueshëm i cilësisë së arsimit dhe suksesi i nxënësve tanë, si në shkollat e mesme kombëtare, ashtu edhe në ato ndërkombëtare."
     ],
-    "futureTitle": "E ardhmja e Shkollës “Fenix”",
-    "futureDescription": "Ne vazhdojmë të përmirësohemi dhe të zhvillohemi për t’u siguruar që çdo brez i ri të marrë edukimin më të mirë të mundshëm, duke i përgatitur ata për sfidat e një bote që po ndryshon."
+    "futureTitle": "E ardhmja e Shkollës \"Fenix\"",
+    "futureDescription": "Ne vazhdojmë të përmirësohemi dhe të zhvillohemi për t'u siguruar që çdo brez i ri të marrë edukimin më të mirë të mundshëm, duke i përgatitur ata për sfidat e një bote që po ndryshon."
   },
   "activitiesPage": {
     "intro": "Ofrojmë një gamë të gjerë aktivitetesh dhe ngjarjesh që ndihmojnë në zhvillimin e aftësive sociale, emocionale dhe akademike të nxënësve. Aktivitetet tona janë të dizajnuara për të nxitur kreativitetin, bashkëpunimin dhe arritjen e potencialit të plotë të secilit nxënës.",

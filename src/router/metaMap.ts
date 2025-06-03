@@ -3,18 +3,24 @@ import type { RouteMeta } from 'vue-router'
 
 interface Breadcrumb { title: string; link: string }
 
-export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> = {
+export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], bannerKey?: string }> = {
   '/': {
     titleKey: 'home.title',
     layout: 'empty'
   },
 
-  '/about': {
-    titleKey: 'about.title',
-    test:     'test',
+  '/sitemap': {
+    titleKey: 'sitemap',
     breadcrumb: [
       { title: 'home.title', link: '/' }
     ]
+  },
+
+  '/about': {
+    titleKey: 'about.title',
+    breadcrumb: [
+      { title: 'home.title', link: '/' }
+    ],
   },
   '/about/why-fenix': {
     titleKey: 'about.why.title',
@@ -56,14 +62,16 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> 
     titleKey: 'programmes.curriculum',
     breadcrumb: [
       { title: 'home.title', link: '/' }
-    ]
+    ],
+    bannerKey: 'curriculum'
   },
   '/curriculum/assessment-progress': {
     titleKey: 'programmes.assessment',
     breadcrumb: [
       { title: 'home.title',        link: '/' },
       { title: 'programmes.title',  link: '/curriculum' }
-    ]
+    ],
+    bannerKey: 'progress'
   },
   '/curriculum/elementary': {
     titleKey: '',
@@ -71,28 +79,32 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> 
       { title: 'home.title',                    link: '/' },
       { title: 'programmes.title',  link: '/curriculum' },
       { title: 'homePage.classes.elementary',  link: '' }
-    ]
+    ],
+    bannerKey: 'primary'
   },
   '/curriculum/middle': {
     titleKey: '',
     breadcrumb: [
       { title: 'home.title',                 link: '/' },
       { title: 'homePage.classes.middle',   link: '/curriculum/middle' }
-    ]
+    ],
+    bannerKey: 'secondary'
   },
 
   '/activities': {
     titleKey: 'studentLife.activities',
     breadcrumb: [
       { title: 'home.title', link: '/' }
-    ]
+    ],
+    bannerKey: 'activities'
   },
   '/activities/clubs': {
     titleKey: 'studentLife.clubs',
     breadcrumb: [
       { title: 'home.title',                link: '/' },
       { title: 'studentLife.activities',    link: '/activities' }
-    ]
+    ],
+    bannerKey: 'clubs'
   },
   '/activities/magazine': {
     titleKey: 'studentLife.magazine.title',
@@ -106,28 +118,32 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> 
     titleKey: 'parents.communication',
     breadcrumb: [
       { title: 'home.title', link: '/' }
-    ]
+    ],
+    bannerKey: 'parents'
   },
   '/parents/council': {
     titleKey: 'parents.council',
     breadcrumb: [
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
-    ]
+    ],
+    bannerKey: 'parents'
   },
   '/parents/discipline': {
     titleKey: 'parents.discipline',
     breadcrumb: [
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
-    ]
+    ],
+    bannerKey: 'parents'
   },
   '/parents/uniform': {
     titleKey: 'parents.uniform',
     breadcrumb: [
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
-    ]
+    ],
+    bannerKey: 'parents'
   },
   '/parents/attendance': {
     titleKey: 'parents.attendance',
@@ -148,13 +164,15 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[] }> 
     titleKey: 'partnerships.title',
     breadcrumb: [
       { title: 'home.title', link: '/' }
-    ]
+    ],
+    bannerKey: 'al'
   },
   '/partnerships/abroad': {
     titleKey: 'partnerships.title',
     breadcrumb: [
       { title: 'home.title', link: '/' }
-    ]
+    ],
+    bannerKey: 'abroad'
   },
 
   '/contact': {

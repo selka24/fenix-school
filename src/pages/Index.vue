@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import LearningProgram from "../components/LearningProgram.vue";
-import NumbersSection from "../components/NumbersSection.vue";
 import MissionAction from "../components/MissionAction.vue";
 import HeroSection from "../components/HeroSection.vue";
 </script>

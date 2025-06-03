@@ -66,7 +66,7 @@
       
       <!-- Copyright -->
       <div class="mt-12 pt-4 text-center text-sm text-white/70">
-        <p>Website Privacy Policy | Site Map</p>
+        <p>Website Privacy Policy | <router-link to="/sitemap" class="hover:underline">{{ $t('sitemap') }}</router-link></p>
         <p class="mt-2">© {{new Date().getFullYear()}} Fenix School. All rights reserved.</p>
       </div>
     </div>

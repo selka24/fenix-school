@@ -6,7 +6,7 @@ import tippy from "tippy.js"
 import "tippy.js/dist/tippy.css"
 
 import { onMounted, watch, ref } from "vue"
-import { HolidaysTypes } from "date-holidays"
+import type { HolidaysTypes } from "date-holidays"
 import { useI18n } from "vue-i18n"
 
 const { locale } = useI18n()

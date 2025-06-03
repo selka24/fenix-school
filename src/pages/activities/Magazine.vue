@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {PageFlip} from 'page-flip';
 import {nextTick, onMounted, ref, onBeforeUnmount} from "vue";
-import {Magazine, magazines, buildImageUrl, magazineInfo} from "../../core/magazines.ts";
+import {type Magazine, magazines, buildImageUrl, magazineInfo} from "../../core/magazines.ts";
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
 
 const magazineElement = ref<HTMLElement | null>(null);

@@ -30,7 +30,7 @@
 </template>
 
 <script setup lang="ts">
-import {MenuItem} from "../composables/useNavigation.ts";
+import { type MenuItem } from "../composables/useNavigation";
 import Accordion from "./Accordion.vue";
 
 defineProps<{
