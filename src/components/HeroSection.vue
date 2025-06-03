@@ -19,7 +19,6 @@
            (max-width: 1024px) 1200px,
            1920px"
           loading="lazy"
-          @error="handleImageError"
         />
         <div class="absolute inset-0 bg-black" style="opacity: 0.15;"></div>
       </div>
@@ -121,14 +120,6 @@ const resetCarouselTimer = () => {
     clearInterval(carouselInterval);
     startCarousel();
   }
-};
-
-// Handle image loading errors
-const handleImageError = (event: Event) => {
-  const img = event.target as HTMLImageElement;
-  // Set a fallback image if the original fails to load
-  img.src = 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-  img.alt = 'Fallback image';
 };
 
 // Auto-rotate carousel
