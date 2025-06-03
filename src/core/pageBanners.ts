@@ -1,6 +1,6 @@
 import ActivityBanner from '/src/assets/images/activities/Fenix.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
 import ClubBanner from '/src/assets/images/clubs/club.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
-import CurriculumBanner from '/src/assets/images/curriculum/Kurrikula.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
+// import CurriculumBanner from '/src/assets/images/curriculum/Kurrikula.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
 import AbroadBanner from '/src/assets/images/external/wood_farm_school.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
 import AlBanner from '/src/assets/images/internal/internal.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
 import ParentsBanner from '/src/assets/images/parents/parents.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset'
@@ -12,7 +12,7 @@ import DefaultBanner from '/src/assets/images/hero/Shkolla Fenix 1.jpg?w=400;800
 export const pageBanners = {
   activities: ActivityBanner,
   clubs: ClubBanner,
-  curriculum: CurriculumBanner,
+  // curriculum: CurriculumBanner,
   abroad: AbroadBanner,
   al: AlBanner,
   parents: ParentsBanner,
