@@ -34,7 +34,7 @@
       <!-- Navigation Dots -->
       <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-3">
         <button 
-          v-for="(slide, index) in slides" 
+          v-for="(_, index) in slides" 
           :key="index"
           class="w-2.5 h-2.5 rounded-full bg-white transition-opacity duration-300"
           :class="{ 'opacity-70': activeSlideIndex !== index }"
