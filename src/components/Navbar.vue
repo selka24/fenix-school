@@ -68,7 +68,7 @@
             </router-link>
           </template>
         </VueDropdown>
-          <a :href="`mailto:${schoolInfo.email}`" class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">E-mail</a>
+          <router-link to="/contact#job" class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">E-mail</router-link>
       </div>
 
 

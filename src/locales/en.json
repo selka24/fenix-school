@@ -330,6 +330,9 @@
     "messagePlaceholder": "Write your message…",
 
     "send": "Send Message",
+    "sendJob": "Send Application",
+    "jobApplication": "Job Application",
+    "cvUpload": "Upload CV",
     "sending": "Sending…",
 
     "fillAll": "Please fill in all fields.",

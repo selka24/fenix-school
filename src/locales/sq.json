@@ -329,6 +329,9 @@
     "messagePlaceholder": "Shkruani mesazhin tuaj…",
 
     "send": "Dërgo Mesazhin",
+    "sendJob": "Dërgo Aplikimin",
+    "cvUpload": "Ngarkoni CV-në",
+    "jobApplication": "Aplikim për Punë",
     "sending": "Duke dërguar…",
 
     "fillAll": "Ju lutem plotësoni të gjitha fushat.",
