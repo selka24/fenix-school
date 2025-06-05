@@ -45,8 +45,6 @@ const hd = new Holidays('AL');
 
 const filterHolidays = computed(() => {
   return hd.getHolidays().filter(h => {
-    console.log('dite pushimi:: ' ,h.date);
-
     // remove 1st April
     const [ymd] = h.date.split(' ');
     const [, month, day] = ymd.split('-');

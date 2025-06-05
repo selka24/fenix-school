@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {PageFlip} from 'page-flip';
 import {nextTick, onMounted, ref, onBeforeUnmount} from "vue";
-import {type Magazine, magazines, buildImageUrl, magazineInfo} from "../../core/magazines.ts";
+import { magazines, magazineInfo, type Magazine } from '../../core/magazines';
 import DescriptionMessage from "../../components/DescriptionMessage.vue";
 
 const magazineElement = ref<HTMLElement | null>(null);
@@ -55,6 +55,13 @@ onMounted(() => {
 onBeforeUnmount(() => {
   document.removeEventListener('keydown', closeOnEscape)
 })
+
+// Helper functions for Vite image imports
+function getImgSrc(img: any) {
+  if (typeof img === 'string') return img;
+  if (img && typeof img === 'object') return img.src || img.default || '';
+  return '';
+}
 </script>
 
 <template>
@@ -75,11 +82,14 @@ onBeforeUnmount(() => {
       </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
             <div
-                v-for="({title}, idx) in magazines"
+                v-for="({title, images}, idx) in magazines"
                 @click="openMagazine(idx)"
                 class="cursor-pointer hover:scale-[1.1] hover:shadow-lg hover:shadow-primary transition-all duration-400"
                 :key="title">
-                <img class="w-full h-full" :src="buildImageUrl(title, 1)" alt="magazine image"/>
+                <img
+                  class="w-full h-full"
+                  :src="images[0]"
+                  alt="magazine image"/>
             </div>
         </div>
         <div class="fixed top-0 left-0 w-full h-full" v-if="currentMagazine">
@@ -89,11 +99,11 @@ onBeforeUnmount(() => {
                     <icon name="plus-solid" class="w-6 text-white rotate-45"/>
                 </button>
             </div>
-                    <div ref="magazineElement" class="absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%]">
-                        <div v-for="(idx) in currentMagazine?.images" class="my-page" data-density="hard">
-                            <img v-if="currentMagazine" class="w-full h-full" :src="buildImageUrl(currentMagazine.title, idx)" alt="magazine image"/>
-                        </div>
-                    </div>
+            <div ref="magazineElement" class="absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%]">
+                <div v-for="(img, idx) in currentMagazine?.images" :key="idx" class="my-page" data-density="hard">
+                    <img v-if="currentMagazine" class="w-full h-full" :src="getImgSrc(img)"  loading="lazy" alt="magazine image"/>
+                </div>
+            </div>
         </div>
     </div>
 </template>
