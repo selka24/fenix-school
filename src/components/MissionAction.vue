@@ -19,7 +19,7 @@
         <div v-for="(actv, idx) in splicedAcitvities" :key="`actv-${idx}`" class="flex flex-col">
           <a href="#" class="block mb-4 overflow-hidden">
             <img 
-              :src="`/images/${actv.image}`"
+              :src="actv.image"
               alt="The Fusion of Grade 8 Engineering" 
               class="w-full h-52 object-cover hover:scale-110 transition-transform duration-500"
             />
@@ -35,13 +35,7 @@
       
       <!-- View All Button -->
       <div class="text-center">
-        <a href="#" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition uppercase">{{$t('home.viewAll')}}</a>
-      </div>
-      
-      <!-- Navigation Dots -->
-      <div class="flex justify-center mt-8 space-x-2">
-        <button class="w-2 h-2 rounded-full bg-gray-300"></button>
-        <button class="w-2 h-2 rounded-full bg-primary"></button>
+        <router-link to="/activities" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition uppercase">{{$t('home.viewAll')}}</router-link>
       </div>
     </div>
   </section>

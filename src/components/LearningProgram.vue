@@ -18,14 +18,16 @@
         <!-- Early Childhood -->
         <router-link  v-for="{title, image, description, link} in programmes" :to="`/curriculum/${link}`" :key="title" class="relative h-64 group cursor-pointer overflow-hidden rounded-lg shadow-md">
           <img 
-            :src="`/images/learning-program/${image}`"
+            :src="image"
             alt="Early Childhood Foundations" 
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20 flex items-end p-6 transition-all duration-300 group-hover:from-primary/80 group-hover:to-primary/40">
             <div>
-              <h3 class="text-white text-xl font-semibold mb-1">{{title}}</h3>
-              <p class="text-white/0 text-sm transition-all duration-300 group-hover:text-white/90">
+              <h3 class="text-white text-xl font-semibold mb-1 transform transition-all duration-300 group-hover:-translate-y-4 translate-y-0">
+                {{title}}
+              </h3>
+              <p class="text-white/0 text-sm max-h-0 opacity-0 translate-y-2 overflow-hidden transition-all duration-300 group-hover:text-white/90 group-hover:max-h-32 group-hover:opacity-90 group-hover:translate-y-0">
                 {{description}}
               </p>
             </div>
@@ -39,6 +41,8 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import {computed} from "vue";
+import PrimaryImage from '/src/assets/images/primary/primary.jpg?w=800&format=webp&quality=80';
+import SecondaryImage from '/src/assets/images/secondary/secondary.jpg?w=800&format=webp&quality=80';
 const { t } = useI18n()
 
 const programmes = computed(() => ([
@@ -46,13 +50,13 @@ const programmes = computed(() => ([
     title: t('homePage.classes.elementary'),
     link: 'elementary',
     description: t('homePage.classes.elementaryDescription'),
-    image: 'full-shot-friends-sitting-blanket.jpg'
+    image: PrimaryImage
   },
   {
     title: t('homePage.classes.middle'),
     link: 'middle',
     description: t('homePage.classes.middleDescription'),
-    image: 'male-student-reading-near-tables.jpg'
+    image: SecondaryImage
   },
 ]))
 </script>
@@ -62,4 +66,4 @@ const programmes = computed(() => ([
   transform: translateY(0);
   opacity: 1;
 }
-</style> 
+</style>

@@ -26,11 +26,7 @@
 
     <!-- Content Overlay -->
     <div class="relative h-full flex flex-col justify-end items-center z-20">
-      <div class="mb-24">
-        <h1 class="text-white text-5xl font-bold tracking-wide mb-3">ENGAGE</h1>
-        <p class="text-white text-xs text-center">Harness apply their learning in diverse real-life/changing contexts.</p>
-      </div>
-      
+
       <!-- Navigation Dots -->
       <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-3">
         <button 
@@ -73,8 +69,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
-import FirstSlideImage from '/src/assets/images/hero/Shkolla Fenix 1.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
-import SecondSlideImage from '/src/assets/images/hero/Shkolla Fenix 2.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
+import FirstSlideImage from '/src/assets/images/hero/ShkollaNoBg.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
+import SecondSlideImage from '/src/assets/images/hero/ShkollaNoBg2.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
 import ThirdSlideImage from '/src/assets/images/hero/Shkolla Fenix 3.jpg?w=400;800;1200;1920&format=webp&quality=80&as=srcset'
 
 // Import images with responsive sizes and WebP format

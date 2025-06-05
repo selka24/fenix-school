@@ -23,13 +23,24 @@ const breadCrumb = computed(() => {
   <div>
     <div class="bg-wrapper">
       <img
-          :srcset="pageBanners[meta.bannerKey] || pageBanners.default" 
+        v-if="typeof meta.banner === 'string' || !meta.banner"
+          :srcset="pageBanners[meta.banner] || pageBanners.default"
           class="bg-img"
           sizes="(max-width: 480px) 400px,
            (max-width: 768px) 800px,
            (max-width: 1024px) 1200px,
            1920px"
         />
+      <img
+        v-else
+        :srcset="pageBanners[meta.banner.key] || pageBanners.default"
+        class="bg-img"
+        :style="`object-position: ${meta.banner.position};`"
+        sizes="(max-width: 480px) 400px,
+           (max-width: 768px) 800px,
+           (max-width: 1024px) 1200px,
+           1920px"
+      />
     </div>
     <div class="mx-auto container px-4 lg:px-14 py-9 text-c-gray">
       <div class="flex gap-1 text-xs uppercase" >

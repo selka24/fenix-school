@@ -1,3 +1,10 @@
+//@ts-ignore
+import VisitsImg from '../assets/images/activities/Visits.webp?w=400&format=webp&quality=80'
+//@ts-ignore
+import FairImg from '../assets/images/activities/Fair.webp?w=400&format=webp&quality=80'
+//@ts-ignore
+import ActivitiesImg from '../assets/images/activities/Lojëra dhe Aktivitetet Sportive.webp?format=webp&quality=80'
+
 export const partnersAlb = [
   {
     href: 'https://www.kksh.org.al/',
@@ -11,7 +18,9 @@ export const partnersAlb = [
   },
   {
     href: 'https://www.facebook.com/shkollaspeciale.luigjgurakuqi',
-    text: 'SHKOLLA SPECIALE LUIGJ GURAKUQI'   // text‑logo variant
+    img: '/images/partners/luigjNobg.png',
+    alt: 'Luigj Gurakuqi'
+    // text: 'SHKOLLA SPECIALE LUIGJ GURAKUQI'   // text‑logo variant
   }
 ]
 
@@ -32,17 +41,17 @@ export const socialMedia = {
 
 export const activities = [
   {
-    image: 'activities/Ekskursione dhe Vizita Mësimore.webp',
+    image: VisitsImg,
     title: "Ekskursione dhe Vizita Mësimore",
     description: "Nxënësit marrin pjesë në ekskursione dhe vizita që i ndihmojnë ata të mësojnë në një mjedis jashtë klasës, duke u njohur me kultura të ndryshme dhe duke aplikuar njohuritë e fituara."
   },
   {
-    image: 'activities/Panaire dhe Projekte Shkencore.webp',
+    image: FairImg,
     title: "Panaire dhe Projekte Shkencore",
     description: "Nxënësit zhvillojnë dhe prezantojnë projekte shkencore, duke i dhënë mundësi për të eksperimentuar dhe për të nxitur kuriozitetin dhe kërkimin shkencor."
   },
   {
-    image: 'activities/Lojëra dhe Aktivitetet Sportive.webp',
+    image: ActivitiesImg,
     title: "Lojëra dhe Aktivitetet Sportive",
     description: "Aktivitetet fizike dhe sportive janë pjesë e rëndësishme e programit tonë, duke i mësuar nxënësit për rëndësinë e punës në ekip dhe zhvillimit të shëndetit fizik."
   },
