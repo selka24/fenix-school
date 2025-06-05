@@ -8,7 +8,7 @@ import ParentsBanner from '/src/assets/images/parents/parents.jpg?w=400;800;1200
 import PrimaryBanner from '/src/assets/images/primary/primary.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import SecondaryBanner from '/src/assets/images/secondary/secondary.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import ProggresBanner from '/src/assets/images/progress/progress.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
-import DefaultBanner from '/src/assets/images/hero/ShkollaNoBG.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
+import DefaultBanner from '/src/assets/images/hero/ShkollaNoBg.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import CurriculumBanner from '/src/assets/images/programmes/programme.webp?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import StaffBanner from '/src/assets/images/staff/staff.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import TeamBanner from '/src/assets/images/lead-team/leadTeam.jpeg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
