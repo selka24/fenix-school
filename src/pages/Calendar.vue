@@ -20,8 +20,20 @@ const monthNames = {
   ],
 }
 
+function normalizeDateString(input: string) {
+  // Convert '2025-03-30 00:00:00 -0600' to '2025-03-30T00:00:00-06:00'
+  // Regex: YYYY-MM-DD HH:MM:SS ±HHMM
+  const match = input.match(/(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2}) ([+-]\d{2})(\d{2})/);
+  if (match) {
+    const [ , date, time, tzHour, tzMin ] = match;
+    return `${date}T${time}${tzHour}:${tzMin}`;
+  }
+  return input; // fallback if already ISO or unrecognized
+}
+
 function formatDate(input: string, lang: 'sq' | 'en') {
-  const date = new Date(input);
+  const normalized = normalizeDateString(input);
+  const date = new Date(normalized);
   const dd = date.getDate();
   const mm = date.getMonth();
   const yyyy = date.getFullYear();
@@ -29,7 +41,6 @@ function formatDate(input: string, lang: 'sq' | 'en') {
   return `${dd} ${monthNames[lang][mm]} ${yyyy}`;
 }
 
-// Create an instance for Albania
 const hd = new Holidays('AL');
 
 const filterHolidays = computed(() => {
