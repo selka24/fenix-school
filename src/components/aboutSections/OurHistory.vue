@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import DescriptionMessage from "../DescriptionMessage.vue";
+import WomanImage from "/src/assets/images/history/woman.png?w=800&format=webp&quality=80"
+import WomanTalkImage from "/src/assets/images/history/woman-talk.png?w=800&format=webp&quality=80"
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -12,25 +14,36 @@ const evolutionPoints = computed<string[]>(() => {
 
 <template>
   <div>
-    <DescriptionMessage type="warning" class="mt-10 mb-8">
-      {{ $t("history.title") }}
-    </DescriptionMessage>
+    <div class="grid grid-cols-5 gap-14 mt-10">
+      <div class="col-span-full md:col-span-3">
+        <DescriptionMessage type="warning" class="mb-8">
+          {{ $t("history.title") }}
+        </DescriptionMessage>
 
-    <p>{{ $t("history.description") }}</p>
+        <p>{{ $t("history.description") }}</p>
 
-    <h2 class="text-3xl mt-14 mb-6 font-bold text-primary">
-      {{ $t("history.evolutionTitle") }}
-    </h2>
-
-    <div class="flex flex-col gap-5">
-      <div
-        v-for="(point, idx) in evolutionPoints"
-        :key="idx"
-        class="flex items-center gap-2"
-      >
-        <span class="text-xl">📌</span>
-        <p>{{ point }}</p>
       </div>
+      <div class="col-span-full md:col-span-2">
+        <img :src="WomanImage">
+      </div>
+    </div>
+    <div class="mt-14 grid grid-cols-5 gap-14">
+      <div class="col-span-full md:col-span-3">
+        <h2 class="text-3xl mb-6 font-bold text-primary">
+          {{ $t("history.evolutionTitle") }}
+        </h2>
+        <div class="flex flex-col gap-5">
+          <div
+            v-for="(point, idx) in evolutionPoints"
+            :key="idx"
+            class="flex items-center gap-2"
+          >
+            <span class="text-xl">📌</span>
+            <p>{{ point }}</p>
+          </div>
+        </div>
+      </div>
+        <img class="col-span-full md:col-span-2" :src="WomanTalkImage">
     </div>
 
     <DescriptionMessage type="warning" class="mt-10 mb-8">

@@ -68,7 +68,7 @@
             </router-link>
           </template>
         </VueDropdown>
-          <router-link to="/contact#job" class="bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">E-mail</router-link>
+          <div @click="handleScrollToApplication" class="cursor-pointer bg-primary text-white px-3 py-2 text-md font-bold rounded hover:bg-primary/70 transition-colors duration-200 hover:shadow-md">E-mail</div>
       </div>
 
 
@@ -112,6 +112,9 @@ import SideBar from "./SideBar.vue";
 import MobileNavSubMenu from "./MobileNavSubMenu.vue";
 import VueDropdown from "./VueDropdown.vue";
 import {schoolInfo} from "../core/globalData.ts";
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 // Get navigation items from our composable
 const { navigationItems, activeMenu, extraMobileMenus } = useNavigation();
@@ -149,6 +152,15 @@ const closeSubmenu = () => {
   submenuCloseTimeout = window.setTimeout(() => {
     activeSubmenu.value = null;
   }, 150) as unknown as number;
+};
+
+const handleScrollToApplication = () => {
+  const applicationSection = document.querySelector('#job');
+  if (applicationSection) {
+    applicationSection.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    router.push('/contact#job');
+  }
 };
 </script>
 

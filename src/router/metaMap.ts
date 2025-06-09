@@ -46,7 +46,11 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
     breadcrumb: [
       { title: 'home.title',     link: '/' },
       { title: 'about.title',    link: '/about' }
-    ]
+    ],
+    banner: {
+      key: 'history',
+      position: 'center 20%'
+    },
   },
   '/about/team': {
     titleKey: 'about.team.title',
@@ -139,7 +143,7 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
     ],
     banner: 'parents'
   },
-  '/parents/discipline': {
+  '/parents/discipline-counseling': {
     titleKey: 'parents.discipline',
     breadcrumb: [
       { title: 'home.title',               link: '/' },
@@ -160,7 +164,8 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
     breadcrumb: [
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
-    ]
+    ],
+    banner: 'parents'
   },
 
   '/admissions': {

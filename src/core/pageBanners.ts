@@ -1,5 +1,4 @@
 //@ts-nocheck
-
 import ActivityBanner from '/src/assets/images/activities/Fenix.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import ClubBanner from '/src/assets/images/clubs/club.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import AbroadBanner from '/src/assets/images/external/wood_farm_school.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
@@ -12,6 +11,7 @@ import DefaultBanner from '/src/assets/images/hero/ShkollaNoBg.jpg?w=400;800;120
 import CurriculumBanner from '/src/assets/images/programmes/programme.webp?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import StaffBanner from '/src/assets/images/staff/staff.jpg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 import TeamBanner from '/src/assets/images/lead-team/leadTeam.jpeg?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
+import HistoryBanner from '/src/assets/images/history/man-talk.png?w=400;800;1200;1920&format=webp&quality=100&as=srcset';
 
 export const pageBanners = {
   activities: ActivityBanner,
@@ -26,4 +26,5 @@ export const pageBanners = {
   staff: StaffBanner,
   team: TeamBanner,
   default: DefaultBanner,
+  history: HistoryBanner,
 }
