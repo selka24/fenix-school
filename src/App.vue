@@ -3,8 +3,11 @@ import Navbar from './components/Navbar.vue';
 import TopBar from './components/TopBar.vue';
 import Footer from './components/Footer.vue';
 import {useLayout} from "./composables/useLayout.ts";
+import {useEgg} from "./composables/useEgg.ts";
 
 const {layout} = useLayout();
+
+useEgg();
 </script>
 
 <template>
