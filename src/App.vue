@@ -19,7 +19,9 @@ useEgg();
     <Navbar />
 
     <component :is="layout">
-      <router-view></router-view>
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
     </component>
 
     <!-- Footer Section -->
@@ -38,5 +40,15 @@ body {
   margin: 0;
   padding: 0;
   text-align: left;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to, .fade-leave-from {
+  opacity: 1;
 }
 </style>

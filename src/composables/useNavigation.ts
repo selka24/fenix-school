@@ -28,6 +28,8 @@ export const useNavigation = () => {
         { title: t('whyFenix'), link: '/about/why-fenix' },
         { title: t('about.mission'), link: '/about/mission' },
         { title: t('about.history'), link: '/about/history' },
+        { title: t('about.mainBoard.title'), link: '/about/main-board' },
+        { title: t('about.directorsBoard.title'), link: '/about/directors-board' },
         { title: t('about.team.title'), link: '/about/team' },
         { title: t('about.teachers.title'), link: '/about/teachers' },
         { title: '', link: '', component: defineAsyncComponent(() =>  import('../components/FenixAnthem.vue'))},

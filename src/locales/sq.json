@@ -83,6 +83,24 @@
       "teamTitle": "Një skuadër që punon me pasion:",
       "teamDesc": "Mësues të përkushtuar, staf i aftë dhe një drejtim vizionar – kjo është forca që e mban FENIX të palëkundur në misionin e tij: të edukojë me cilësi dhe të frymëzojë brezin e ardhshëm.",
       "closing": "Në FENIX, suksesi nuk është rastësi – është mision dhe traditë."
+    },
+    "mainBoard": {
+      "title": "Bordi i Qendrës",
+      "duties": [
+        "Mbron misionin, traditën dhe filozofinë e shkollës",
+        "Merr vendime strategjike afatgjata",
+        "Kujdeset për vazhdimësinë dhe integritetin e shkollës"
+      ]
+    },
+    "directorsBoard": {
+      "title": "Bordi i Drejtorëve",
+      "description": "Ky është bordi që merret me menaxhimin e përditshëm të shkollës dhe zbatimin e politikave.",
+      "directors": [
+        "Drejtori Ekzekutiv",
+        "Drejtori i Programeve Mësimore",
+        "Drejtoresha e Shërbimeve"
+      ],
+      "mission": "Përgjegjës për: cilësinë akademike, shërbimet, menaxhimin ditor dhe funksionimin praktik të shkollës."
     }
   },
   "programmes": {
@@ -442,6 +460,26 @@
       {
         "title": "Ditët e Hapura dhe Prezantimet për Prindërit",
         "description": "Aktivitetet ku nxënësit mund të tregojnë përparimin e tyre dhe arritjet e vitit, duke krijuar mundësi për prindërit të jenë pjesë aktive të procesit mësimor."
+      },
+      {
+        "title": "\uD83C\uDF0D\uD83D\uDC9A Nisma që pasuron shpirtin dhe mjedisin tonë \uD83D\uDC9A\uD83C\uDF0D",
+        "description": "Për të dytin vit radhazi, në shkollën tonë u dorëzuan tapat plastike të mbledhura gjatë gjithë vitit nga nxënësit tanë të mrekullueshëm. Kjo nismë nuk është vetëm një akt simbolik, por një mesazh shprese për ata që janë në nevojë – persona pa gjymtyrë apo të paralizuar – dhe një kontribut konkret për një mjedis më të pastër."
+      },
+      {
+        "title": "Vizitë ne muzeun \"Shtëpia me gjethe\"",
+        "description": "Vizituam këtë të premte me klasën e tetë muzeun \"Shtëpia me gjethe\", ku fëmijët u njohën nga pranë me shtëpinë që dha dhe mori jetë!\nFaleminderit \"Shtëpia me gjethe\" për mikpritjen, faleminderit prindërve për bashkëpunimin!"
+      },
+      {
+        "title": "Nxënësit tanë në muzeun e emocioneve shqiptare! ⚽\uD83C\uDDE6\uD83C\uDDF1",
+        "description": "Një ditë e paharrueshme për klasën e tretë M!\nVizita në Muzeun Historik të Futbollit Shqiptar u kthye në një përvojë unike, emocionuese dhe edukative. Nxënësit tanë u pritën ngrohtësisht nga përfaqësues të FSHF-së dhe u njohën nga afër me rrugëtimin e futbollit shqiptar përmes objekteve historike, fotove dhe relikeve të veçanta."
+      },
+      {
+        "title": "Panairi Shkencor",
+        "description": "Ky është një aktivitet  ku nxënësit prezantojnë projekte dhe eksperimente shkencore të përgatitura nga vetë ata me mbështetjen e vazhdueshme të mësuesve dhe prindërve të tyre. Qëllimi i tij është të nxisë kuriozitetin, kreativitetin dhe të menduarit kritik te fëmijët, duke i inkurajuar ata të hulumtojnë botën përreth në mënyrë shkencore."
+      },
+      {
+        "title": "Valle tradicionale shqiptare me Jera Çurçija",
+        "description": "Nxënësit e klasës së parë patën kënaqësinë të mirëpresin koreografen dhe valltaren e Ansamblit Kombëtar Jera Çurçija dhe prind i përkushtuar i njërit prej nxënësve tanë.\nGjatë këtij aktiviteti nxënësit mësuan lëvizjet dhe ritmin e valles tropojane, me të cilën u kënaqën shumë."
       }
     ],
     "closing": "Këto aktivitete dhe ngjarje janë krijuar për të siguruar një mjedis mësimor të pasur dhe të larmishëm që i ndihmon nxënësit të rriten si individë të plotë, duke zhvilluar aftësitë e tyre akademike, sociale dhe emocionale."

@@ -52,6 +52,22 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       position: 'center 20%'
     },
   },
+  '/about/main-board': {
+    titleKey: 'about.mainBoard.title',
+    breadcrumb: [
+      { title: 'home.title',         link: '/' },
+      { title: 'about.title',        link: '/about' }
+    ],
+    banner: 'default'
+  },
+  '/about/directors-board': {
+    titleKey: 'about.directorsBoard.title',
+    breadcrumb: [
+      { title: 'home.title',         link: '/' },
+      { title: 'about.title',        link: '/about' }
+    ],
+    banner: { key: 'directors', position: 'center 24%' }
+  },
   '/about/team': {
     titleKey: 'about.team.title',
     breadcrumb: [
@@ -69,7 +85,7 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',  link: '/' },
       { title: 'about.title', link: '/about' }
     ],
-    banner: { key: 'staff', position: 'center 10%'}
+    banner: { key: 'staff', position: 'center 30%'}
   },
 
   '/curriculum': {
@@ -118,7 +134,10 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',                link: '/' },
       { title: 'studentLife.activities',    link: '/activities' }
     ],
-    banner: 'clubs'
+    banner: {
+      key: 'clubs',
+      position: 'center 20%'
+    }
   },
   '/activities/magazine': {
     titleKey: 'studentLife.magazine.title',
@@ -141,7 +160,6 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
     ],
-    banner: 'parents'
   },
   '/parents/discipline-counseling': {
     titleKey: 'parents.discipline',
@@ -149,7 +167,6 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
     ],
-    banner: 'parents'
   },
   '/parents/uniform': {
     titleKey: 'parents.uniform',
@@ -157,7 +174,6 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
     ],
-    banner: 'parents'
   },
   '/parents/attendance': {
     titleKey: 'parents.attendance',
@@ -165,7 +181,6 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',               link: '/' },
       { title: 'parents.communication',    link: '/parents' }
     ],
-    banner: 'parents'
   },
 
   '/admissions': {
