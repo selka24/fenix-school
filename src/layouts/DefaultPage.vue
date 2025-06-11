@@ -25,7 +25,7 @@ const breadCrumb = computed(() => {
       <img
         v-if="typeof meta.banner === 'string' || !meta.banner"
           :srcset="pageBanners[meta.banner] || pageBanners.default"
-          class="bg-img"
+          class="bg-img object-contain sm:object-cover"
           sizes="(max-width: 480px) 400px,
            (max-width: 768px) 800px,
            (max-width: 1024px) 1200px,
@@ -34,7 +34,7 @@ const breadCrumb = computed(() => {
       <img
         v-else
         :srcset="pageBanners[meta.banner.key] || pageBanners.default"
-        class="bg-img"
+        class="bg-img object-contain sm:object-cover"
         :style="`object-position: ${meta.banner.position};`"
         sizes="(max-width: 480px) 400px,
            (max-width: 768px) 800px,
@@ -68,10 +68,8 @@ const breadCrumb = computed(() => {
 .bg-img {
   width: 100%;
   max-height: 50vh;
-  object-fit: cover;
 }
 .bg-wrapper {
-  height: 50vh;
   width: 100%;
   display: flex;
 }

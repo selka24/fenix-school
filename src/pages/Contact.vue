@@ -147,6 +147,7 @@
 import { onMounted, reactive, ref } from 'vue'
 import { useI18n }      from 'vue-i18n'
 import ContactNow from "../components/ContactNow.vue";
+import { useMailjet } from '../composables/useMailjet';
 
 interface ContactFormState {
     name: string
@@ -162,6 +163,7 @@ interface JobFormState {
 }
 
 const { t } = useI18n()
+const { sendContactEmail, sendJobApplication } = useMailjet();
 
 const form = reactive<ContactFormState>({
     name: '',
@@ -210,12 +212,10 @@ async function handleSubmit() {
     submitting.value = true
 
     try {
-        /* TODO: Replace this with your own e-mail/API integration */
-        await new Promise(resolve => setTimeout(resolve, 1200))
-
+        await sendContactEmail(form.name, form.email, form.message);
         success.value = t('contact.success')
         form.name = form.email = form.message = ''
-    } catch {
+    } catch (e) {
         error.value = t('contact.error')
     } finally {
         submitting.value = false
@@ -239,22 +239,18 @@ async function handleJobSubmit() {
     return
   }
   jobSubmitting.value = true
-  // Here you would handle the file upload, e.g., via FormData
-  // Example:
-  // const formData = new FormData()
-  // formData.append('name', jobForm.name)
-  // formData.append('email', jobForm.email)
-  // formData.append('message', jobForm.message)
-  // formData.append('cv', jobForm.file)
-  // await fetch(...)
-  setTimeout(() => {
+  try {
+    await sendJobApplication(jobForm.name, jobForm.email, jobForm.message, jobForm.file);
     jobSuccess.value = t('contact.success')
-    jobSubmitting.value = false
     jobForm.name = ''
     jobForm.email = ''
     jobForm.message = ''
     jobForm.file = null
-  }, 1200)
+  } catch (e) {
+    jobError.value = t('contact.error')
+  } finally {
+    jobSubmitting.value = false
+  }
 }
 
 onMounted(() => {

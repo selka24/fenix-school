@@ -56,7 +56,7 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
     titleKey: 'about.team.title',
     breadcrumb: [
       { title: 'home.title',         link: '/' },
-      { title: 'about.team.title',   link: '/team' }
+      { title: 'about.title',   link: '/about' }
     ],
     banner: {
       key:'team',
@@ -69,7 +69,7 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
       { title: 'home.title',  link: '/' },
       { title: 'about.title', link: '/about' }
     ],
-    banner: 'staff'
+    banner: { key: 'staff', position: 'center 10%'}
   },
 
   '/curriculum': {
