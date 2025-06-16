@@ -1,7 +1,7 @@
 <template>
   <footer class="py-10 bg-primary text-white mt-10">
     <div class="container mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-14">
         <!-- School Information -->
         <div>
           <h3 class="text-xl font-bold mb-4">Fenix School</h3>
