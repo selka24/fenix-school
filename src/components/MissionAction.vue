@@ -14,38 +14,75 @@
       </div>
       
       <!-- News Articles Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-16 mb-10">
         <!-- Article 1 -->
-        <div v-for="(actv, idx) in splicedAcitvities" :key="`actv-${idx}`" class="flex flex-col">
-          <a href="#" class="block mb-4 overflow-hidden">
-            <img 
-              :src="actv.image"
-              alt="The Fusion of Grade 8 Engineering" 
-              class="w-full h-52 object-cover hover:scale-110 transition-transform duration-500"
-            />
-          </a>
-          <h3 class="text-lg font-bold text-gray-800 mb-2">
-            {{actv.title}}
-          </h3>
-          <p class="text-gray-700 mb-4">
-            {{actv.description}}
-          </p>
-        </div>
+        <ActivityCard v-for="(actv, idx) in activities.main" :activity="actv" :key="`actv-${idx}`" />
+        <template v-if="showOtherActivities">
+
+          <ActivityCard v-for="(actv, idx) in activities.other" :activity="actv" :key="`other-actv-${idx}`" />
+        </template>
       </div>
       
       <!-- View All Button -->
       <div class="text-center">
-        <router-link to="/activities" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition uppercase">{{$t('home.viewAll')}}</router-link>
+        <button @click="() => showOtherActivities = true" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition uppercase">{{$t('home.viewAll')}}</button>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-// No additional logic needed for this component
-import {activities} from "../core/globalData.ts";
+//@ts-nocheck
+import VisitsImg from '../assets/images/activities/Visits.webp?w=400&format=webp&quality=80'
+import FairImg from '../assets/images/activities/Fair.webp?w=400&format=webp&quality=80'
+import ActivitiesImg from '../assets/images/activities/Lojëra dhe Aktivitetet Sportive.webp?format=webp&quality=80'
+import EnvCapsImg from '../assets/images/activities/caps.jpg?w=400&format=webp&quality=80'
+import HouseLeavesImg from '../assets/images/activities/shtepia-gjethe.jpg?w=400&format=webp&quality=80'
+import SilvinjoImg from '../assets/images/activities/silvinjo.jpg?w=400&format=webp&quality=80'
+import ScienceImg from '../assets/images/activities/panairi-shkencor.jpg?w=400&format=webp&quality=80'
+import DanceImg from '../assets/images/activities/valle-tropojane.jpg?w=400&format=webp&quality=80'
+import {useI18n} from 'vue-i18n'
+import {computed, ref} from 'vue'
+import ActivityCard from "./ActivityCard.vue";
 
-const splicedAcitvities = activities.slice(0, 3)
+const {tm} = useI18n()
+
+const imageMapping = [
+  VisitsImg,
+  FairImg,
+  ActivitiesImg,
+  EnvCapsImg,
+  HouseLeavesImg,
+  SilvinjoImg,
+  ScienceImg,
+  DanceImg
+]
+
+const showOtherActivities = ref(false);
+
+const activities = computed<{
+  image: string;
+  title: string;
+  description: string;
+}[]>(() => {
+  const allActv = tm('activitiesPage.items');
+  return {
+    main: allActv.slice(0, 3).map((item, i) => {
+      return {
+        image: imageMapping[i],
+        title: item.title,
+        description: item.description
+      }
+    }),
+    other: allActv.slice(6, 11).map((item, i) => {
+      return {
+        image: imageMapping[i + 3],
+        title: item.title,
+        description: item.description
+      }
+    })
+  }
+})
 </script>
 
 <style scoped>

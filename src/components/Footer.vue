@@ -91,7 +91,7 @@ const mapNumbers: FooterContact[] = footerNumbers.map((contact) => {
   })
 
 mapNumbers.push({
-  title: 'E-mail',
+  title: 'contact.email',
   num: schoolInfo.email,
   link: `mailto:${schoolInfo.email}`
 })

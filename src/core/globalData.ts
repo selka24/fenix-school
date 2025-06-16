@@ -1,9 +1,12 @@
-//@ts-ignore
+//@ts-nocheck
 import VisitsImg from '../assets/images/activities/Visits.webp?w=400&format=webp&quality=80'
-//@ts-ignore
 import FairImg from '../assets/images/activities/Fair.webp?w=400&format=webp&quality=80'
-//@ts-ignore
 import ActivitiesImg from '../assets/images/activities/Lojëra dhe Aktivitetet Sportive.webp?format=webp&quality=80'
+import EnvCapsImg from '../assets/images/activities/caps.jpg?w=400&format=webp&quality=80'
+import HouseLeavesImg from '../assets/images/activities/shtepia-gjethe.jpg?w=400&format=webp&quality=80'
+import SilvinjoImg from '../assets/images/activities/silvinjo.jpg?w=400&format=webp&quality=80'
+import ScienceImg from '../assets/images/activities/panairi-shkencor.jpg?w=400&format=webp&quality=80'
+import DanceImg from '../assets/images/activities/valle-tropojane.jpg?w=400&format=webp&quality=80'
 
 export const partnersAlb = [
   {

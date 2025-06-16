@@ -83,6 +83,24 @@
       "teamTitle": "A Team Driven by Passion:",
       "teamDesc": "Dedicated teachers, capable staff, and visionary leadership – this is the force that keeps FENIX steadfast in its mission: to educate with excellence and inspire the next generation.",
       "closing": "At FENIX, success is no coincidence – it is our mission and tradition."
+    },
+    "mainBoard": {
+      "title": "The Center's Board",
+      "duties": [
+        "Protects the mission, tradition, and philosophy of the school",
+        "Makes long-term strategic decisions",
+        "Ensures the continuity and integrity of the school"
+      ]
+    },
+    "directorsBoard": {
+      "title": "Board of Directors",
+      "description": "This board handles the daily management of the school and the implementation of its policies.",
+      "directors": [
+        "Executive Director",
+        "Director of Academic Programs",
+        "Director of Services"
+      ],
+      "mission": "Responsible for: academic quality, services, daily management, and the practical operation of the school."
     }
   },
   "programmes": {
@@ -443,6 +461,26 @@
       {
         "title": "Open Days and Parent Presentations",
         "description": "Activities where students showcase their progress and achievements for the year, creating opportunities for parents to be active participants in the learning process."
+      },
+      {
+        "title": "🌍💚 An initiative that enriches our spirit and environment 💚🌍",
+        "description": "For the second consecutive year, plastic bottle caps collected throughout the year by our wonderful students were handed over at our school. This initiative is not just a symbolic act, but a message of hope for those in need – people without limbs or who are paralyzed – and a concrete contribution to a cleaner environment."
+      },
+      {
+        "title": "Visit to the museum 'House of Leaves'",
+        "description": "This Friday, the eighth-grade class visited the 'House of Leaves' museum, where the children got to know up close the house that both gave and took life!\nThank you 'House of Leaves' for your hospitality, and thank you to the parents for their cooperation!"
+      },
+      {
+        "title": "Our students at the museum of Albanian emotions! ⚽",
+        "description": "An unforgettable day for class 3M!\nThe visit to the Albanian Football Historical Museum turned into a unique, emotional, and educational experience. Our students were warmly welcomed by representatives of the Albanian Football Federation and got an up-close look at the journey of Albanian football through historical items, photos, and special relics."
+      },
+      {
+        "title": "Science Fair",
+        "description": "This is an activity where students present science projects and experiments prepared by themselves with the continuous support of their teachers and parents. Its aim is to foster curiosity, creativity, and critical thinking in children by encouraging them to explore the world around them in a scientific way."
+      },
+      {
+        "title": "Traditional Albanian dance with Jera Çurçija",
+        "description": "First-grade students had the pleasure of welcoming choreographer and dancer of the National Ensemble Jera Çurçija, a dedicated parent of one of our students.\nDuring this activity, students learned the moves and rhythm of the Tropoja dance, which they thoroughly enjoyed."
       }
     ],
     "closing": "These activities and events are created to ensure a rich and diverse learning environment that helps students grow as whole individuals, developing their academic, social, and emotional skills."
