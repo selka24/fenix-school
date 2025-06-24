@@ -7,7 +7,7 @@ const { tm } = useI18n();
 
 // Get the array of activity items from i18n
 const activities = computed<Array<{ title: string; description: string }>>(
-  () => tm("activitiesPage.items")
+  () => tm("activitiesPage.items").slice(0, 3)
 );
 </script>
 

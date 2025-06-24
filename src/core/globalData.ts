@@ -73,9 +73,9 @@ export const activities = [
 ];
 
 export const footerNumbers = [
-  {title: 'about.team.programDirectorTitle', num: '069 30 65760'},
-  {title: 'about.team.executiveDirectorTitle', num: '069 20 24495'},
-  {title: 'about.team.secretary', num: '069 74 60770'},
+  {title: 'about.team.programDirectorTitle', num: '069 306 5760'},
+  {title: 'about.team.executiveDirectorTitle', num: '069 202 4495'},
+  {title: 'about.team.secretary', num: '069 746 0770'},
 ]
 
 export const schoolInfo = {

@@ -18,13 +18,15 @@
         <!-- Article 1 -->
         <ActivityCard v-for="(actv, idx) in activities.main" :activity="actv" :key="`actv-${idx}`" />
         <template v-if="showOtherActivities">
-
+          <h2 class="text-4xl font-bold text-center text-primary mt-12 col-span-full">
+            {{$t('home.otherActv')}}
+          </h2>
           <ActivityCard v-for="(actv, idx) in activities.other" :activity="actv" :key="`other-actv-${idx}`" />
         </template>
       </div>
       
       <!-- View All Button -->
-      <div class="text-center">
+      <div class="text-center" v-if="!showOtherActivities">
         <button @click="() => showOtherActivities = true" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition uppercase">{{$t('home.viewAll')}}</button>
       </div>
     </div>

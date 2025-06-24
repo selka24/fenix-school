@@ -6,7 +6,8 @@
   "home": {
     "title": "Home",
     "missionAction": "School Life",
-    "viewAll": "View All"
+    "viewAll": "View All",
+    "otherActv": "Activities & Events"
   },
   "about": {
     "title": "About Us",

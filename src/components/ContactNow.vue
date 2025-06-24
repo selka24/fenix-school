@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const contactInfo = [
-  { titleKey: 'about.team.executiveDirectorTitle', value: '+355 69 306 5760',    href: 'tel:+355693065760' },
+  { titleKey: 'about.team.programDirectorTitle', value: '+355 69 306 5760',    href: 'tel:+355693065760' },
   { titleKey: 'about.team.executiveDirectorTitle', value: '+355 69 202 4495',    href: 'tel:+355692024495' },
   { titleKey: 'about.team.secretary',            value: '+355 68 423 3800',    href: 'tel:+355684233800' },
   { titleKey: 'contact.email',                   value: 'shkollafenix@gmail.com', href: 'mailto:shkollafenix@gmail.com' },
