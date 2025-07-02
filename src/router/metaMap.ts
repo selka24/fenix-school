@@ -236,5 +236,11 @@ export const metaMap: Record<string, RouteMeta & { breadcrumb?: Breadcrumb[], ba
     breadcrumb: [
       { title: 'home.title', link: '/' }
     ]
+  },
+  '/privacy-policy': {
+    titleKey: 'privacy.title',
+    breadcrumb: [
+        { title: 'home.title', link: '/' }
+    ]
   }
 }

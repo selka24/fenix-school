@@ -518,5 +518,40 @@
     ],
     "closing": "Nxënësit janë të inkurajuar të bëhen pjesë e klubeve dhe të përfitojnë nga mundësitë e shumta që ofron shkolla jonë për zhvillim personal dhe akademik!"
   },
-  "schoolAnthem": "Himni i Shkollës"
+  "schoolAnthem": "Himni i Shkollës",
+  "privacy": {
+    "title": "Politika e Privatësisë",
+    "effectiveDate": "Data e hyrjes në fuqi: {date}",
+    "intro": "Në Shkollën Fenix, jemi të përkushtuar për të mbrojtur privatësinë dhe të dhënat personale të vizitorëve tanë. Kjo politikë shpjegon se si ne mbledhim, përdorim dhe mbrojmë informacionin që ju jepni kur ndërveproni me faqen tonë të internetit.",
+    "sections": [
+      {
+        "title": "Informacioni që Mbledhim",
+        "content": "Ne mbledhim të dhënat personale përmes formave të kontaktit:<br>- Emri<br>- Adresa e email-it<br>- Përmbajtja e mesazhit ose detajet e kërkesës<br>\nKy informacion jepet vullnetarisht nga ju për të komunikuar me ne."
+      },
+      {
+        "title": "Si e Përdorim Informacionin Tuaj",
+        "content": "Informacioni që jepni përdoret vetëm për të:<br>- Përgjigjur kërkesave ose pyetjeve tuaja<br>- Ju informuar mbi shkollën dhe shërbimet tona<br>\nNe nuk ndajmë, shesim apo japim të dhënat tuaja personale palëve të treta."
+      },
+      {
+        "title": "Ruajtja dhe Siguria e të Dhënave",
+        "content": "Të gjitha të dhënat personale të dërguara përmes faqes ruhen në mënyrë të sigurt. Ne marrim masa të përshtatshme teknike dhe organizative për të mbrojtur të dhënat tuaja nga akses i paautorizuar ose keqpërdorim."
+      },
+      {
+        "title": "Të Drejtat Tuaja",
+        "content": "Ju keni të drejtë të:<br>- Kërkoni akses në të dhënat tuaja<br>- Kërkoni korrigjimin ose fshirjen e të dhënave<br>- Tërhiqni pëlqimin tuaj në çdo kohë<br><br>Për të ushtruar këto të drejta, na kontaktoni në e-mail-in tonë."
+      },
+      {
+        "title": "Cookies",
+        "content": "Aktualisht nuk përdorim cookies për të mbledhur informacion personal në këtë faqe."
+      },
+      {
+        "title": "Përditësimet e Kësaj Politike",
+        "content": "Kjo politikë privatësie mund të përditësohet herë pas here. Versioni më i fundit do të jetë gjithmonë i disponueshëm në këtë faqe me datën përkatëse të hyrjes në fuqi."
+      },
+      {
+        "title": "Kontakt",
+        "content": "Nëse keni pyetje apo shqetësime rreth kësaj politike, na kontaktoni në:"
+      }
+    ]
+  }
 }
