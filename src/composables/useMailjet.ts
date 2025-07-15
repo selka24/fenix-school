@@ -1,8 +1,8 @@
 export function useMailjet() {
-  const MAILJET_API_KEY = 'YOUR_MAILJET_API_KEY'; // <-- replace with your Mailjet API Key
-  const MAILJET_API_SECRET = 'YOUR_MAILJET_API_SECRET'; // <-- replace with your Mailjet API Secret
-  const SENDER_EMAIL = 'sender@example.com'; // <-- replace with your sender email
-  const RECIPIENT_EMAIL = 'recipient@example.com'; // <-- replace with your recipient email
+  const MAILJET_API_KEY = '44fe7c09df9a41d5ef5b2ffc6fbaf126'; // <-- replace with your Mailjet API Key
+  const MAILJET_API_SECRET = '30833fe3caac8f276cbfdce3ea4d819d'; // <-- replace with your Mailjet API Secret
+  const SENDER_EMAIL = 'info@shkollafenix.com'; // <-- replace with your sender email
+  const RECIPIENT_EMAIL = 'shkollafenix@gmail.com'; // <-- replace with your recipient email
 
   const sendContactEmail = async (name: string, email: string, message: string) => {
     const url = 'https://api.mailjet.com/v3.1/send';

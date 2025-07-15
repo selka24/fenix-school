@@ -239,6 +239,7 @@ async function handleJobSubmit() {
     return
   }
   jobSubmitting.value = true
+  
   try {
     await sendJobApplication(jobForm.name, jobForm.email, jobForm.message, jobForm.file);
     jobSuccess.value = t('contact.success')
