@@ -356,7 +356,10 @@
     "fillAll": "Ju lutem plotësoni të gjitha fushat.",
     "invalidEmail": "Ju lutem vendosni një adresë email të vlefshme.",
     "success": "Faleminderit! Mesazhi juaj u dërgua.",
-    "error": "Na vjen keq – diçka shkoi keq gjatë dërgimit. Provoni sërish më vonë."
+    "error": "Na vjen keq – diçka shkoi keq gjatë dërgimit. Provoni sërish më vonë.",
+    "nameRequired": "Emri është i detyrueshëm.",
+    "emailRequired": "Email-i është i detyrueshëm.",
+    "messageRequired": "Mesazhi është i detyrueshëm."
   },
   "activities": "Aktivitete",
   "whyFenix": "Pse FENIX",
